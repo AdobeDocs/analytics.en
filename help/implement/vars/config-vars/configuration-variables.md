@@ -59,7 +59,7 @@ The following configuration variables are retired. They are documented here for 
 * **`fpCookieDomainPeriods`**: The first-party equivalent of `cookieDomainPeriods`, used to set cookies in the correct location when a first-party domain's suffix contained an extra period (such as `example.co.uk`). Current versions of AppMeasurement automatically detect the correct domain, making this variable obsolete.
 * **`trackingServer`**: Specified the domain used to send data to Adobe over HTTP. It is deprecated in favor of secure data collection over HTTPS. Use [`trackingServerSecure`](trackingserversecure.md) instead.
 * **`trackInlineStats`**: Enabled or disabled previous versions of [Activity Map](/help/analyze/activity-map/overview.md).
-* **`visitorMigrationKey`**: Carried a key used to migrate visitors from third-party to first-party cookies. It is retired because modern libraries set a first-party fallback cookie (`fid`) and rely on the Experience Cloud ID Service for identity.
+* **`visitorMigrationKey`**: Carried a key used to migrate visitors from third-party to first-party cookies. It is retired because modern libraries set a first-party fallback cookie (`fid`) and rely on the Visitor ID Service for identity.
 * **`visitorMigrationServer`**: Specified the server used during the third-party to first-party cookie migration.
 * **`visitorMigrationServerSecure`**: The HTTPS equivalent of `visitorMigrationServer`.
-* **`visitorNameSpace`**: Helped determine the third-party cookie domain. It is retired in favor of using the [`trackingServerSecure`](trackingserversecure.md) variable for implementations that do not use the Experience Cloud ID Service.
+* **`visitorNameSpace`**: Helped determine the third-party cookie domain. It is retired in favor of using the [`trackingServerSecure`](trackingserversecure.md) variable for implementations that do not use the Visitor ID Service.

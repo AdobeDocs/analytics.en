@@ -45,8 +45,8 @@ The following table lists all query string parameters Adobe uses in image reques
 
 | Parameter | Analytics implementation variable | Description |
 | --- | --- | --- |
-| `aamlh` | None | Audience Manager location hint. Identifies the regional data center used for Audience Manager ID syncing through the Experience Cloud ID Service. |
-| `aamb` | None | Audience Manager blob. Encoded Audience Manager profile data passed during ID syncing through the Experience Cloud ID Service. |
+| `aamlh` | None | Audience Manager location hint. Identifies the regional data center used for Audience Manager ID syncing through the Visitor ID Service. |
+| `aamb` | None | Audience Manager blob. Encoded Audience Manager profile data passed during ID syncing through the Visitor ID Service. |
 | `aid` | None | The legacy Analytics visitor ID, stored in the `s_vi` cookie. Superseded by the `mid` parameter in modern implementations. |
 | `AQB` | None | Indicates the beginning of an image request query string. |
 | `AQE` | None | Indicates the end of an image request, meaning that the request was not truncated. |
@@ -79,7 +79,7 @@ The following table lists all query string parameters Adobe uses in image reques
 | `lat` | None | **No longer used.** Latitude. Set by legacy mobile SDK implementations; current mobile implementations send geolocation through datastreams. |
 | `lon` | None | **No longer used.** Longitude. Set by legacy mobile SDK implementations; current mobile implementations send geolocation through datastreams. |
 | `lrt` | None | The "last request timing," which is the roundtrip time for the last request, in milliseconds. It is sent only when more than one request is sent from a single page, such as in a single-page application (SPA). |
-| `mcorgid` | None | The Experience Cloud Organization ID, which identifies the organization to the Experience Cloud ID Service. |
+| `mcorgid` | None | The IMS organization ID, which identifies the organization to the Visitor ID Service. |
 | `mid` | None | Used in the [[!UICONTROL Experience Cloud Visitor ID]](/help/components/dimensions/experience-cloud-visitor-id.md) dimension. |
 | `ms_a` | None | Set by the Media SDK to `1` when the tracked streaming media is audio rather than video. |
 | `ndh` | None | Added by AppMeasurement to every image request it generates. Because hardcoded requests typically omit it, its presence indicates that the hit came from AppMeasurement. |

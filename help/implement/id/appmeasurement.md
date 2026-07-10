@@ -33,7 +33,7 @@ topic_v2:
 ---
 # Visitor identification using AppMeasurement
 
-AppMeasurement is Adobe Analytics' legacy JavaScript library for data collection. While AppMeasurement by itself offers a native way to identify visitors, many modern browsers reject the third-party cookies that it attempts to set. Adobe strongly recommends using the Adobe Experience Cloud Visitor ID Service in all implementations to conform to modern browser privacy standards. All versions of AppMeasurement come bundled with `VisitorAPI.js`, the JavaScript library used to implement the Visitor ID Service.
+AppMeasurement is Adobe Analytics' legacy JavaScript library for data collection. While AppMeasurement by itself offers a native way to identify visitors, many modern browsers reject the third-party cookies that it attempts to set. Adobe strongly recommends using the [Adobe Visitor ID Service](https://experienceleague.adobe.com/en/docs/id-service/using/home) in all implementations to conform to modern browser privacy standards. All versions of AppMeasurement come bundled with `VisitorAPI.js`, the JavaScript library used to implement the Visitor ID Service.
 
 ## Identifying visitors using the Visitor ID Service (recommended)
 
@@ -87,7 +87,7 @@ Once you have the above resources, the following basic example page contains the
 >
 >Adobe advises against using this method to identify visitors.
 
-If your organization does not use the Visitor ID Service, AppMeasurement uses its own form of visitor identification. When a visitor arrives to your site for the first time, the library checks for a [`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) cookie. This cookie is set at the domain matching [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) (for HTTPS) or `trackingServer` (for HTTP).
+If your organization does not use the Visitor ID Service (`VisitorAPI.js`), AppMeasurement uses its own legacy form of visitor identification. When a visitor arrives to your site for the first time, the library checks for a [`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) cookie. This cookie is set at the domain matching [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) (for HTTPS) or `trackingServer` (for HTTP).
 
 * If you participate in the [Managed certificate program](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert), your tracking server would typically be a first-party domain, making `s_vi` cookies first-party.
 * If you do not participate in the managed certificate program, tracking server is typically a subdomain of `adobedc.net`, `omtrdc.net`, or `2o7.net`, making the `s_vi` cookie a third-party cookie. Due to modern browser privacy standards, third-party cookies are rejected by most browsers. Once rejected, AppMeasurement attempts to set a first-party fallback cookie (`fid`) instead.

@@ -44,7 +44,7 @@ You are trying to [set up a new Advertising Account](/help/integrate/c-advertisi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1. The report suite is not mapped to the CX Enterprise Org ID of the login user. </p> </td> 
+   <td colname="col1"> <p>1. The report suite is not mapped to the IMS org ID of the login user. </p> </td> 
    <td colname="col2"> <p>Contact Customer Care to map the report suite to an organization ID.</p> </td> 
   </tr> 
   <tr> 

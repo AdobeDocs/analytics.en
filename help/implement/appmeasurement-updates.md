@@ -72,7 +72,7 @@ Release Date: **August 12, 2024**
 Release Date: **March 4, 2024**
 
 * AppMeasurement automatically recognizes and utilizes the root domain for country code top-level domains, which previously required specific cookie domain configurations. Updating can have implications because of this automatic recognition.
-* The distribution includes Identity Service Library 5.5.0 and Data Integration Library 9.6.
+* The distribution includes Visitor ID Service Library 5.5.0 and Data Integration Library 9.6.
 
 ## Version 2.25.0
 
@@ -192,7 +192,7 @@ Release Date: **February 22, 2019**
 
 * Updated Audience Management module to DIL 9.1. (AN-175255)
 * GTM Security Policy not allowing Activity Map Module. (AN-174679)
-* Improved AppMeasurement to honor opt-out when the Identity Service is not approved in opt-in. (AN-175259)
+* Improved AppMeasurement to honor opt-out when the Visitor ID Service is not approved in opt-in. (AN-175259)
 
 ## Version 2.11.0
 
@@ -219,7 +219,7 @@ Release Date: **May 24, 2018**
 
 >[!NOTE]
 >
->Visitor API 3.0 or higher is required for customers using the Experience Cloud ID Service. Adobe recommends upgrading to the latest Visitor API version whenever associated code libraries are updated ( `at.js`, `AppMeasurement.js`, and so forth.)
+>Visitor API 3.0 or higher is required for customers using the Visitor ID Service. Adobe recommends upgrading to the latest Visitor API version whenever associated code libraries are updated ( `at.js`, `AppMeasurement.js`, and so forth.)
 
 * Updated AppMeasurement to use the updated Visitor interface for requesting IDs. (AN-151483)
 * Fixed an issue where link tracking cookie keeps getting written after link tracking is turned off. (AN-156332)
@@ -335,7 +335,7 @@ Updated: **August 18, 2016**
 
 >[!NOTE]
 >
->Also see the following release notes for JavaScript version 1.6.3, which includes updated requirements for Experience Cloud ID service.
+>Also see the following release notes for JavaScript version 1.6.3, which includes updated requirements for the Visitor ID Service.
 
 ## Version 1.6.3
 
@@ -345,7 +345,7 @@ Updated: **August 4, 2016**
 
 >[!IMPORTANT]
 >
->Version 1.6.0 of the Experience Cloud ID service *requires* AppMeasurement for JavaScript version 1.6.3 or higher. If you want to upgrade to version 1.6.0 of the Experience Cloud ID service, make sure that you use AppMeasurement 1.6.3 or higher.
+>Version 1.6.0 of the Visitor ID Service *requires* AppMeasurement for JavaScript version 1.6.3 or higher. If you want to upgrade to version 1.6.0 of the Visitor ID Service, make sure that you use AppMeasurement 1.6.3 or higher.
 
 ## Version 1.6.2
 
@@ -483,7 +483,7 @@ Release Date: **August 21, 2014**
 Release Date: **June 19, 2014**
 
 * Fixed handling of done and waiting flags for Visitor API fields such as the legacy Analytics Visitor ID, that was causing errors.
-* Support for new features in visitor ID service 1.3.
+* Support for new features in Visitor ID Service 1.3.
 
 ## Version 1.3.1
 
@@ -495,7 +495,7 @@ Release Date: **May 22, 2014**
 
 Release Date: **April 17, 2014**
 
-* Support for the [CX Enterprise Visitor ID service](https://experienceleague.adobe.com/docs/id-service/using/home.html).
+* Support for the [Visitor ID Service](https://experienceleague.adobe.com/en/docs/id-service/using/home).
 
 ## Version 1.2.4
 
@@ -526,7 +526,7 @@ Release Date: **November 15, 2013**
 Release Date: **November 14, 2013**
 
 * Added support for [Heartbeat video measurement](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).
-* `VisitorAPI.js` was added to support [Visitor ID Service](https://experienceleague.adobe.com/docs/id-service/using/home.html).
+* `VisitorAPI.js` was added to support [Visitor ID Service](https://experienceleague.adobe.com/en/docs/id-service/using/home).
 
 ## Version 1.1.1
 

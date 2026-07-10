@@ -29,7 +29,7 @@ topic_v2:
 
 The Web SDK tag extension in Adobe Experience Platform Data Collection empowers organizations to implement the Web SDK using a tag management interface. Advanced scenarios like cross-domain ID sharing and visitor profile migration are easily configured through extension rules and actions. Using the Web SDK future-proofs your implementation and supports a seamless upgrade to Customer Journey Analytics.
 
-Identity data can be extended to support custom IDs and multiple namespaces using XDM's `identityMap`. Adobe recommends using the Adobe Experience Cloud ID Service as the primary identifier for Analytics, using other identity management options for advanced scenarios.
+Identity data can be extended to support custom IDs and multiple namespaces using XDM's [`identityMap`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/identity-map). Adobe recommends using ECID as the primary identifier for Analytics, using other identity management options for advanced scenarios.
 
 Since the Visitor ID Service is baked in natively to the tag extension, it only requires that you set **[!UICONTROL Edge Domain]** to the desired value. If this field is set correctly, visitor identification works without any additional configuration.
 

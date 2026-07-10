@@ -21,11 +21,11 @@ role_v2:
 ---
 # People with Experience Cloud ID
 
-'People with Experience Cloud ID' is a [Cross-device analytics](../cda/overview.md) metric that shows the number of [People](people.md) who were identified by Adobe using the [Experience Cloud ID service](https://experienceleague.adobe.com/docs/id-service/using/home.html).
+'People with Experience Cloud ID' is a [Cross-device analytics](../cda/overview.md) metric that shows the number of [People](people.md) who were identified by Adobe using the [Visitor ID Service](https://experienceleague.adobe.com/en/docs/id-service/using/home) or [Experience Platform Identity Service](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home).
 
 ## How this metric is calculated
 
-Considering each [People](people.md) (identified or unidentified), this [metric](overview.md) increases if the hit contains the `mid` query string (based on the [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) cookie).
+Considering each [People](people.md) (identified or unidentified), this [metric](overview.md) increases if the hit contains the `mid` query string (based on the [`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) cookie).
 
 You can create the calculated metric `[People with ECID] ÷ [People]` to obtain the percent of visitors to your site using the ID service.
 

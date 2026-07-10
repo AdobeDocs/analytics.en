@@ -55,7 +55,7 @@ The following table compares these two methods:
 | Visitor/visit counts in existing report suite | High inflation | Minimal inflation |
 | Use a separate report suite | Recommended | Not necessary |
 | New vs. return visitors | Not supported | Supported |
-| Visitor ID service | Not supported | Supported |
+| Visitor ID Service (`VisitorAPI.js`) | Not supported | Supported |
 | Video and link tracking | Partial support | Not yet supported |
 | Difficulty of implementation | Difficult | Relatively easy |
 | Adobe CX Enterprise integrations | Not supported | Partial support |
@@ -109,7 +109,7 @@ The `<amp-analytics>` tag supports variable substitutions so that AMP can provid
 >
 >Image requests sent to Adobe using this method do not include data for many default reports (for example, browser, screen size, or referrer). If you want to include this information in hits, make sure that they are included as part of the image request query string. See [Data collection query parameters](../validate/query-parameters.md) for a complete list of image requests query parameters and their associated variables.
 
-Adobe identifies visitors using a built-in AMP function, and sets the cookie `adobe_amp_id`. This visitor ID is unique to any other ID set by Adobe Analytics. A different unique visitor is counted for each CDN that a visitor retrieves content from, which can inflate unique visitor count. Using a separate report suite for AMP pages is highly recommended because of how AMP identifies unique visitors. The Adobe Experience Cloud ID Service is not supported.
+Adobe identifies visitors using a built-in AMP function, and sets the cookie `adobe_amp_id`. This visitor ID is unique to any other ID set by Adobe Analytics. A different unique visitor is counted for each CDN that a visitor retrieves content from, which can inflate unique visitor count. Using a separate report suite for AMP pages is highly recommended because of how AMP identifies unique visitors. The Adobe Visitor ID Service is not supported.
 
 This solution requires that the tracking server you specify in the `host` property matches the tracking server on your main site, so that your existing privacy policy controls are respected. Otherwise, create a separate privacy policy for pages using AMP.
 
@@ -177,7 +177,7 @@ The `"adobeanalytics_nativeConfig"` template also adds query string parameters b
 >
 >Your `stats.html` page must be hosted on a separate subdomain from the domain the AMP itself is hosted on. The AMP framework does not allow for iframes from the same subdomain that the AMP page itself exists on. For example, if your AMP is hosted on `amp.example.com`, host your `stats.html` page on a separate subdomain such as `ampmetrics.example.com`.
 
-Using this method, if a user opts out of tracking on your primary site, they are also opted out of tracking on all your AMPs. Using this utility page also means that AMP can support the Adobe Experience Cloud ID Service. A separate report suite is not required.
+Using this method, if a user opts out of tracking on your primary site, they are also opted out of tracking on all your AMPs. Using this utility page also means that AMP can support the Adobe Visitor ID Service. A separate report suite is not required.
 
 Link tracking and video tracking cannot be used with this method. The `iframeMessage` tag in AMP can only load once per page, so you cannot send any other image requests after the frame loads. This method also requires more processing resources to run, which can impact scrolling performance. This method does not affect page load time, since all resources load asynchronously.
 

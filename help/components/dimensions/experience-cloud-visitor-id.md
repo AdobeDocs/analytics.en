@@ -24,7 +24,7 @@ topic_v2:
 ---
 # Experience Cloud Visitor ID
 
-The 'Experience Cloud Visitor ID' [dimension](overview.md) provides the Experience Cloud ID (ECID) for each visitor. It is a 128-bit number consisting of two concatenated 64-bit numbers padded to 19 digits.
+The 'Experience Cloud Visitor ID' [dimension](overview.md) provides the ECID for each visitor. It is a 128-bit number consisting of two concatenated 64-bit numbers padded to 19 digits.
 
 >[!IMPORTANT]
 >
@@ -32,7 +32,7 @@ The 'Experience Cloud Visitor ID' [dimension](overview.md) provides the Experien
 
 ## Populate this dimension with data
 
-This dimension requires an implementation that uses the Experience Cloud ID Service (ECID). It corresponds to the `mcvisid` column in data feeds. See [Data column reference](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md) for more information.
+This dimension requires an implementation that uses the Visitor ID Service (VisitorAPI) or Experience Platform Identity Service. It corresponds to the `mcvisid` column in data feeds. See [Data column reference](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md) for more information.
 
 ## Dimension items
 

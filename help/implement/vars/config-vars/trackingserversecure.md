@@ -39,7 +39,7 @@ The `trackingServerSecure` variable determines the domain that AppMeasurement us
 >
 >[`trackingServer`](configuration-variables.md#retired-configuration-variables) is a retired variant of this variable. It specified the domain for data sent over HTTP; with the prevalence of HTTPS, use `trackingServerSecure` instead. If `s.trackingServerSecure` is blank, AppMeasurement falls back to the `s.trackingServer` value.
 
-Before the [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/en/docs/id-service/using/home), this variable also determined where third-party cookies were set. Adobe strongly recommends using the ID service in all implementations where possible.
+Before the [Adobe Visitor ID Service](https://experienceleague.adobe.com/en/docs/id-service/using/home) (`VisitorAPI.js`), this variable also determined where third-party cookies were set. Adobe strongly recommends using the Visitor ID Service in all implementations where possible.
 
 ## Edge domain using the Web SDK extension
 
@@ -94,7 +94,7 @@ s.trackingServerSecure = "example.data.adobedc.net";
 The value that you use for `trackingServerSecure` (or `edgeDomain`) depends on several factors:
 
 * Your participation in the [Adobe-managed certificate program](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert)
-* If you have the [Adobe Experience Cloud Identity service](https://experienceleague.adobe.com/en/docs/id-service/using/home) implemented and correctly set up
+* If you have the [Adobe Visitor ID Service](https://experienceleague.adobe.com/en/docs/id-service/using/home) implemented and correctly set up
 
 **If your organization participates in the Adobe-managed certificate program**, set the value to the first-party domain that was selected when setting up the certificate. Typically this value is a subdomain owned by your organization. For example, `data.example.com`. CNAME records in your organization redirect that data to Adobe.
 
@@ -114,15 +114,15 @@ Older implementations might have values like `sc.omtrdc.net` or `2o7.net`. These
 
 Adobe highly recommends maintaining this information in a [solution design document](../../prepare/solution-design.md) for consistency across your organization.
 
-## Ramifications for not using the Visitor ID service
+## Ramifications for not using the Visitor ID Service or Experience Platform Identity Service
 
-Adobe strongly recommends using the [Adobe Experience Cloud Identity service](https://experienceleague.adobe.com/en/docs/id-service/using/home) in all implementations. The ID service can be implemented in several different ways:
+Adobe strongly recommends using ECID as the primary form of visitor identity in all implementations. Collecting ECIDs can be implemented in several different ways, depending on implementation type:
 
-* Manual AppMeasurement implementations use `VisitorAPI.js` and call the `getInstance` method. See [Implement the Experience Cloud Identity Service for Analytics](https://experienceleague.adobe.com/en/docs/id-service/using/implementation/setup-analytics) for more information.
-* Implementations using the Adobe Analytics tag extension use the [Adobe Experience Cloud ID service tag extension](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview). Once added, no additional configuration is required.
-* Implementations using any form of the Web SDK (`alloy.js` or the Web SDK tag extension) already have the ID service baked in natively. No configuration is required beyond setting the `edgeDomain` value.
+* Manual AppMeasurement implementations use `VisitorAPI.js` and call the `getInstance` method. See [Implement the Visitor ID Service for Analytics](https://experienceleague.adobe.com/en/docs/id-service/using/implementation/setup-analytics) for more information.
+* Implementations using the Adobe Analytics tag extension use the [[!UICONTROL Experience Cloud ID Service] tag extension](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview), which implements the Visitor ID Service. Once added, no additional configuration is required.
+* Implementations using any form of the Web SDK (`alloy.js` or the Web SDK tag extension) automatically include the Experience Platform Identity Service. No configuration is required beyond setting the `edgeDomain` value.
 
-**If your implementation does not use the identity service**, consider the following impacts to your implementation:
+**If your implementation does not use ECIDs**, consider the following impacts to your implementation:
 
-* If not using the identity service, `trackingServerSecure` determines cookie location. Setting this variable to a third-party domain forces AppMeasurement to use a fallback cookie, as most modern browsers reject third-party cookies.
+* If not using the Visitor ID Service or Experience Platform Identity Service, `trackingServerSecure` determines cookie location. Setting this variable to a third-party domain forces AppMeasurement to use a fallback cookie, as most modern browsers reject third-party cookies.
 * Internal link tracking and Activity Map might be less reliable.

@@ -44,6 +44,10 @@ You can [build analyses of user journeys](/help/analyze/analysis-workspace/visua
 
 ![Journey canvas](assets/journey-canvas.png)
 
+## Access requirements
+
+Journey canvas is available for Adobe Analytics [Prime](https://www.adobe.com/data-analytics-cloud/analytics/prime.html) and [Ultimate](https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html) customers.
+
 ## Key features
 
 Key features of the Journey canvas visualization include:

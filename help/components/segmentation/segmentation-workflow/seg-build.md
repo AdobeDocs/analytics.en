@@ -30,7 +30,7 @@ role_v2:
 >[!CONTEXTUALHELP]
 >id="components_segments_productcompatibility"
 >title="Product Compatibility"
->abstract="A small number of available segment criteria are not compatible with all Adobe Analytics tools. Tools that are compatible with the segment are indicated in this list. To make a segment compatible with all Adobe Analytics tools, edit your criteria."
+>abstract="Some segment criteria are incompatible with certain Adobe Analytics tools. Compatible tools are indicated in this list. Edit your criteria to ensure compatibility."
 
 >[!CONTEXTUALHELP]
 >id="components_filters_createaudience"
@@ -40,7 +40,7 @@ role_v2:
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="Data preview"
->abstract="Compares the data of this segment with data of the report suite. The preview percentage is based on the total number from the **last 90 days**.<br><br/>If the preview is not loading, your connection could still be backfilling."
+>abstract="Compares segment data with report suite data. The preview percentage is based on the **last 90 days**.<br><br/>If the preview is not loading, your connection is backfilling."
 
 
 The **[!UICONTROL Segment builder]** dialog is used to create new or edit existing segments. The dialog is titled **[!UICONTROL New segment]** or **[!UICONTROL Edit segment]** for segments that you create or manage from the [[!UICONTROL Segment] manager](/help/components/segmentation/segmentation-workflow/seg-manage.md).
@@ -71,7 +71,7 @@ The **[!UICONTROL Segment builder]** dialog is used to create new or edit existi
    {style="table-layout:auto"}
    
 1. To verify whether your segment definition is correct, use the constantly updated preview of the results of the segment at the top right.
-1. To publish your segment to CX Enterprise, select **[!UICONTROL Publish this segment to the Experience Cloud (for *report suite*)]**. See [Publish segments to CX Enterprise](/help/components/segmentation/segmentation-workflow/seg-publish.md) for more information.
+1. To publish your segment to CX Enterprise, select **[!UICONTROL Publish this segment to the Experience Cloud (for *report suite*)]**. For more information, see [Publish segments to CX Enterprise](/help/components/segmentation/segmentation-workflow/seg-publish.md).
 1. Select:
    * **[!UICONTROL Save]** to save the segment.
    * **[!UICONTROL Save As]** to save a copy of the segment. 
@@ -85,7 +85,7 @@ You use the Definition builder to construct your segment definition. In that con
 
 You can configure the type and scope of your definition: 
 
-1. To specify the type of your definition, specify whether you want the build an include or exclude definition. Select ![Setting](/help/assets/icons/Setting.svg) **[!UICONTROL Options]** and from the drop-down menu **[!UICONTROL Include]** or **[!UICONTROL Exclude]**.
+1. To specify the type of your definition, specify whether you want to build an include or exclude definition. Select ![Setting](/help/assets/icons/Setting.svg) **[!UICONTROL Options]** and from the drop-down menu **[!UICONTROL Include]** or **[!UICONTROL Exclude]**.
 1. To specify the scope of your definition, select from the **[!UICONTROL Include]** or **[!UICONTROL Exclude]** drop-down menu whether you want the scope of the definition to be **[!UICONTROL Hits]**, **[!UICONTROL Visits]**, **[!UICONTROL Visitors]** or **[!UICONTROL Products]**. You use **[!UICONTROL Products]** for [sub-hit analysis](/help/components/segmentation/sub-hit.md) use cases.
 
 You can always change these settings later.
@@ -123,8 +123,8 @@ You can group multiple components in one or more containers and define logic wit
 * To add a container, select **[!UICONTROL Add container]** from ![Setting](/help/assets/icons/Setting.svg) **[!UICONTROL Options]**.
 * To add an existing component to the container, drag and drop the component into the container.
 * To add another component to the container, drag and drop a component from the component panel into the container. Use the blue insertion line as a guide.
-* To add another component outside of the container, drag and drop a component from the component panel outside of the container, but inside the main definition container. User the blue insertion line as a guide.
-* To modify the logic between components in a container, between containers or between a container and a component, select the appropriate **[!UICONTROL And]**, **[!UICONTROL Or]**, **[!UICONTROL Then]**. When you select **[!UICONTROL Then]**, you turn the segment into a sequential segment. See [Create sequential segment](seg-sequential-build.md) for more information.
+* To add another component outside of the container, drag and drop a component from the component panel outside of the container, but inside the main definition container. Use the blue insertion line as a guide.
+* To modify logic for components, containers, or their combinations, select the appropriate **[!UICONTROL And]**, **[!UICONTROL Or]**, **[!UICONTROL Then]**. When you select **[!UICONTROL Then]**, you turn the segment into a sequential segment. See [Create sequential segment](seg-sequential-build.md) for more information.
 * To switch the container level, select ![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL Hits]**, ![Visit](/help/assets/icons/Visit.svg) **[!UICONTROL Visits]**, ![User](/help/assets/icons/User.svg) **[!UICONTROL Visitors]**, or ![ShowAllLayer](/help/assets/icons/ShowAllLayer.svg) **[!UICONTROL Products]**.
 
 You can use ![Setting](/help/assets/icons/Setting.svg) in a container for the following actions:
@@ -143,7 +143,7 @@ When you drag both product-level and hit-level components into a single segment 
 
 ## Date ranges
 
-You can build segments that contain rolling date ranges. This way, you are able to answer questions about ongoing campaigns or events. For example, you can build a segment that includes *everyone who has made an online purchase over the last 60 days*.
+You can build segments that contain rolling date ranges. This way, you are able to answer questions about ongoing campaigns or events. For example, you can build a segment that includes *all people who have made an online purchase over the last 60 days*.
 
 ![Segment using rolling date range](assets/segment-rolling-date-range.png)
 
@@ -159,11 +159,11 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rolling date ran
 
 You can build a segment using segments. When you use segments in a segment, you can optimize your segment and reduce the complexity.
 
-Imagine you want to segment on the combination of interaction channel (5) and US states (50). You could either build 250 segments, each for the unique combination of device type (mobile phone versus tablet) and US state. To get the tablet users in California, you would use one of the 250 segments:
+Consider a scenario where you want to segment on the combination of interaction channel (5) and US states (50). You could either build 250 segments, each for the unique combination of device type (mobile phone versus tablet) and US state. To get the tablet users in California, use one of the 250 segments:
 
 ![Simple segment for California and tablet](assets/segment-ca-tablet-single.png)
 
-Or, you could define 55 segments: 50 segments for the US states, and 5 for the possible interaction channels. And then stack the segments to obtain the same results. To get the California mobile app users, you would stack two segments:
+Or, define 55 segments: 50 segments for the US states, and 5 for the possible interaction channels. To obtain the same results, stack the segments. To get the California mobile app users, stack two segments:
 
 ![Stacked segment for CA and tablet](assets/segment-ca-tablet-stacked.png)
 
@@ -190,7 +190,7 @@ Or, you could define 55 segments: 50 segments for the US states, and 5 for the p
 
 
 
-When you use a dimension in the Segment builder, you have the options to specify the attribution model for that dimension. The attribution model that you select determines whether the data qualifies for the condition you have specified for the dimension component.
+When you use a dimension in the Segment builder, you have the option to specify the attribution model for that dimension. The attribution model that you select determines whether the data qualifies for the condition you have specified for the dimension component.
 
 Select ![Setting](/help/assets/icons/Setting.svg) within the dimension component and select one of the Attribution models from the popup: 
 
@@ -198,7 +198,7 @@ Select ![Setting](/help/assets/icons/Setting.svg) within the dimension component
 |---|---|
 | **[!UICONTROL Repeating model (default)]** | Include instance and persisted values for the dimension to determine qualification. |
 | **[!UICONTROL Instance]** | Include only instance values for the dimension to determine qualification. |
-|  **[!UICONTROL Non-repeating instance]** | Include unique instance (non-repeating) values for the dimension to determine qualification. |
+|  **[!UICONTROL Non-repeating instance]** | Include unique instance (non-repeating) values for the dimension to determine qualification. Non-repeating instance is the model applied in Flow when repeat instances are excluded. |
 
 
 ![Attribution model on dimension when building a segment](assets/segment-dimension-attribution.png)
@@ -215,16 +215,11 @@ As part of a segment definition you have specified the following condition: Page
 The table below explains, for each attribution model, which incoming events are qualified ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) for that condition.
 
 
-|  Women Page - Attribution - <br/>*attribution model*  | Event 1:<br/>Page Name equals<br/>Women  | Event 2:<br/>Page Name equals<br/>Men | Event 3:<br/>Page Name equals<br/>Women |  Event 4:<br/>Page Name equals<br/>Women<br/>(persisted) | Event 5:<br/>Page Name equals<br/>Checkout  |  Event 6:<br/>Page Name equals<br/>Women  | Event 7:<br/>Page Name equals<br/>Home  |
+|  Women Page - Attribution - <br/>*attribution model*  | Event 1:<br/>Page Name equals<br/>Women  | Event 2:<br/>Page Name equals<br/>Men | Event 3:<br/>Page Name equals<br/>Women |  Event 4:<br/>Page Name equals<br/>Women<br/>(persisted) | Event 5:<br/>Page Name equals<br/>Checkout  |  Event 6:<br/>Page Name equals<br/>Women  | Event 7:<br/>Page Name equals<br/>Woman (explicitly set)  |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:--:|
-|  Repeating (default) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![Remove](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![Remove](/help/assets/icons/Remove.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![Remove](/help/assets/icons/Remove.svg)  |
-|  Instance  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![Remove](/help/assets/icons/Remove.svg) |![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![Remove](/help/assets/icons/Remove.svg) | ![Remove](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Remove](/help/assets/icons/Remove.svg) |
+|  Repeating (default) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![Remove](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![Remove](/help/assets/icons/Remove.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  |
+|  Instance  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![Remove](/help/assets/icons/Remove.svg) |![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![Remove](/help/assets/icons/Remove.svg) | ![Remove](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
 |  Non-repeating instance  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |![Remove](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Remove](/help/assets/icons/Remove.svg) | ![Remove](/help/assets/icons/Remove.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![Remove](/help/assets/icons/Remove.svg)  |
-
-An example report on events using the three segments looks like:
-
-![Segment attribution model results](assets/segment-dimension-attribution-results.png)
-
 
 
 <!--
@@ -382,7 +377,7 @@ By using segment stacking, you can reduce your segment count to 22 and stack the
 
 ## Segment templates {#concept_5098446CC78D441E93B8E4D1D1EA6558}
 
-Segment templates are provided for common segmentation use cases, such as **[!UICONTROL First-time Visits]** or **[!UICONTROL Visits from Mobile Devices]**. They are available in Workspace projects and in the segment builder as building blocks for new segments. 
+Segment templates are provided for common segmentation use cases, such as **[!UICONTROL First-time Visits]** or **[!UICONTROL Visits from Mobile Devices]**. They are available in Workspace projects and the segment builder as building blocks for new segments. 
 
 An Adobe logo ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) identifies templates. A sample of the available templates is listed below:
 

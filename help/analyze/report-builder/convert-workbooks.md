@@ -35,11 +35,11 @@ topic_v2:
 ---
 # Convert legacy Report Builder workbooks
 
-The legacy Report Builder is end-of-life in June 2026. You should migrate your workbooks from the legacy Report Builder to the new Report Builder. The new Report Builder provides a convenient way to migrate workbooks quickly that are created with the legacy Report Builder.
+The legacy Report Builder is end-of-life in June 2026. Migrate your workbooks from the legacy Report Builder to the new Report Builder. The new Report Builder provides a convenient way to quickly migrate workbooks that are created with the legacy Report Builder.
 
 >[!IMPORTANT]
 >
->Duplicate each workbook and rename one version before you convert the legacy workbook. That ensures that you always have a copy of the original legacy workbook, should you need it.
+>Duplicate each workbook and rename one version before you convert the legacy workbook. That ensures that you always have a copy of the original legacy workbook, if you need it.
 
 
 >[!BEGINSHADEBOX]
@@ -69,10 +69,10 @@ To open a legacy workbook, you can:
 
      ![Legacy workblooks](assets/upgrade-legacy-schedule.png)
 
-  1. Select ![SelectBox](/help/assets/icons/SelectBox.svg) the scheduled workbook that you want to convert from the list, and select ![Download](/help/assets/icons/Download.svg). The workbook is downloaded and opens in a new window in [!DNL Excel]. You can now [convert the legacy Report Builder workbook](#convert-a--workbook).
+  1. Select ![SelectBox](/help/assets/icons/SelectBox.svg) the scheduled workbook that you want to convert from the list, and select ![Download](/help/assets/icons/Download.svg). The workbook is downloaded and opens in a new [!DNL Excel] window. You can now [convert the legacy Report Builder workbook](#convert-a--workbook).
 
 
-* Open a legacy workbook directly from your local computer or network. When you use this method, you are not offered to use the schedule that might be associated with the legacy workbook. <br/>When the legacy workbook is open in [!DNL Excel]:
+* Open a legacy workbook directly from your local computer or network. When you use this method, you are not offered the schedule associated with the legacy workbook. <br/>When the legacy workbook is open in [!DNL Excel]:
 
   1. Select ![AdobeLogoRedOnWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** from the [!DNL Excel] ribbon bar.
   1. Select **[!UICONTROL Login]** and log in to Report Builder.
@@ -120,17 +120,17 @@ You can now [manage the data blocks](/help/analyze/report-builder/manage-reportb
 1. To schedule a converted legacy workbook with a legacy schedule:
 
    * Select **[!UICONTROL Send workbook]** from the Report Builder hub, or 
-   * Select **[!UICONTROL Schedule workbook]** from the **[!UICONTROL Workbooks]** tab available in the **[!UICONTROL Schedules]** tab in Report Builder.
+   * Select **[!UICONTROL Schedule workbook]** from the **[!UICONTROL Workbooks]** tab in the Report Builder **[!UICONTROL Schedules]** tab.
 
 1. You are offered to use the schedule details from the legacy workbook as the default schedule settings.
 
    ![Screenshot of the [!DNL Excel] Report Builder legacy schedule settings options](assets/upgrade-legacy-schedule-convert.png)
 
    * Select **[!UICONTROL Use]** to use the legacy schedule details. The schedule details are prepopulated in the [Send workbook](schedule-reportbuilder.md#schedule-a-workbook) interface.
-   * Select **[!UICONTROL Don't use]** to not use the legacy schedule details.
+   * Select **[!UICONTROL Don't use]** to avoid using the legacy schedule details.
    * Select **[!UICONTROL Cancel]** to cancel.
 
-   Select **[!UICONTROL Remove legacy metadata from future use]** to not use the legacy schedule details for this workbook in the future.
+   Select **[!UICONTROL Remove legacy metadata from future use]** to avoid using the legacy schedule details for this workbook in the future.
 
 
 ## Migrate from legacy Report Builder
@@ -145,11 +145,12 @@ Some features of the legacy Report Builder are not supported, partially supporte
 
 * **Publish workbook to [!DNL Power BI] option for scheduled reports**. The option to schedule reports to [!DNL Power BI] is no longer available.
 
-* **Visitors metrics**. The following metrics are converted to *unique visitors* in the converted legacy workbook, even though the reporting result may not be an exact match: `visitorshourly`, `visitorsdaily`, `visitorsweekly`, `visitorsmonthly`, `visitorsquarterly`, and `visitorsyearly`. This conversion also applies to `mobilevisitorshourly`, `mobilevisitorsdaily`, `mobilevisitorsweekly`, `mobilevisitorsmonthly`, `mobilevisitorsquarterly`, and `mobilevisitorsyearly`.
+* **Visitors metrics**. The following metrics are converted to *unique visitors* in the converted legacy workbook, even though the reporting result is not an exact match: `visitorshourly`, `visitorsdaily`, `visitorsweekly`, `visitorsmonthly`, `visitorsquarterly`, and `visitorsyearly`. This conversion also applies to `mobilevisitorshourly`, `mobilevisitorsdaily`, `mobilevisitorsweekly`, `mobilevisitorsmonthly`, `mobilevisitorsquarterly`, and `mobilevisitorsyearly`.
 
+* **Granularity**: Report Builder has no specific option for granularity like legacy Report Builder. To apply a level of granularity in your report use date dimensions in your request.
 * **Automatic re-authentication**. When you open a new [!DNL Excel] file, you need to re-authenticate explicitly. This re-authentication is a security feature of [!DNL Office Add-ins] functionality.
 
-* **Copy a worksheet with a group of data blocks**. To support the copy of a worksheet that contains more than one data blocks:
+* **Copy a worksheet with a group of data blocks**. To support the copy of a worksheet that contains more than one data block:
   
   1. Select the worksheet tab in the [!DNL Excel] workbook that you want to copy.
   1. From the context menu of the tab, select **[!UICONTROL Move or Copy...]**

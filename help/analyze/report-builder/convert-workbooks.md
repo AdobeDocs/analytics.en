@@ -147,6 +147,7 @@ Some features of the legacy Report Builder are not supported, partially supporte
 
 * **Visitors metrics**. The following metrics are converted to *unique visitors* in the converted legacy workbook, even though the reporting result may not be an exact match: `visitorshourly`, `visitorsdaily`, `visitorsweekly`, `visitorsmonthly`, `visitorsquarterly`, and `visitorsyearly`. This conversion also applies to `mobilevisitorshourly`, `mobilevisitorsdaily`, `mobilevisitorsweekly`, `mobilevisitorsmonthly`, `mobilevisitorsquarterly`, and `mobilevisitorsyearly`.
 
+* **Granularity**: Report Builder has no specific option for granularity like legacy Report Builder. To apply a level of granularity in your report use date dimensions in your request.
 * **Automatic re-authentication**. When you open a new [!DNL Excel] file, you need to re-authenticate explicitly. This re-authentication is a security feature of [!DNL Office Add-ins] functionality.
 
 * **Copy a worksheet with a group of data blocks**. To support the copy of a worksheet that contains more than one data blocks:

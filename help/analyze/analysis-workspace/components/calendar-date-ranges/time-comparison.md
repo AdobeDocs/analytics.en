@@ -28,14 +28,14 @@ role_v2:
 ---
 # Date comparison
 
-Date comparison in Analysis Workspace lets you take any column containing a date range and create a common date comparison, such as: year-over-year, quarter-over-quarter, month-over-month, etc.
+Date comparison in Analysis Workspace lets you take any column containing a date range and create a common date comparison, such as year-over-year, quarter-over-quarter, or month-over-month.
 
 ## Compare time periods
 
-Analysis requires context, and often that context is provided by a previous time period. For example, the question *How much better or worse are you doing now compared to this time last year?* is fundamental to understanding your business. Date comparison includes a *difference* column automatically, which shows the percentage change compared to a specified time period.
+Analysis requires context, and a previous time period often provides that context. For example, the question *How much better or worse are you doing now compared to this time last year?* is essential to understanding your business. Date comparison includes a *difference* column automatically, which shows the percentage change compared to a specified time period.
 
 1. Create a [Freeform table](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md), with any dimensions and metrics you want to compare over a time period.
-1. Set the time period on the panel or column to determine the comparison time frame, and whether it is a rolling or fixed time comparison. 
+1. To determine the comparison time frame and whether it is a rolling or fixed time comparison, set the time period on the panel or column. 
 
    To create a rolling time comparison, set the panel or column date range to a rolling date range (such as **[!UICONTROL Last 7 days]**, **[!UICONTROL Last 30 days]**, and so forth). 
 
@@ -68,7 +68,7 @@ Analysis requires context, and often that context is provided by a previous time
 
 ## Add a time period column for comparison
 
-You can now add a time period to each column in a table, enabling you to add a time period that is different from the one your calendar is set to.
+You can now add a time period to each column in a table. This enables you to add a time period that is different from the one your calendar is set to.
 
 1. Right-click a column in the table and select **[!UICONTROL Add time period column]**. 
 
@@ -98,20 +98,21 @@ You can now add a time period to each column in a table, enabling you to add a t
 
 You can align the dates from each column to all start on the same row. 
 
-For example, you do a day-over-day comparison for the last week (ending October 5, 2024) and the previous week. By default the left column will start with September 22 and the right column will start with September 29. 
+For example, you perform a day-over-day comparison for the last week (ending October 5, 2024) and the previous week. By default the left column starts with September 22 and the right column starts with September 29. 
 
 ![Not aligned dates](assets/not-align-dates.png)
 
-You can enable **[!UICONTROL Align dates from each column to all start on the same row]** in [Settings](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md#settings-1) for the Freeform table visualization to align column dates to start on the same row.
+You can enable **[!UICONTROL Align dates from each column to all start on the same row]** in [Settings](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md#settings-1) for the Freeform table visualization to align column dates to start on the same row. The first column is used for this alignment.
 
 ![](assets/align-dates.png)
 
 Consider the following when using this option:
 
-* This setting is enabled by default for all new projects.
+* The system enables this setting by default for all new projects.
 
 * This setting applies to the entire table. For example, if you change this setting for a breakdown within the table, the setting is applied to the entire table.
 
+* When this setting is enabled, small date labels appear in the upper right corner of all column cells to annotate the cell with the appropriate date (and time, when relevant).
 
 <!--
 # Date comparison

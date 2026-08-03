@@ -55,6 +55,7 @@ The following list references the 'Conversational AI tools' lookup table that Ad
 * `https://chat.deepseek.com`
 * `https://chat.openai.com`
 * `https://doubao.com`
+* `https://duck.ai`
 * `https://gemini.google.com`
 * `https://copilot.microsoft.com`
 * `https://m365.cloud.microsoft`
@@ -69,6 +70,7 @@ The following list references the 'Conversational AI tools' lookup table that Ad
 * `https://blackbox.ai`
 * `https://chat.mistral.ai`
 * `https://meta.ai`
+* `https://you.com`
 
 ### Social networks
 

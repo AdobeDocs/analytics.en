@@ -66,6 +66,8 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 | Feature | Description |
 | --- | --- |
+| **August 2026** | |
+| Added new conversational AI tools to the referrer type dimension | The 'Referrer type' dimension now includes the following additional [conversational AI tools](/help/components/dimensions/referrer-type.md#conversational-ai-tools) in the lookup table that Adobe uses:<ul><li>`https://duck.ai`</li><li>`https://you.com`</li></ul> |
 | **June 2026** | |
 | Query string reference update | Significant revisions to [Data collection query parameters](/help/implement/validate/query-parameters.md). |
 | Segments in Data Warehouse | Updated [Data Warehouse segment compatibility](/help/export/data-warehouse/segment-compatibility.md). |

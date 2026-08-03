@@ -2,6 +2,7 @@
 title: Current Adobe Analytics release notes
 description: View the current Adobe Analytics release notes
 feature: Release Notes
+hold: true
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
 product_v2:
@@ -40,36 +41,35 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 ---
-# Current Adobe Analytics release notes (July 2026)
+# Current Adobe Analytics release notes (August 2026)
 
-**Last update**: July 8, 2026
+**Last update**: August 4, 2026
 
-These release notes cover the July 2026 release period. Adobe Analytics releases operate on a [continuous delivery model](releases.md), which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes are updated several times a month. Please check them regularly. 
+These release notes cover the August 2026 release period. Adobe Analytics releases operate on a [continuous delivery model](releases.md), which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes are updated several times a month. Please check them regularly. 
 
 ## New features or enhancements {#features}
 
 | Feature and description | [Rollout starts](releases.md) | [General Availability](releases.md) |
 | ----------- | ---------- | ---- |
-| **Sub-hit analysis** <br/>Sub-hit analysis lets you analyze product data at a level more granular than the hit level. Instead of filtering on entire hits, you can segment on individual products within hits. <p>For example, you can segment on a specific product category without including all other products purchased in the same order.</p><p>For more information, see [Sub-hit analysis](/help/components/segmentation/sub-hit.md).</p> | July 8 | End of July, 2026 |
-| **Activity Map extension: UI refresh** <br/>The Activity Map overlay extension has an updated look and feel, along with underlying improvements that support upcoming enhancements.<p>(Documentation link to follow.)</p> | | End of July, 2026 |
-| **AA 2.0 API search features guide** <br/>Use search features to [return a subset of dimension items in reports](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters).<p>For more information, see [Search features](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters) in the Reports endpoint guide on Adobe Developer.  | | July 1, 2026 |
-| **Automating recurring reports with AA APIs** <br/>Set up automatic, recurring Adobe Analytics reports for your data pipeline with fresh metrics on a schedule with the Report API. <p>For more information, see the [Automating recurring Analytics reports endpoint guide](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/recurring) on Adobe Developer.</p> | | July 1, 2026 |
-| **New expansion parameters for AA** <br/>Use new Dimension API expansion parameters to retrieve eVar configuration fields for allocation types, expirations, data types, and merchandising. <p>For more information, see the [API Reference](https://developer.adobe.com/analytics-apis/docs/2.0/apis/#operation/dimensions_getDimensions) and [Dimensions endpoint guide](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/) on Adobe Developer.</p> | | July 1, 2026 |
+| **Use Analytics data in LLM Optimizer**<br>Connect LLM Optimizer with your organization's Customer Journey Analytics data so you can measure how AI-driven discovery translates into real website engagement and business outcomes.<p>(Documentation link to follow.)</p> | | August 14, 2026 |
+| **Journey canvas enhancements**<br>The following Journey canvas enhancements are now available:<ul><li>Compare the journey to a prior time frame. Compare the current journey to the journey 4 weeks prior, 2 quarters prior, 1 year prior, or to a custom date range.</li><li>For a selected node, show the top dimension items that come after the selected node at any point in the journey. Use this when the selected node is the key event in your analysis and you want to see what people do at any point afterward.<p>Previously, only the top immediate nodes could be shown before or after the selected node. </p></li><li>Change the shape and style of arrows between nodes. Drag arrows between nodes to change the shape (curviture) of the arrow, and right-click an arrow to change its style to any of the following: solid, dashed, dotted, dashed-dot, or animated.</li></ul><p></p>For more information, see [Configure a Journey canvas visualization](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md). | | August 18, 2026 |
+| **Activity Map extension: UI refresh** <br/>The Activity Map overlay extension has an updated look and feel, along with underlying improvements that support upcoming enhancements.<p>(Documentation link to follow.)</p> | | August 2026<p>(Originally planned for end of July)</p> |
+| **Migration Planner: Adobe Analytics to Customer Journey Analytics**<br>The Migration Planner provides a migration wizard that automates some of the most complex and time-consuming tasks associated with an upgrade from Adobe Analytics to Customer Journey Analytics, including XDM schema creation and migration from AppMeasurement or the Analytics extension (tags) to the Experience Platform Web SDK. <p>(Documentation link to follow.)</p> | | End of August or September 2026 |
 
 ### Fixes in Adobe Analytics
 
 **Activity Map**: 
-**Analysis Workspace**: AN-449890, AN-457527, AN-451161, AN-459034, AN-458071, AN-458398
-**Classifications**: AN-453318, AN-456739, AN-455828, AN-455270, AN-460272, AN-459367, AN-459239, AN-458418, AN-458417
-**Data Feeds and Data Warehouse**: AN-456945, AN-460700
+**Analysis Workspace**: 
+**Classifications**:
+**Data Feeds and Data Warehouse**: 
 **Migration**: 
 **Exports**: 
-**Report Builder**: AN-457533, AN-453683
-**Reporting**: AN-447692, AN-451259, AN-455713
+**Report Builder**: 
+**Reporting**: 
 **Report suites**: 
-**Scheduled reports**: AN-450715
+**Scheduled reports**:
 **Segmentation**: 
-**Other**: AN-453982, AN-455771
+**Other**:
 
 ### End-of-life (EOL) notices {#eol}
 

@@ -66,6 +66,33 @@ See [Journey canvas overview](/help/analyze/analysis-workspace/visualizations/jo
 
 <!-- markdownlint-enable MD034 -->
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_journeycanvas_arrow_settings"
+>title="Arrow settings"
+>abstract="Choose whether to show or hide labels on the canvas. Labels are custom names created within Journey canvas."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_journeycanvas_show_fallout"
+>title="Show fallout"
+>abstract="Fallout data shows the percentage and number of people or sessions on each node of the journey who never arrived at the next node of the journey. They might have performed other actions on the site, but they never met the criteria defined by the next node in the journey.<br/>Fallout data shows either people or sessions (regardless of the primary metric you chose), and it is based on the Journey canvas container setting."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_journeycanvas_compare"
+>title="Compare to"
+>abstract="The date range used to compare current journey data against a prior period. When you select a comparison date range, each node in the journey shows the percent change between the current date range and the selected comparison date range, based on the primary metric. "
+
+<!-- markdownlint-enable MD034 -->
+
 Various configuration options are available in the Journey canvas header. 
 
 To configure settings for the Journey canvas visualization:

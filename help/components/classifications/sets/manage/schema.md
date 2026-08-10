@@ -23,13 +23,13 @@ role_v2:
 ---
 # Classification set schema
 
-The schema is the list of classifications that you want to apply to the key dimensions you have defined for the classification set. For example, if you have defined product as the key dimension and this field contains a product SKU, use the schema to add classifications such as product name, color, and size.
+The schema is the list of classifications that you want to apply to the key dimensions you have defined for the classification set. For example, if product is the key dimension, use the schema to add classifications such as product name, color, and size.
 
 To edit the schema for a classification set:
 
 1. Select **[!UICONTROL Components]** from the Adobe Analytics top menu bar, then select **[!UICONTROL Classification sets]**.
 1. In **[!UICONTROL Classification Sets]**, select the **[!UICONTROL Classification Sets]** tab.
-1. In the **[!UICONTROL Classifications Sets]** manager, select the classification set for which you want to edit the schema.
+1. In the **[!UICONTROL Classification Sets]** manager, select the classification set for which you want to edit the schema.
 1. In the **[!UICONTROL Classification Set: _classification set name_]** dialog, select the **[!UICONTROL Schema]** tab. That tab consists of the following interface elements:
 
    ![Classification sets - schema](assets/classification-sets-schema.png)
@@ -92,7 +92,7 @@ To import classification data into the schema for a classification, select ![Upl
    
    When no classification is defined in the classification set for a column, an alert ![Alert](/help/assets/icons/Alert.svg) is shown. The alert explains that a classification is not present in the existing classification schema set and is created on import.
 
-1. Select **[!UICONTROL Overwrite data on conflict?]** if you want to overwrite the current classification data with the new imported. For example:
+1. Select **[!UICONTROL Overwrite data on conflict?]** if you want to overwrite the current classification data with the new imported data. For example:
    
    | | Key | Current Product Color | Import file | New Product Color |
    |---|---|---|---|---|
@@ -133,7 +133,7 @@ In the **[!UICONTROL Download data for _classification set name_]** dialog:
    * **[!UICONTROL Latin-1]**.
 
 
-1. Select **[!UICONTROL Download]** to download the classification data. You can find the downloaded file in your browser's default download directory, and the file is titled <code><i>Classification Set</i>.<i>json</i>|<i>csv</i>|<i>tsv</i></code>. If the file already exists, a sequence number <code>(<i>x</i>)</code> is added to the file name.<br/>If you have specified options that do not return any data, you see a **[!UICONTROL Notice]** dialog to inform you to change the options for date range and data returned.
+1. Select **[!UICONTROL Download]** to download the classification data. You can find the downloaded file in your browser's default download directory, and the file is titled <code><i>Classification Set</i>.<i>json</i>|<i>csv</i>|<i>tsv</i></code>. If the file exists, a sequence number <code>(<i>x</i>)</code> is added to the file name.<br/>If no data is returned, a **[!UICONTROL Notice]** dialog prompts you to adjust the date range or data options.
 
 
 ### Template
@@ -164,19 +164,19 @@ In the **[!UICONTROL Download template for _classification set name_]** dialog:
 >id="classificationsets_schema_automate_locationaccount"
 >title="Location account"
 >abstract="List of location accounts of account types that support the import of classification data. Select **[!UICONTROL New account]** to create a new location account."
->additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-accounts.html?lang=en" text="Configure cloud import and export accounts"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-accounts" text="Configure cloud import and export accounts"
 
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_schema_automate_location"
 >title="Location"
 >abstract="List of locations at selected location account that support the import of classification data. Select **[!UICONTROL New location]** to create a new location."
->additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=en" text="Configure cloud import and export locations"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-locations" text="Configure cloud import and export locations"
 
-You can automate the ingestion of classification data through the configuration and use of cloud account and cloud locations.
+You can automate the ingestion of classification data by configuring and using cloud accounts and cloud locations.
 
 >[!IMPORTANT]
->The automation of classification ingestion from cloud accounts requires that you (or your network administrator) specify IP address ranges to allow to ingest data into your network. Configure one or more of the IP address ranges depending on the location of the Analytics datacenters that you use.
+>The automation of classification ingestion from cloud accounts requires that you (or your network administrator) specify IP address ranges to permit the ingestion of data into your network. Configure one or more of the IP address ranges depending on the location of the Analytics datacenters that you use.
 >
 >| Analytics datacenter location | Add this IP address range to an allowlist in your network |
 >|---|---:|
@@ -212,7 +212,7 @@ In the **[!UICONTROL Associate / Update Ingest Location for _classification set 
    * **[!UICONTROL UTF-8]**.
    * **[!UICONTROL Latin-1]**.
 
-1. To notify users about the completion of ingest jobs, enter email addresses, separated by comma, for **[!UICONTROL Email(s) to notify when ingest jobs completes (comma separated)]**.
+1. To notify users about the completion of ingest jobs, enter email addresses, separated by comma, for **[!UICONTROL Email(s) to notify when ingest jobs complete (comma separated)]**.
 1. Select **[!UICONTROL Validate]**. The connection to the cloud location is validated. If the validation is successful, a toast message appears, displaying ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Location validation successful. Connection to cloud storage verified.]**<br/>Select **[!UICONTROL Save]** if you have created the connection to the cloud connection. Otherwise, select **[!UICONTROL Update]**. Or select **[!UICONTROL Cancel]** to cancel the configuration of the cloud location.
 
 When you upload files to the cloud location, within 15 minutes the file is detected and submitted as an import job. The result of that import job is reported in the [Classifications job manager](/help/components/classifications/sets/job-manager.md). If you are added to the list of users to notify about the completion of ingest jobs, you also receive email messages. 
@@ -223,7 +223,7 @@ For example:
 
 >[!IMPORTANT]
 >
->Remove files from the cloud location manually or using a file rotation policy once the files are successfully imported and processed. Otherwise, the files are re-imported and reprocessed based on the last modified date of the file and using a 30 day log. See the example below.
+>Remove files from the cloud location manually or using a file rotation policy once the files are successfully imported and processed. Otherwise, the files are re-imported and reprocessed based on the last modified date of the file and using a 30-day log. See the example below.
 >
 
 #### Example
@@ -253,3 +253,30 @@ The action bar shows actions available for the selected classification. Availabl
 | ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) | **[!UICONTROL Remove Lookup]** | Remove a classification set as a lookup. To delete the lookup permanently from the classification, in the **[!UICONTROL Remove _classification set_ from _classification_]** confirmation dialog select **[!UICONTROL Delete]**. |
 | ![Rename](/help/assets/icons/Rename.svg) | **[!UICONTROL Rename]** | Rename the **[!UICONTROL Classification Name]** of a classification. In the **[!UICONTROL Rename: _classification name_]** dialog, enter a new name and select **[!UICONTROL Rename]**.  |
 | ![Delete](/help/assets/icons/Delete.svg) | **[!UICONTROL Delete]** | Delete a classification. The **[!UICONTROL Delete _classification name_]** dialog appears. Select **[!UICONTROL Delete]** to delete the classification. |
+
+
+## Non-classified data
+
+If you do encounter non-classified data after an import that displays as `none` in your reporting, you can rename the `None` classification key.
+
+1. [Download](#download) the classifications to a local file.
+1. Add a row to the local file, and enter `~none~` in the Key column. Type the more descriptive classification names in the appropriate columns.
+
+   For example:
+
+   * JSON
+
+      ```json
+      {"key": "~none~", "enc": "DEFAULT", "action": "update", "data": {"Product Name": "Unknown Product Name", "Product Category": "Unknown Product Category"}}
+      ...
+      ```
+
+   * CSV:
+  
+      ```csv
+      Key, Product Name, Product Category
+      ~none~, Unknown Product Name, Unknown Product Category
+      ...
+      ```
+
+1. [Upload](#upload) the data back into Adobe Analytics.

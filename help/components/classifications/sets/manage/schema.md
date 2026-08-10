@@ -253,3 +253,30 @@ The action bar shows actions available for the selected classification. Availabl
 | ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) | **[!UICONTROL Remove Lookup]** | Remove a classification set as a lookup. To delete the lookup permanently from the classification, in the **[!UICONTROL Remove _classification set_ from _classification_]** confirmation dialog select **[!UICONTROL Delete]**. |
 | ![Rename](/help/assets/icons/Rename.svg) | **[!UICONTROL Rename]** | Rename the **[!UICONTROL Classification Name]** of a classification. In the **[!UICONTROL Rename: _classification name_]** dialog, enter a new name and select **[!UICONTROL Rename]**.  |
 | ![Delete](/help/assets/icons/Delete.svg) | **[!UICONTROL Delete]** | Delete a classification. The **[!UICONTROL Delete _classification name_]** dialog appears. Select **[!UICONTROL Delete]** to delete the classification. |
+
+
+## Non-classified data
+
+If you do encounter non-classified data after an import that displays as `none` in your reporting, you can rename the `None` classification key.
+
+1. [Download](#download) the classifications to a local file.
+1. Add a row to the local file, and enter `~none~` in the Key column. Type the more descriptive classification names in the appropriate column(s).
+
+   For example:
+
+   * JSON
+
+      ```json
+      {"key": "~none~", "enc": "DEFAULT", "action": "update", "data": {"Product Name": "Unknown Product Name", "Product Category": "Unknown Product Category"}}
+      ...
+      ```
+
+   * CSV:
+  
+      ```csv
+      Key, Product Name, Product Category
+      ~none~, Unknown Product Name, Unknown Product Category
+      ...
+      ```
+
+1. [Upload](#upload) the data back into Adobe Analytics.

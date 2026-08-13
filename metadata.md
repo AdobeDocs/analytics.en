@@ -14,6 +14,7 @@ product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
 autotag-review: '2026-05-19T13:22:46.838Z'
+nudge: true
 ---
 
 # Metadata for internal use

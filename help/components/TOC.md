@@ -4,6 +4,7 @@ audience: end-user
 user-guide-title: Analytics Components Guide
 breadcrumb-title: Components Guide
 user-guide-description: Manage data using components like Segments, Calculated Metrics, Virtual Report Suites, Marketing Channels, and Classifications. Learn about Cross-Device Analytics.
+nudge: red
 ---
 # [!DNL Adobe Analytics] Components Guide {#components}
 

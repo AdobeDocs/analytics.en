@@ -19,7 +19,9 @@ In Adobe Analytics sub-hit analysis applies specifically to the **[!UICONTROL Pr
 
 In Adobe Analytics, the [Products variable](/help/components/dimensions/product.md) can capture multiple products on a single hit. Without sub-hit analysis, segmenting on a product attribute returns all hits where any product within a hit matches the product attribute. The result is incorrect attribution and inflated revenue metrics. Sub-hit analysis scopes the filter to individual product rows within a hit and solves these issues.
 
-In sub-hit analysis exclude logic behaves differently from standard hit-level exclusion against the Products variable. When you exclude product attributes within the [!UICONTROL Products] container, the segment returns hits that **have products** but don't match your exclusion criteria. The segment does not return hits with no products at all. 
+In sub-hit analysis exclude logic behaves differently from standard hit-level exclusion against the Products variable. When you exclude product attributes within the [!UICONTROL Products] container, the segment returns hits that **have products** but don't match your exclusion criteria.
+
+In Adobe Analytics,  every hit has product list items even if the hit does not have a product id. As a result, sub-hit analysis exclude logic will return hits with no products at all.
 
 ## Example
 

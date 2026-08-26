@@ -109,8 +109,9 @@ To configure settings for the Journey canvas visualization:
    |---------|----------|
    | [!UICONTROL **Percentage value**] | The percentage value shown on each node in the journey.<p>![percentage value](assets/journey-canvas-percentage.png)</p> <p>Consider the following when configuring the percentage values shown on nodes in the journey:</p><ul><li>A percentage is shown on each node for the primary metric. A percentage is also shown for the secondary metric if one is configured. (For more information about the primary and secondary metric settings, see [Begin building a Journey canvas visualization](#begin-building-a-journey-canvas-visualization).)</li><li>Percentages include all people or sessions that are included in the report suite within the panel's date range. Whether _people_ or _sessions_ is used depends on the container setting. (For more information about the container setting, see [Begin building a Journey canvas visualization](#begin-building-a-journey-canvas-visualization).)</li></ul> <p>Choose from the following options:</p> <ul><li>[!UICONTROL **Percent of start node**]: Calculates the percentages shown on each node in relation to the start node. Percentages are based on the primary and secondary metric that you selected. <p>A _start node_ is a node that has no connected nodes preceding it.</p><p>A journey can contain multiple start nodes. However, [!UICONTROL **Percent of total**] is used if the journey contains 2 or more start nodes that lead to a common node. If you want to use [!UICONTROL **Percent of start node**], update the journey so that each node in the journey can be traced back to a single start node.</p></li><li>[!UICONTROL **Percent of previous node**]: Calculates the percentages shown on each node in relation to the previous node. Percentages are based on the primary and secondary metric that you selected.</li><li>[!UICONTROL **Percent of total**]: Calculates the percentages shown on each node in relation to all data in the report suite. Percentages are based on the primary and secondary metric that you selected.</li></ul> |
    | [!UICONTROL **Arrow settings**] | The arrows that appear between nodes in Journey canvas can be configured to show custom labels and values. <p>![arrow settings](assets/journey-canvas-arrow-settings.png)</p><p>_Labels_ are custom names you can add within Journey canvas, as described in [Add or update a label on an arrow](#add-or-update-a-label-on-an-arrow).</li></ol><p>_Values_ are the numbers and percentages that appear on arrows, and they indicate the people or sessions who moved from one node to the next node in the journey. (In other words, those who did not fall out of the journey at a given step.) </p><p>The following options are available:</p><ul><li>[!UICONTROL **No labels**]: No labels are shown on arrows in the journey. </br> This option is available only if the journey has been modified in </li><li>[!UICONTROL **Labels only**]: Labels are shown on arrows in the journey.</li></ul>  |
+   | [!UICONTROL **Compare to**] | The date range used to compare current journey data against a prior period. You can choose any of the following date ranges for comparison:<ul><li>**[!UICONTROL 4 weeks prior]**</li><li>**[!UICONTROL 2 quarters prior]**</li><li>**[!UICONTROL 1 year prior]**</li><li>**[!UICONTROL Custom date range]**</li></ul><p>When you select a comparison date range, each node in the journey shows the percent change between the current date range and the selected comparison date range, based on the primary metric. This lets you identify whether your journey is performing better or worse compared to a previous time period.</p> |
    | [!UICONTROL **Show fallout**] | Fallout data shows a percentage and number falling out of each node of the journey. Fallout data is based on the metric associated with the journey's container settings; it is not based on the primary or secondary metric. <p>![fallout](assets/journey-canvas-fallout.png)</p><p>By default, the container is _Person_, so the metric used for fallout data is _People_. If the container is changed to _Session_, the metric used for fallout data is _Sessions_, and so on.</p><p>For example, with _Person_ as the container setting, fallout shows the percentage and number of people on each node of the journey who never arrived at any of the immediate next nodes. They might have performed other actions on the site, but they did not meet the criteria defined by any of the nodes that immediately follow.</p> <p>For more information about the Journey canvas container setting, see [Begin building a Journey canvas visualization](#begin-building-a-journey-canvas-visualization). |
-   | **Zoom controls** | The following zoom controls are available in the upper-right corner of the canvas:<ul><li>**Zoom in** ![zoom in icon](assets/zoom-in-icon.png): Enlarges specific areas of the visualization.<p>You can also use mouse controls, such as pinching on a trackpad.</li><li>**Zoom out** ![zoom out icon](assets/zoom-out-icon.png): Shrinks the visualization to allow more room on the canvas.<p>You can also use mouse controls, such as pinching on a trackpad.</p></li><li>**Fit screen** ![fit screen icon](assets/fill-screen-icon.png): Adjusts current zoom and pan settings to fill the screen with the full visualization.</li></ul><p>To pan across the canvas after zooming in or out, click your mouse and drag to the desired location.</p> |
+   | **Controls** | The following controls are available in the upper-right corner of the canvas:<ul><li>**Fit screen** ![fit screen icon](assets/fill-screen-icon.png): Adjusts current zoom and pan settings to fill the screen with the full visualization.</li><li>**Organize** ![organize icon](assets/organize.svg): Rearranges nodes to minimize crossing arrows and to optimize spacing, based on node connections. </li><li>**Zoom in** ![zoom in icon](assets/zoom-in-icon.png): Enlarges specific areas of the visualization.<p>You can also use mouse controls, such as pinching on a trackpad.</li><li>**Zoom out** ![zoom out icon](assets/zoom-out-icon.png): Shrinks the visualization to allow more room on the canvas.<p>You can also use mouse controls, such as pinching on a trackpad.</p></li></ul><p>To pan across the canvas after zooming in or out, click your mouse and drag to the desired location.</p> |
 
 1. Continue with [Add nodes](#add-nodes). 
 
@@ -169,7 +170,7 @@ You create nodes in the following ways: by dragging Workspace components from th
 
 ### Show the top nodes based on existing nodes
 
-You can automatically show the top immediate nodes based on the nodes that are already on the canvas. You can add the top nodes to Journey canvas or view them in a freeform table.
+You can automatically show the top immediate or eventual nodes based on the nodes that are already on the canvas. You can add the top nodes to Journey canvas or view them in a freeform table.
 
 Journey canvas uses the primary metric when determining which nodes to show.
 
@@ -181,13 +182,19 @@ This option is available for the following objects on the canvas:
 
 #### Show top nodes after an existing node
 
-You can select a node and show the top dimension items that come immediately after it in the journey. You can add the top 3 dimension items to Journey canvas as separate nodes, or you can view all top dimension items in a freeform table.
+You can select a node and show the top immediate or eventual dimension items that come immediately after it in the journey. You can add the top 3 dimension items to Journey canvas as separate nodes, or you can view all top dimension items in a freeform table.
 
 1. Right-click the node where you want to show the top dimension items that come after it in the journey.
 
    The node cannot have any existing nodes going out of it in the journey.
 
 1. Select [!UICONTROL **Show top nodes after this node**].
+
+1. Select whether to show the dimension items that come immediately or eventually after the selected node:
+
+   * [!UICONTROL **Immediately after**]: Shows the top dimension items that come directly after the selected node. Use this when you want to know what occurred immediately after a given step in the journey. For example, you can see which page people visit immediately after visiting a given product page.
+
+   * [!UICONTROL **Eventually after**]: Shows the top dimension items that come after the selected node at any point in the journey, not necessarily the very next step. Use this when the selected node is the key event in your analysis and you want to see what people do at any point afterward. For example, after a purchase, you can see the top pages people eventually tend to visit at any later point in the journey.
 
 1. Select where you want to show the dimension items: 
 
@@ -201,13 +208,19 @@ You can select a node and show the top dimension items that come immediately aft
 
 #### Show top nodes before an existing node
 
-You can select a node and show the top dimension items that come immediately before it in the journey. You can add the top 3 dimension items to Journey canvas as separate nodes, or you can view all top dimension items in a freeform table.
+You can select a node and show the top immediate or eventual dimension items that come immediately before it in the journey. You can add the top 3 dimension items to Journey canvas as separate nodes, or you can view all top dimension items in a freeform table.
 
 1. Right-click the node where you want to show the top dimension items that come before it in the journey.
 
    This node cannot have any existing nodes coming into it in the journey.
 
 1. Select [!UICONTROL **Show top nodes before this node**].
+
+1. Select whether to show dimension items that come immediately or eventually before the selected node:
+
+   * [!UICONTROL **Immediately before**]: Shows the top dimension items that come directly before the selected node. Use this when you want to know what occurred immediately before a given step in the journey. For example, you can see which page people visit immediately before visiting a given product page.
+
+   * [!UICONTROL **Eventually before**]: Shows the top dimension items that come before the selected node at any point in the journey, not necessarily the very previous step. Use this when the selected node is the key event in your analysis and you want to see what people did at any point leading up to it. For example, before a purchase, you can see the top pages people had visited at any earlier point in the journey.
 
 1. Select where you want to show the dimension items: 
 
@@ -281,7 +294,9 @@ You can do any of the following to combine nodes in Journey canvas:
 
 * From the left rail, drag multiple components simultaneously onto a blank area of the canvas while holding the Shift key.
 
-<!-- * On the canvas, select the nodes that you want to combine, right-click one of the selected nodes, then select **Combine**. Is there a limit on how many you can combine? -->
+* On the canvas, select the nodes that you want to combine, right-click one of the selected nodes, then select **Combine nodes**. Is there a limit on how many you can combine?
+
+  To select multiple nodes, hold Command (on Mac) or Ctrl (on Windows).
 
 #### Logic when combining nodes
 
@@ -289,7 +304,7 @@ The logic that is applied to nodes when they are combined differs depending on w
 
 >[!TIP]
 >
->You can view the logic of a combined node by right-clicking the node, then selecting [!UICONTROL **Create segment from node**]. The logic is shown in the [!UICONTROL **Definition**] section.
+>You can view the logic of a combined node by selecting the information icon or the drop-down arrow on the node.
 
 
 | Component types to combine | Logic (operator) used |
@@ -301,6 +316,12 @@ The logic that is applied to nodes when they are combined differs depending on w
 | Dimension + Metric, Date range, or Segment | Joined with AND |
 | Date range + Metric, Segment, or Dimension | Joined with AND |
 | Segment + Metric, Date range, or Dimension | Joined with AND |
+
+#### Separate components from combined nodes
+
+You can split the components that are included in a combined node into their own separate nodes:
+
+1. Right-click the node that you want to split, then select [!UICONTROL **Separate components into nodes**].
 
 ### Connect nodes
 
@@ -317,6 +338,8 @@ Nodes are connected by an arrow. Both the arrow direction and width have signifi
 * **Width**: Indicates percentage volume from one node to another
 
   ![Arrow direction and width](assets/journey-canvas-arrow-width.png)
+
+When a Journey Optimizer journey contains multiple paths between the same two nodes (for example, different conditions that lead to the same next step), each path appears as a separate arrow.
 
 #### Logic when connecting nodes
 
@@ -596,6 +619,39 @@ To re-include an excluded node in the journey:
 1. In a Journey canvas visualization, right-click the excluded node.
 
 1. Select [!UICONTROL **Remove journey exclusion**].
+
+### Change the shape and style of arrows between nodes
+
+You can change the curvature and style of arrows between nodes in a journey.
+
+#### Change the curvature of an arrow
+
+To change the curvature of an arrow in Journey canvas:
+
+1. In a Journey canvas visualization, drag an arrow between two nodes.
+
+To reset an arrow back to its default position:
+
+1. Right-click the arrow you want to reset.
+
+1. Select [!UICONTROL **Reset arrow position**].
+
+   If multiple arrows exist between the same two nodes, all arrows between those nodes reset to their default positions.
+
+#### Change the style of an arrow
+
+To change the style of an arrow in Journey canvas:
+
+1. In a Journey canvas visualization, right-click the arrow between the two nodes whose style you want to change.
+
+1. Select [!UICONTROL **Change arrow style**], then select one of the following styles:
+
+   * [!UICONTROL **Solid**]
+   * [!UICONTROL **Dashed**]
+   * [!UICONTROL **Dotted**]
+   * [!UICONTROL **Dash-dot**]
+   * [!UICONTROL **Animated**]
+
 
 ### Delete arrows between nodes
 

@@ -41,7 +41,8 @@ Classification sets support the following file formats:
 
 * **JSON**: JavaScript Object Notation files with structured data
 * **CSV**: Comma-separated values files
-* **TSV or TAB**: Tab-separated values files
+* **TSV**: Tab-separated values files
+* **TAB**: Tab-separated values files with the `.tab` extension (browser upload only; not supported by the API)
 
 ## General file requirements
 
@@ -170,6 +171,10 @@ product456,,~empty~,~empty~,79.99
 +++
 
 +++ TSV and TAB format details
+
+>[!NOTE]
+>
+>Files with the `.tab` extension are supported for browser uploads only. The [Classifications API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/) does not accept the `.tab` file type, even if the file content is tab-separated. For API uploads, use the `.tsv` extension instead (or `.json` or `.csv`).
 
 TSV (Tab-Separated Values) and TAB files use tab characters to separate classification data fields.
 

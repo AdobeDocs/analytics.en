@@ -2,6 +2,7 @@
 title: Current Adobe Analytics release notes
 description: View the current Adobe Analytics release notes
 feature: Release Notes
+hold: true
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
 product_v2:
@@ -42,7 +43,7 @@ topic_v2:
 ---
 # Current Adobe Analytics release notes (September 2026)
 
-**Last update**: September 1, 2026
+**Last update**: September 8, 2026
 
 These release notes cover the September 2026 release period. Adobe Analytics releases operate on a [continuous delivery model](releases.md), which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes are updated several times a month. Please check them regularly.
 

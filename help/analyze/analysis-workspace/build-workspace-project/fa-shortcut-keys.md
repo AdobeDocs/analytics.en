@@ -97,6 +97,17 @@ Note that on your keyboard the following symbols might be used:
 | Move panel up | **[!UICONTROL *cmd + opt + up*]** |  **[!UICONTROL *alt + ctrl + up*]** |
 | Move panel down | **[!UICONTROL *cmd + opt + down*]** |  **[!UICONTROL *alt + ctrl + down*]** |
 
+## Resize panel or visualization actions
+
+|  Action  |  Shortcut Mac  |  Shortcut Windows  |
+| --- | --- | --- |
+| Resize wider | **[!UICONTROL *cmd + opt + shift + right*]** | **[!UICONTROL *ctrl + alt + shift + right*]** |
+| Resize narrower | **[!UICONTROL *cmd + opt + shift + left*]** | **[!UICONTROL *ctrl + alt + shift + left*]** |
+| Resize taller | **[!UICONTROL *cmd + opt + shift + down*]** | **[!UICONTROL *ctrl + alt + shift + down*]** |
+| Resize shorter | **[!UICONTROL *cmd + opt + shift + up*]** | **[!UICONTROL *ctrl + alt + shift + up*]** |
+
+Width resizes in steps of one grid column, and height resizes in steps of one grid cell (approximately 25 pixels).
+
 ## Democratization actions
 
  |  Action  |  Shortcut Mac  |  Shortcut Windows  |

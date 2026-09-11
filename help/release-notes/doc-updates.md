@@ -66,6 +66,8 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 | Feature | Description |
 | --- | --- |
+| **September 2026** | |
+| New resize shortcut actions | New keyboard shortcuts in Analysis Workspace now allow you to [resize a panel or visualization](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#resize-panel-or-visualization-actions) wider, narrower, taller, or shorter. |
 | **August 2026** | |
 | Added new conversational AI tools to the referrer type dimension | The 'Referrer type' dimension now includes the following additional [conversational AI tools](/help/components/dimensions/referrer-type.md#conversational-ai-tools) in the lookup table that Adobe uses:<ul><li>`https://duck.ai`</li><li>`https://you.com`</li></ul> |
 | **June 2026** | |

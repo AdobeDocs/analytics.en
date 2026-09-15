@@ -27,7 +27,7 @@ You define rules within the context of a classification set. This context implie
 
 >[!IMPORTANT]
 >
->The different context that the new rule builder uses implies that sub-classifications are evaluated against the value of the sub-classifications immediate parent classification column, and not against the original root dimension value.
+>The different context that the new rule builder uses implies that sub-classifications are evaluated against the value of the immediate parent classification column, and not against the original root dimension value.
 
 
 

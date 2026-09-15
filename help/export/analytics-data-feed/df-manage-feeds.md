@@ -19,7 +19,7 @@ role_v2:
 ---
 # Manage data feeds {#manage-data-feeds}
 
-The data feed manager lets you create, edit, and delete data feeds for your organization. If you have permissions to access the data feed manager, you can manage data feeds for all report suites visible to you.
+The data feed manager lets you create, edit, and cancel data feeds for your organization. If you have permissions to access the data feed manager, you can manage data feeds for all report suites visible to you.
 
 
 >[!BEGINSHADEBOX]
@@ -138,15 +138,15 @@ To activate a data feed:
 
 1. Select the checkbox next to the inactive data feed that you want to activate, then select [!UICONTROL **Activate**].
 
-## Delete a data feed
+## Cancel a data feed
 
-When you delete a data feed, its status is set to [!UICONTROL Deleted]. Data feeds must have a status of [!UICONTROL Active] before they can be deleted.
+When you cancel a data feed, its status is set to [!UICONTROL Canceled]. Data feeds must have a status of [!UICONTROL Active] before they can be canceled.
 
-To delete a data feed:
+To cancel a data feed:
 
 1. In Adobe Analytics, select [!UICONTROL **Admin**] > [!UICONTROL **Data feeds**].
 
-1. Select the checkbox next to the data feed that you want to delete, then select [!UICONTROL **Delete**].
+1. Select the checkbox next to the data feed that you want to cancel, then select [!UICONTROL **Cancel**].
 
 ## Sort and customize columns in the data feed manager
 
@@ -177,7 +177,7 @@ To adjust the visible columns in the table:
    * **Status**: The status of the feed.
      * Active: The feed is operational.
      * Approval Pending: In some circumstances, a feed requires approval by Adobe before it can start generating jobs.
-     * Deleted: The feed is deleted.
+     * Canceled: The feed is canceled.
      * Complete: The feed finished processing. A completed feed can be edited, put on hold, or canceled.
      * Pending: The feed is created but not yet active. Feeds remain in this state for a short transitional time.
      * Inactive: Equivalent to a 'paused' or 'on hold' state. For information about what happens with backfill feeds and live feeds when an inactive feed is reactivated, see [Activate a data feed](#activate-a-data-feed).

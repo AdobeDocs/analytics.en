@@ -24,16 +24,17 @@ topic_v2:
 ---
 # Schedule workbooks by sharing through email
 
->[!NOTE]
->
->In addition to scheduling workbooks for sharing through email, as described in this section, you can schedule workbooks to be exported to cloud destinations, as described in [Schedule workbooks for export to cloud destinations](/help/analyze/report-builder/report-builder-export.md).
-
 After you saved your workbook and completed your analysis, you can easily share your workbook with others on your team using the scheduling feature. The Schedule feature allows you to create a schedule that automatically refreshes the data in the workbook and emails the Excel workbook .xlsx file as an attachment to your specified audience at a specific date and time. Setting up a schedule provides recipients with regular updates&ndash;automatically. You can also use the schedule feature to send out the workbook once without scheduling automatic updates.
 
 You can create multiple schedules for a single workbook. For example, you can send a workbook to your team on a daily basis and you can send the workbook to your manager once a week by creating two different schedules.
 
-The Schedule feature also allows you to set up password protection for a workbook and edit previously scheduled workbooks.
+In addition to scheduling workbooks for sharing through email, as described in this section, you can schedule workbooks to be exported to cloud destinations, as described in [Schedule workbooks for export to cloud destinations](/help/analyze/report-builder/report-builder-export.md).
 
+The Schedule feature also allows you to set up password protection for a workbook and edit the schedule of previously scheduled workbooks.
+
+>[!NOTE]
+>
+>A schedule sends the version of the workbook that existed when you created the schedule. If you later change and save the workbook, the existing schedule does not pick up those changes and continues to send the original version. To distribute an updated workbook, create a new schedule after you save your changes.
 
 >[!BEGINSHADEBOX]
 

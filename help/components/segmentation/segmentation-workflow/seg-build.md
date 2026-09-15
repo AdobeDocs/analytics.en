@@ -102,7 +102,18 @@ To add a component:
    * You can use ![Search](/help/assets/icons/Search.svg) in the components bar to search for specific components.
    * You can use ![Filter](/help/assets/icons/Filter.svg) in the components bar to filter on ![Checkmark](/help/assets/icons/Checkmark.svg) **[!UICONTROL Approved]**, ![Star](/help/assets/icons/Star.svg) **[!UICONTROL Favorites]**, ![DataDimension](/help/assets/icons2/DataDimension.svg) **[!UICONTROL Dimensions]**, ![Event](/help/assets/icons/Event.svg) **[!UICONTROL Metrics]**, ![Segmentation](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segments]**, ![Calendar](/help/assets/icons/Calendar.svg) **[!UICONTROL Date ranges]**, and ![Layer](/help/assets/icons/Layer.svg) **[!UICONTROL Products]** components. You can also filter on ![Label](/help/assets/icons/Label.svg)  tags.
 1. Specify details for the component. For example, select a value from **[!UICONTROL Select value]**. Or enter a value. What and how you can specify one or more values depends on the component and the operator.
-1. Optionally modify the default operator. For example, from **[!UICONTROL equals]** to **[!UICONTROL equals any of]**. See [Operators](../seg-reference/seg-operators.md) for a detailed overview of the available operators.
+
+1. (Optional) Enable the option to [!UICONTROL **Limit results to the reporting date range**].
+
+   Data in a Workspace report can extend beyond the reporting date range if your segment includes date range components. 
+   
+   Enable this option to limit results to the reporting date range regardless of any date components included in the segment.
+   
+   This option displays only when [!UICONTROL **Person**] is selected as the scope (container) of your definition from the **[!UICONTROL Include]** or **[!UICONTROL Exclude]** drop-down menu.
+
+   **NOTE**: This functionality is in the Limited Testing phase of release and might not be available yet in your environment. This note will be removed when the functionality is generally available. For information about the Customer Journey Analytics release process, see [Adobe Analytics feature releases](/help/release-notes/releases.md).
+
+1. (Optional) Modify the default operator. For example, from **[!UICONTROL equals]** to **[!UICONTROL equals any of]**. See [Operators](../seg-reference/seg-operators.md) for a detailed overview of the available operators.
 
 To edit a component:
 

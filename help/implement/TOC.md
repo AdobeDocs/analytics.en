@@ -138,6 +138,8 @@ user-guide-description: Learn ways to implement Adobe Analytics. Customize what 
   + [Edge Network event types](aep-edge/hit-types.md)
   + Web SDK {#web-sdk}
     + [Web SDK overview](aep-edge/web-sdk/overview.md)
+    + Migration planner {#planner}
+      + [Planner overview](aep-edge/web-sdk/planner/overview.md)
     + [Migrate to the Web SDK using tags](aep-edge/web-sdk/analytics-extension-to-web-sdk.md)
     + [Migrate to the Web SDK using JavaScript](aep-edge/web-sdk/appmeasurement-to-web-sdk.md)
     + [New implementation using tags](aep-edge/web-sdk/web-sdk-tag-extension.md)

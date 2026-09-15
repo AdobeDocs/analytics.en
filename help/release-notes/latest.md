@@ -40,44 +40,45 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 ---
-# Current Adobe Analytics release notes (August 2026)
+# Current Adobe Analytics release notes (September 2026)
 
-**Last update**: August 5, 2026
+**Last update**: September 11, 2026
 
-These release notes cover the August 2026 release period. Adobe Analytics releases operate on a [continuous delivery model](releases.md), which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes are updated several times a month. Please check them regularly.
+These release notes cover the September 2026 release period. Adobe Analytics releases operate on a [continuous delivery model](releases.md), which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes are updated several times a month. Please check them regularly.
 
 ## New features or enhancements {#features}
 
 | Feature and description | [Rollout starts](releases.md) | [General Availability](releases.md) |
 | ----------- | ---------- | ---- |
-| **Activity Map extension: UI refresh** <br/>The Activity Map overlay extension has an updated look and feel, along with underlying improvements that support upcoming enhancements.<p>For information about the Activity Map overlay extension, see [Activity Map extension interface](/help/analyze/activity-map/overlay/overview.md).</p> | | August 5, 2026<p>(Originally planned for end of July)</p> |
-| **Journey canvas enhancements**<br>The following Journey canvas enhancements are now available:<ul><li>Compare the journey to a prior time frame. Compare the current journey to the journey 4 weeks prior, 2 quarters prior, 1 year prior, or to a custom date range.</li><li>For a selected node, show the top dimension items that come after the selected node at any point in the journey. Use this when the selected node is the key event in your analysis and you want to see what people do at any point afterward.<p>Previously, only the top immediate nodes could be shown before or after the selected node. </p></li><li>Change the shape and style of arrows between nodes. Drag arrows between nodes to change the shape (curvature) of the arrow, and right-click an arrow to change its style to any of the following: solid, dashed, dotted, dashed-dot, or animated.</li></ul><p></p>For more information, see [Configure a Journey canvas visualization](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md). | | August 18, 2026 |
-| **Limit segments to the reporting date range**<br/>Data in a Workspace report can extend beyond the reporting date range when a segment includes date range components.<p>A new option is now available that allows you to limit results to the reporting date range regardless of any date components included in the segment. <p>This option is available when creating or modifying a segment whose top-level container is Visitor.</p><p>For more information, see [Build segments](/help/components/segmentation/segmentation-workflow/seg-build.md#components).</p> | August 26, 2026 | September 9, 2026 |
-| **Analytics API marketing channels reference**<br/>Use the Adobe Analytics 2.0 API marketing channels reference to retrieve Analytics marketing channels information. See the [Analytics API marketing channels reference](https://developer.adobe.com/analytics-apis/docs/2.0/apis/marketing-channels). | | August 1, 2026 |
-| **Analytics API marketing channels endpoint guide**<br/>The Adobe Analytics 2.0 API marketing channels endpoint guide provides instructions and examples for using the endpoint. See the [Analytics API marketing channels endpoint guide](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/marketing-channels). | | August 1, 2026 |
-| **Analytics 1.4 API EOL customer FAQ**<br/>The Analytics 1.4 API EOL customer FAQ provides information on recent 2.0 API development to assist customers leaving 1.4 APIs. | | August 10, 2026 |
+| **Limit segments to the reporting date range**<br/>Data in a Workspace report can extend beyond the reporting date range when a segment includes date range components.<p>A new option is now available that allows you to limit results to the reporting date range regardless of any date components included in the segment.</p><p>This option is available when creating or modifying a segment whose top-level container is Visitor.</p><p>For more information, see [Build segments](/help/components/segmentation/segmentation-workflow/seg-build.md#components).</p> | August 26, 2026 | September 9, 2026 |
+| **Bot detection updates**<br/>When using Edge Data Collection with the Web SDK, the following bot detection updates are available:<ul><li>You can now create bot detection rules to identify exceptions in traffic that would otherwise be treated as bot-generated. Existing and future rules will continue to default to marking matching traffic as bot-generated.</li><li>Custom bot rules now run before IAB bot detection rules. This change does not affect bot scores, but the bot rule names associated with an event may change.</li></ul><p>Note: This update applies only to Edge Data Collection implementations that use the Web SDK. It does not apply to older libraries such as AppMeasurement.</p><p>(Documentation link to follow.)</p> | | Early September 2026 |
+| **CX Enterprise Coworker: Analyze Adobe Analytics data in Coworker Chat** <br/>Adobe CX Enterprise Coworker Chat can now perform advanced data analysis that was previously possible only in Analysis Workspace. Coworker Chat accesses data from your Adobe Analytics report suites, allowing you to explore that data and get answers to natural-language prompts.<p>(Documentation link to follow.)</p> | | September 25, 2026 |
+| **CX Enterprise Coworker: Root-cause analysis skill** <br/>Adobe CX Enterprise Coworker Chat can now perform root-cause analysis, explaining why a metric changed, not just what changed. Coworker Chat identifies the date a shift occurred and compares the data before and after it, then breaks down the change by the dimensions driving it and its magnitude, shown as both a percentage and an absolute value. If no meaningful change is detected, Coworker Chat lets you know rather than speculating about a cause.<p>(Documentation link to follow.)</p> | | October 2, 2026 |
+| **CX Enterprise Coworker: Open a visualization in Analysis Workspace** <br/>Start a data analysis in Coworker Chat, then open the analysis as a visualization directly in Analysis Workspace to continue building, refining, and exploring.</p><p>(Documentation link to follow.)</p>  | | October 2, 2026 |
+| **Classification sets API updates**<br/>The Classification sets API documentation now includes updated endpoint and parameter information for configuring Classification sets API requests.<p>For more information, see the [Classifications endpoint guide](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/).</p> | September 5, 2026 | September 30, 2026 |
+| **Date itemId encoding guidance in the 2.0 API report guides**<br/>The Adobe Analytics 2.0 API date-trended report guides now include new sections explaining how date `itemId` parameters and values are encoded. This can help you configure and migrate to 2.0 API services from the now-deprecated 1.4 APIs.<p>For more information, see the [KPI report guide](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/kpi) and the [Advanced report guide](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/advanced).</p> | September 5, 2026 | September 30, 2026 |
 
 ### Fixes in Adobe Analytics
 
-**Activity Map**: AN-404862
-**Analysis Workspace**: AN-466867, AN-465995, AN-465315, AN-465313, AN-464375, AN-463634, AN-463248, AN-463175, AN-463049, AN-462347, AN-462124, AN-461922, AN-458398, AN-457849, AN-455002, AN-453357, AN-456863, AN-459816, AN-459034, AN-460774, AN-460671, AN-457760, AN-443594
-**Classifications**: AN-467138, AN-467118, AN-467069, AN-466054, AN-465987, AN-465636, AN-465380, AN-464650, AN-464286, AN-463688, AN-462413, AN-462252, AN-462141, AN-462063, AN-462005, AN-461862, AN-461806, AN-461777, AN-461158, AN-460954, AN-460905, AN-460850, AN-460803, AN-460272, AN-460023, AN-459814, AN-459367, AN-459328, AN-459300, AN-459279, AN-459006, AN-458417, AN-458403, AN-457829, AN-457400, AN-454408, AN-449670, AN-460956, AN-459269, AN-458789, AN-461778, AN-461191, AN-460996, AN-460506, AN-459988, AN-459854, AN-458994, AN-457561, AN-457055, AN-454224, AN-454172, AN-459473, AN-459277, AN-459026, AN-455270
-**Data Feeds and Data Warehouse**: AN-465273, AN-464245, AN-462435, AN-461000, AN-460700, AN-459225, AN-459192
-**Migration**: AN-458185, AN-454285, AN-459239
-**Exports**: 
-**Report Builder**: AN-465346, AN-464768, AN-464580, AN-464301, AN-463048, AN-462800, AN-457042, AN-461033, AN-459042, AN-454250, AN-451735, AN-450776, AN-450200, AN-451665
-**Reporting**: AN-467107, AN-459010, AN-455619, AN-459530, AN-454103
-**Report suites**: AN-464246, AN-463756, AN-462101
-**Scheduled reports**: AN-455009, AN-460037, AN-462093
-**Segmentation**: AN-459002, AN-457730, AN-457146
-**Other**: AN-467386, AN-466935, AN-462116, AN-458836, AN-451292, AN-454160, AN-458354, AN-455771, AN-426869, AN-437975
+**Activity Map**: AN-488579, AN-487247, AN-491828
+**Analysis Workspace**: AN-487374, AN-487119, AN-468907, AN-468810, AN-468363, AN-468096, AN-467414, AN-466986, AN-466982, AN-465073, AN-463571, AN-462373, AN-492801, AN-488821, AN-488452, AN-486517, AN-478930, AN-468325
+**Classifications**: AN-490825, AN-490802, AN-490549, AN-490472, AN-487782, AN-487286, AN-486531, AN-478859, AN-469929, AN-469033, AN-468944, AN-468827, AN-468592, AN-468326, AN-467115, AN-466995, AN-465636, AN-465616, AN-465380, AN-464911, AN-464338, AN-463677, AN-462729, AN-462577, AN-461040, AN-459316, AN-490072, AN-487100
+**Data Feeds and Data Warehouse**: AN-487624, AN-487287, AN-479923, AN-479166, AN-479109, AN-468483, AN-493406, AN-492167, AN-333098
+**Migration**: 
+**Exports**: AN-467131, AN-469034, AN-447252
+**Report Builder**: AN-487486, AN-478944, AN-470036, AN-468589, AN-468436, AN-456747, AN-456700, AN-442695, AN-492330, AN-490564, AN-468293, AN-460921
+**Reporting**: AN-468621, AN-465383, AN-463924
+**Report suites**: AN-468484, AN-468460, AN-465385, AN-463216
+**Scheduled reports**: AN-479157
+**Segmentation**: AN-486561, AN-278260
+**Other**: AN-488549, AN-467426, AN-465265, AN-464645, AN-459714, AN-459323, AN-454514, AN-487288, AN-470023, AN-469601, AN-320799, AN-316708, AN-309317, AN-266652
 
 ### End-of-life (EOL) notices {#eol}
 
 | EOL Product or Feature | Date added or updated | Description |
 | --- | --- | --- |
 | **Legacy Report Builder** | June 18, 2025 | The legacy Report Builder add-in will be retired in June 2026. All users should begin upgrading their legacy workbooks to the [new Report Builder](/help/analyze/report-builder/rb-overview.md). The new Report Builder is available to both Adobe Analytics and Customer Journey Analytics customers. It has [near feature parity](/help/analyze/report-builder/convert-workbooks.md#unsupported) plus many new convenient features and UI enhancements. To facilitate the upgrade process, the new Report Builder includes an easy workbook conversion feature. The new Report Builder is only available as an add-in through the Microsoft Store. Many organizations require an internal approval process before the add-in can be made available to users. Please allow time for this process and begin working with your organization now to ensure enough time to upgrade your workbooks prior to the EOL date. |
-| **Adobe Analytics API (version 1.4)** | July 17, 2024  | On **August 12, 2026**, the following Analytics Legacy API services will reach their end of life and will be shut down, and current integrations built using these services will stop working:<ul><li>Adobe Analytics API (version 1.4)</li><li>Adobe Analytics WSSE Authentication</li></ul><p>Integrations that use the Adobe Analytics API (version 1.4) must migrate to the [Adobe Analytics 2.0 API](https://developer.adobe.com/analytics-apis/docs/2.0/), while WSSE integrations must migrate to an OAuth-based authentication protocol in the [Adobe Developer Console](https://developer.adobe.com/console).</p><p>See the [Adobe Analytics 1.4 API EOL FAQ](https://developer.adobe.com/analytics-apis/docs/1.4/guides/eol/) for answers to common questions and further guidance.</p>  |
+| **Adobe Analytics API (version 1.4)** | July 17, 2024 | On **August 31, 2026**, the following Analytics Legacy API services reached their end of life and were shut down, and any integrations built using these services no longer function:<ul><li>Adobe Analytics API (version 1.4)</li><li>Adobe Analytics WSSE Authentication</li></ul><p>Integrations that use the Adobe Analytics API (version 1.4) must migrate to the [Adobe Analytics 2.0 API](https://developer.adobe.com/analytics-apis/docs/2.0/), while WSSE integrations must migrate to an OAuth-based authentication protocol in the [Adobe Developer Console](https://developer.adobe.com/console).</p><p>See the [Adobe Analytics 1.4 API EOL FAQ](https://developer.adobe.com/analytics-apis/docs/1.4/guides/eol/) for answers to common questions and further guidance.</p> |
 
 ## AppMeasurement
 

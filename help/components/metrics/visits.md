@@ -67,4 +67,4 @@ Visits in context of a dimension (for example, [Marketing channel](../dimensions
 
 ## Visits All Visitors in Data Warehouse
 
-The metric 'Visits - All Visitors' is available in Data Warehouse in addition to the 'Visits' metric. The 'Visits - All Visitors' metric is comparable to the 'Visits' metric in other Analytics tools. The 'Visits' metric in Data Warehouse excludes visitors that don't have persistent cookies. Adobe recommends using 'Visits - All Visitors' in Data Warehouse requests where visits are desired as a metric.
+The metric 'Visits - All Visitors' is available in Data Warehouse instead of the 'Visits' metric. The 'Visits - All Visitors' metric is comparable to the 'Visits' metric in other Analytics tools. The 'Visits' metric in Data Warehouse excludes visitors that don't have persistent cookies. Adobe recommends using 'Visits - All Visitors' in Data Warehouse requests where visits are desired as a metric.

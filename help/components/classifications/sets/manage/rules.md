@@ -25,6 +25,11 @@ The dimension must contain values that allow you to apply one or more rules so y
 
 You define rules within the context of a classification set. This context implies that rules are applied (when activated) to all report suite and key dimension combinations that are subscribed to the classification set. This implementation is different from how the legacy Classification rule builder works. In the Classification rule builder, you define one or more rules as part of a rule set separately, and then associate the rule set with one or more report suites. In the new interface, the rules within the classification set are also referred to as rule set. However, the rule sets are defined within the same interface where you configure other classification set attributes.
 
+>[!IMPORTANT]
+>
+>The different context implies that sub-classifications are evaluated against the value of the sub-classifications immediate parent classification column, and not against the original root dimension value.
+
+
 
 To define a rule set for a classification set:
 

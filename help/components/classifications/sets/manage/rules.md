@@ -19,7 +19,7 @@ topic_v2:
 ---
 # Classification sets rules
 
-You use rules to support automatic classifications in scenarios where your key dimension is constantly changing. The update of classifications through [upload](/help/components/classifications/sets/manage/schema.md#upload) or [automation](/help/components/classifications/sets/manage/schema.md#automate) becomes a cumbersome process or lags proper classification for new dimension values. For example, internal campaigns, tracking codes, or product SKUs. 
+You use rules to support automatic classifications in scenarios where your key dimension is constantly changing. The update of classifications through [upload](/help/components/classifications/sets/manage/schema.md#upload) or [automation](/help/components/classifications/sets/manage/schema.md#automate) becomes a cumbersome process or lacks proper classification for new dimension values. For example, internal campaigns, tracking codes, or product SKUs. 
 
 The dimension must contain values that allow you to apply one or more rules so you can derive classification data from the dimension values.
 
@@ -38,7 +38,7 @@ To define a rule set for a classification set:
 1. In the **[!UICONTROL Classifications Sets]** manager, select the classification set for which you want to define the rules.
 1. In the **[!UICONTROL Classification Set: _classification set name_]** dialog, select the **[!UICONTROL Rules]** tab. 
 
-   * If you are accessing the **[!UICONTROL Rules]** interface for the first time for a classification set, or decided so far to continue to use the legacy rules builder interface, you are presented with a dialog that allows you to select how to get started. The options are:
+   * If accessing the **[!UICONTROL Rules]** interface for the first time, or if using the legacy builder, a dialog appears to help you get started. The options are:
 
      * **Migrate existing rules**. Import your current classification rules and continue to work with these rules in the new interface. Your existing rules are preserved and converted to the new format. 
        * Select **[!UICONTROL Migrate rules]** to continue.
@@ -171,7 +171,7 @@ Enter a value for **[!UICONTROL Contains]**. For example: `Winter`.
 
 #### Use case
 
-You want to define a rule to assign `Winter Sale` as a value to the **[!UICONTROL Type]** classification when the value for key dimension Internal Campaign contains with `Winter` (for example: `fb:Winter:FY2024`).
+You want to define a rule to assign `Winter Sale` as a value to the **[!UICONTROL Type]** classification when the value for key dimension Internal Campaign contains `Winter` (for example: `fb:Winter:FY2024`).
 
 
 >[!BEGINTABS]
@@ -231,7 +231,7 @@ Enter a value for **[!UICONTROL Regular Expression]**. For example: `^(.+)\:(.+)
 
 #### Use case
 
-You want to define a rule to assign values to the **[!UICONTROL Channel]**, **[!UICONTROL Type]**, and **[!UICONTROL Year]** classifications by applying the regular expression `^(.+)\:(.+)\:FY(.+)$` and using match groups (`$1`, `$2`, and `$3`) to the values for the key dimension Internal Campaign.
+Define a rule to assign values to the **[!UICONTROL Channel]**, **[!UICONTROL Type]**, and **[!UICONTROL Year]** classifications by applying the regular expression `^(.+)\:(.+)\:FY(.+)$` and using match groups (`$1`, `$2`, and `$3`) to the Internal Campaign key dimension.
 
 >[!BEGINTABS]
 
@@ -318,7 +318,7 @@ The last rule determines the value for the classification if:
 * A key dimension value is matched to multiple rules. 
 * The rules set contain rules with the same **[!UICONTROL Set Classification]** operation. 
  
-So, you should rank the most important **[!UICONTROL Set Classification]** operation as part of the last rule in your rule set.
+Rank the most important **[!UICONTROL Set Classification]** operation as part of the last rule in your rule set.
 
 If you create multiple rules that do not share the same **[!UICONTROL Set Classification]** operation, processing order does not matter.
 

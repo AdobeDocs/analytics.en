@@ -49,7 +49,7 @@ Most digital assistants follow a similar high-level architecture:
 
 ## How data is sent to Adobe Analytics
 
-A digital assistant app typically runs on a server or platform that has no Adobe client-side library (AppMeasurement or the Web SDK). Send hits **server-side using the [Data Insertion API](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/)**. Each interaction you want to measure becomes a Data Insertion API request whose query string (or XML body) carries the variables described on this page — most often [context data variables](/help/implement/vars/page-vars/contextdata.md) that you map to eVars, props, and events with [processing rules](/help/admin/tools/processing-rules/c-processing-rules.md).
+A digital assistant app typically runs on a server or platform that has no Adobe client-side library (AppMeasurement or the Web SDK). Send hits **server-side using the [Data Insertion API](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/)**. Each interaction you want to measure becomes a Data Insertion API request whose query string (or XML body) carries the variables described on this page — most often [context data variables](/help/implement/vars/page-vars/contextdata.md) that you map to eVars, props, and events with [processing rules](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md).
 
 This page focuses on *what* to measure and how to model it in Analytics. For the endpoint, the query-string and XML encodings, required components, and response types, see the [Data Insertion API documentation](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/). Each variable named below maps to a query-string parameter and XML tag in the [variable reference](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference).
 
@@ -76,7 +76,7 @@ Organizations often build apps for multiple platforms. Include an app ID on ever
 
 Adobe Analytics uses the [Adobe Visitor ID Service](https://experienceleague.adobe.com/en/docs/id-service/using/home) to tie interactions over time to the same person. Most digital assistants return a `userID` that you can use as a unique identifier — pass it as the visitor ID override (`vid`). Some platforms return an identifier longer than the 100 characters allowed; in these cases, hash it to a fixed-length value with a standard algorithm such as MD5 or SHA-1.
 
-Using the Visitor ID Service provides the most value when you map ECIDs across devices (for example, web to digital assistant). If your app is a mobile app, use the Experience Platform Mobile SDK and send the user ID with the `setCustomerID` method. If your app is a service, use the user ID provided by the service as the visitor ID and also set it with `setCustomerID`. For how to set identifiers on a server-side request, see [Visitor identification using the Data Insertion API](id/data-insertion.md).
+Using the Visitor ID Service provides the most value when you map ECIDs across devices (for example, web to digital assistant). If your app is a mobile app, use the Experience Platform Mobile SDK and send the user ID with the `setCustomerID` method. If your app is a service, use the user ID provided by the service as the visitor ID and also set it with `setCustomerID`. For how to set identifiers on a server-side request, see [Visitor identification using the Data Insertion API](../id/data-insertion.md).
 
 ### Sessions
 

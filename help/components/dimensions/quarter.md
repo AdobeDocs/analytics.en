@@ -32,7 +32,16 @@ The 'Quarter' [dimension](overview.md) reports the quarter that a given metric o
 
 ## Populate this dimension with data
 
-This dimension works out of the box for all implementations. If a report suite contains data, this dimension works.
+This dimension is derived from the timestamp of each hit. There is no variable to set; it works out of the box in any implementation.
+
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | None (derived from the hit timestamp) |
+| **Web SDK / XDM field** | None (derived from the hit timestamp) |
+| **Query parameter** | N/A |
+| **XML tag** | N/A |
+| **Byte limit** | N/A |
+| **Persistence** | Hit |
 
 ## Dimension items
 

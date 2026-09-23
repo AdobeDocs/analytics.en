@@ -33,7 +33,7 @@ topic_v2:
 ---
 # End-of-life for full processing data sources
 
-Full processing data sources have historically enabled organizations to submit hit-level data to Adobe Analytics. This data was processed in the same way as data collected through traditional data collection means, such as AppMeasurement. In 2020, Adobe released the [Bulk data insertion API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/), which performs the same functions as full processing data sources, but with additional features. This page provides details about additional functionality provided by the Bulk data insertion API and outlines differences in file formats.
+Full processing data sources have historically enabled organizations to submit hit-level data to Adobe Analytics. This data was processed in the same way as data collected through traditional data collection means, such as AppMeasurement. In 2020, Adobe released the [Bulk data insertion API](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/), which performs the same functions as full processing data sources, but with additional features. This page provides details about additional functionality provided by the Bulk data insertion API and outlines differences in file formats.
 
 On 25 March 2021, Adobe prevented new full processing data sources connections from being created. On 31 January 2022, all full processing data services were deactivated.
 
@@ -43,7 +43,7 @@ On 25 March 2021, Adobe prevented new full processing data sources connections f
 * Bulk data insertion has data validation and error handling capabilities, removing some of the administrative work of submitting hit data.
 * Bulk data insertion supports multiple visitor ID identification methods.
 * Bulk data insertion has some additional required fields: A visitor identification column, a `pageName` (or link equivalent), `reportSuiteID`, `timestamp`, and `userAgent`.
-* To ensure visitor continuity and attribution, Bulk data insertion requires rows within files to be sorted in chronological order. See [Visitor Groups](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/visitor-groups/) to learn about the ordering of Visitor activity across files.
+* To ensure visitor continuity and attribution, Bulk data insertion requires rows within files to be sorted in chronological order. See [Visitor Groups](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/visitor-groups/) to learn about the ordering of Visitor activity across files.
 * Bulk data insertion requires files to be .csv compressed in .gzip format.
 * BDIA uses `timestamp` instead of `date`.
 

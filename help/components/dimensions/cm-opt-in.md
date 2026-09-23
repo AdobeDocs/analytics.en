@@ -37,7 +37,16 @@ This dimension collects data from the following [Context data variables](/help/i
 * `contextData.['opt.dmp']` when set to `Y`. If `opt.dmp` equals `N`, the [Consent Management Opt-Out](cm-opt-out.md) dimension is populated instead.
 * `contextData.['opt.sell']` when set to `Y`. If `opt.sell` equals `N`, the [Consent Management Opt-Out](cm-opt-out.md) dimension is populated instead.
 
-Your organization determines the logic to implement these context data variables. They do not persist beyond the hit that they are set on, so you must set each context data variable on each page.
+Your organization determines the logic to implement these context data variables. Set each context data variable on every page.
+
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | None (set via consent signals) |
+| **Web SDK / XDM field** | None |
+| **Query parameter** | N/A |
+| **XML tag** | N/A |
+| **Byte limit** | 100 bytes |
+| **Persistence** | Hit |
 
 ## Dimension items
 

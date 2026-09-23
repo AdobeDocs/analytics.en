@@ -34,7 +34,16 @@ The 'Regions' [dimension](overview.md) reports the geographic region of the visi
 
 ## Populate this dimension with data
 
-This dimension references lookup rules internal to Adobe. The lookup value is based on the IP address sent with the hit. Adobe partners with [Digital Element](https://www.digitalelement.com/) to maintain lookups between IP address and country. This dimension works out of the box for all implementations.
+Adobe derives this dimension server-side from the visitor's IP address, matching it against an internal lookup table. Adobe partners with [Digital Element](https://www.digitalelement.com/) to maintain lookups between IP address and region. There is no variable to set. This dimension works out of the box for all implementations.
+
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | None (derived from the visitor's IP address) |
+| **Web SDK / XDM field** | None (derived from the visitor's IP address) |
+| **Query parameter** | N/A |
+| **XML tag** | N/A |
+| **Byte limit** | N/A |
+| **Persistence** | N/A |
 
 ## Dimension items
 

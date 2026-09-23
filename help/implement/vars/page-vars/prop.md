@@ -37,7 +37,11 @@ topic_v2:
 ---
 # prop
 
+>[!BEGINSHADEBOX]
+
 *This help page describes how to implement props. For information on how props work as a dimension, see [prop](/help/components/dimensions/prop.md) in the Components user guide.*
+
+>[!ENDSHADEBOX]
 
 Props are custom variables that you can use however you'd like. They do not persist beyond the hit that they are set.
 

@@ -44,7 +44,16 @@ This dimension is hit-based, meaning that the value is different for every hit. 
 
 ## Populate this dimension with data
 
-This dimension works out of the box for all implementations. If a report suite contains data, this dimension works.
+Adobe computes this dimension server-side from the elapsed time between each hit and the next hit in the visit. There is no variable to set; it works out of the box for all implementations.
+
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | None (computed by Adobe) |
+| **Web SDK / XDM field** | None (computed by Adobe) |
+| **Query parameter** | N/A |
+| **XML tag** | N/A |
+| **Byte limit** | N/A |
+| **Persistence** | Hit |
 
 ## Dimension items
 

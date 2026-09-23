@@ -45,7 +45,16 @@ If you want to distinguish paid and natural search, [Paid search detection](/hel
 
 ## Populate this dimension with data
 
-This dimension references multiple lookup tables internal to Adobe. Each value is based on the [referrer](referrer.md) of the hit, which depends on [Internal URL filters](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md). Make sure that the referrer dimension and internal URL filters are configured correctly.
+Adobe derives this dimension from the search-engine [referrer](referrer.md) of each hit, extracting the keyword from the referrer's query string. There is no variable to set. Because each value depends on the referrer, make sure that the referrer dimension and [Internal URL filters](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) are configured correctly.
+
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | None (derived from the search-engine referrer) |
+| **Web SDK / XDM field** | None (derived from the search-engine referrer) |
+| **Query parameter** | N/A |
+| **XML tag** | N/A |
+| **Byte limit** | N/A |
+| **Persistence** | N/A |
 
 ## Dimension items
 

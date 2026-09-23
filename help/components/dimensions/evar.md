@@ -44,7 +44,11 @@ topic_v2:
 ---
 # eVar
 
+>[!BEGINSHADEBOX]
+
 *This help page describes how eVars work as a [dimension](overview.md). For information on how to implement eVars, see [eVars](/help/implement/vars/page-vars/evar.md) in the Implement user guide.*
+
+>[!ENDSHADEBOX]
 
 eVars are custom [dimensions](overview.md) that you can use however you like. If you have a [solution design document](/help/implement/prepare/solution-design.md), most dimensions specific to your organization end up as [!UICONTROL eVars].
 
@@ -58,9 +62,16 @@ The (upper or lower) case used in reports is based on the first value that you s
 
 ## Populate eVars with data
 
-Each eVar collects data from the [`v1` - `v250` query string](/help/implement/validate/query-parameters.md) in image requests. For example, the `v1` query string parameter collects data for eVar1, while the `v222` query string parameter collects data for eVar222.
+Set eVars explicitly in your implementation. Values persist and tie to metrics based on allocation and expiration — see [How eVars work](#how-evars-work) below.
 
-AppMeasurement, which compiles JavaScript variables into an image request for data collection, uses the variables `eVar1` - `eVar250`. See [eVar](/help/implement/vars/page-vars/evar.md) in the Implement user guide for implementation guidelines.
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | [`eVar1` - `eVar250`](/help/implement/vars/page-vars/evar.md) |
+| **Web SDK / XDM field** | [`xdm._experience.analytics.customDimensions.eVars.eVar1` - `eVar250`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) |
+| **Query parameter** | [`v1` - `v250`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **XML tag** | [`<eVar1>` - `<eVar250>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **Byte limit** | 255 bytes |
+| **Persistence** | Configurable |
 
 ## Dimension items
 

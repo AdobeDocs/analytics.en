@@ -36,7 +36,11 @@ topic_v2:
 ---
 # Prop
 
+>[!BEGINSHADEBOX]
+
 *This help page describes how props work as a [dimension](overview.md). For information on how to implement props, see [props](/help/implement/vars/page-vars/prop.md) in the Implement user guide.*
+
+>[!ENDSHADEBOX]
 
 Props are custom variables that you can use however you'd like. They do not persist beyond the hit that they are set.
 
@@ -48,9 +52,16 @@ If you have a [solution design document](/help/implement/prepare/solution-design
 
 ## Populate props with data
 
-Each prop collects data from the [`c1` - `c75` query string](/help/implement/validate/query-parameters.md) in image requests. For example, the `c1` query string parameter collects data for prop1, while the `c68` query string parameter collects data for prop68.
+Each prop collects data using the corresponding [`prop1` - `prop75`](/help/implement/vars/page-vars/prop.md) variable in AppMeasurement. For example, the `prop1` variable populates the prop1 dimension, while the `prop68` variable populates the prop68 dimension.
 
-AppMeasurement, which compiles JavaScript variables into an image request for data collection, uses the variables `prop1` - `prop75`. See [prop](/help/implement/vars/page-vars/prop.md) in the Implement user guide for implementation guidelines.
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | [`prop1` - `prop75`](/help/implement/vars/page-vars/prop.md) |
+| **Web SDK / XDM field** | [`_experience.analytics.customDimensions.props.prop1` - `prop75`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) |
+| **Query parameter** | [`c1` - `c75`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **XML tag** | [`<prop1>` - `<prop75>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **Byte limit** | 100 bytes |
+| **Persistence** | Hit |
 
 ## Dimension items
 

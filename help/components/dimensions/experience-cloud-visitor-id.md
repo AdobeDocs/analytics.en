@@ -34,6 +34,15 @@ The 'Experience Cloud Visitor ID' [dimension](overview.md) provides the ECID for
 
 This dimension requires an implementation that uses the Visitor ID Service (VisitorAPI) or Experience Platform Identity Service. It corresponds to the `mcvisid` column in data feeds. See [Data column reference](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md) for more information.
 
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | None (set by the Experience Cloud Visitor ID Service) |
+| **Web SDK / XDM field** | None (set by the Experience Cloud Identity Service) |
+| **Query parameter** | [`mid`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **XML tag** | [`<marketingCloudVisitorId>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **Byte limit** | N/A |
+| **Persistence** | N/A |
+
 ## Dimension items
 
 Dimension items include the Experience Cloud ID of each visitor.

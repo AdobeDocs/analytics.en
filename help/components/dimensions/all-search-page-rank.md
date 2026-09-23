@@ -30,7 +30,16 @@ The 'All search page rank' [dimension](overview.md) provides insight on which pa
 
 ## Populate this dimension with data
 
-Getting this dimension to work only requires that your report suite have [Internal URL filters](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) set up correctly. AppMeasurement automatically populates this dimension without any implementation code changes.
+Adobe derives this dimension from the search-engine [referrer](referrer.md) of each hit, determining which page of search results the visitor clicked through. There is no variable to set. Getting this dimension to work only requires that your report suite have [Internal URL filters](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) set up correctly.
+
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | None (derived from the search-engine referrer) |
+| **Web SDK / XDM field** | None (derived from the search-engine referrer) |
+| **Query parameter** | N/A |
+| **XML tag** | N/A |
+| **Byte limit** | N/A |
+| **Persistence** | N/A |
 
 ## Dimension items
 

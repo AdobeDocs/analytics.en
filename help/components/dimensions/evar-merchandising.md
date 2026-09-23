@@ -26,7 +26,11 @@ topic_v2:
 ---
 # eVar (Merchandising)
 
+>[!BEGINSHADEBOX]
+
 *This help page describes how merchandising eVars work as a [dimension](overview.md). For information on how to implement merchandising eVars, see [eVar (merchandising variable)](/help/implement/vars/page-vars/evar-merchandising.md) in the Implementation user guide.*
+
+>[!ENDSHADEBOX]
 
 For a detailed discussion of how merchandising eVars work, see [Merchandising eVars and product finding methods](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/merchandising-evars.md).
 

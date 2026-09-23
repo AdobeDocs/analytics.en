@@ -38,9 +38,16 @@ This dimension is related to the [Site section](site-section.md) and [Server](se
 
 ## Populate this dimension with data
 
-This dimension retrieves data from the [`pageName` query string](/help/implement/validate/query-parameters.md) in [Page view calls (`t()`)](/help/implement/vars/functions/t-method.md). [Link tracking calls (`tl()`)](/help/implement/vars/functions/tl-method.md) always strip this dimension, even if the `pageName` query string exists.
+Set the [`pageName`](/help/implement/vars/page-vars/pagename.md) variable in [Page view calls (`t()`)](/help/implement/vars/functions/t-method.md). If the `pageName` variable is not set, this dimension falls back to using the [`pageURL`](/help/implement/vars/page-vars/pageurl.md) variable. [Link tracking calls (`tl()`)](/help/implement/vars/functions/tl-method.md) always strip this dimension, even if the `pageName` value exists.
 
-AppMeasurement collects this data using the [`pageName`](/help/implement/vars/page-vars/pagename.md) variable. If the `pageName` variable is not set, this dimension falls back to using the [`pageURL`](/help/implement/vars/page-vars/pageurl.md) variable.
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | [`pageName`](/help/implement/vars/page-vars/pagename.md) |
+| **Web SDK / XDM field** | [`web.webPageDetails.name`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/webpage-details) |
+| **Query parameter** | [`pageName`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **XML tag** | [`<pageName>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **Byte limit** | 100 bytes |
+| **Persistence** | Hit |
 
 ## Dimension items
 

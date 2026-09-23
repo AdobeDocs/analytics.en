@@ -42,9 +42,16 @@ Browser dimensions are always smaller than monitor resolution, since browser dim
 
 ## Populate this dimension with data
 
-This dimension retrieves data from the [`s` query string](/help/implement/validate/query-parameters.md) in image requests. AppMeasurement collects this data using the JavaScript variable `screen.width` and `screen.height` in the browser. If you use an AppMeasurement library (such as through tags in Adobe Experience Platform), this dimension works out of the box.
+Monitor resolution is collected automatically, client-side, from the browser's `screen.width` and `screen.height` properties. It works out of the box in any AppMeasurement or Web SDK (tags) implementation — there is no variable to set. If you collect data outside of AppMeasurement or the Web SDK (such as through the API), send the value in image requests. If it is missing or a data collection library otherwise cannot collect monitor resolution, that data is listed under [!UICONTROL `Not Specified`].
 
-If you use a data collection method outside of AppMeasurement (such as through the API), make sure that you include the `s` query string parameter in image requests. If the `s` query string is missing or a data collection library otherwise cannot collect monitor resolution, that data is listed under [!UICONTROL `Not Specified`].
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | None (auto-collected) |
+| **Web SDK / XDM field** | None (auto-collected) |
+| **Query parameter** | [`s`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **XML tag** | [`<resolution>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **Byte limit** | 20 bytes |
+| **Persistence** | N/A |
 
 ## Dimension items
 

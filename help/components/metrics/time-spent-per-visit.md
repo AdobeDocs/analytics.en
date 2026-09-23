@@ -23,7 +23,11 @@ role_v2:
 ---
 # Time spent per visit (seconds)
 
+>[!BEGINSHADEBOX]
+
 *This help page describes how 'Time spent per visit' works as a metric. See the [Time spent per visit](../dimensions/time-spent-per-visit.md) dimension for more information.*
+
+>[!ENDSHADEBOX]
 
 The 'Time spent per visit (seconds)' [metric](overview.md) shows the average amount of time that visitors interact with a given dimension item during each visit.
 

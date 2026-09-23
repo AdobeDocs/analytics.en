@@ -46,10 +46,16 @@ The same report can show different results between Analysis Workspace and Data W
 
 ## Populate this dimension with data
 
-This dimension requires configuration in the Analytics interface and data in image requests.
+Adobe derives this dimension from the [referrer](referrer.md) of each hit, using the domain portion of the referrer URL. There is no variable to set. You must configure your report suite's [Internal URL filters](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md); failure to do so can either include internal domains or prevent external domains from appearing.
 
-* Within your implementation, this dimension retrieves data from the [`r` query string](/help/implement/validate/query-parameters.md) in image requests. AppMeasurement collects this data using the JavaScript variable `document.referrer` in the browser. If you use an AppMeasurement library (such as through tags in Adobe Experience Platform), this dimension works out of the box. If you use a data collection method outside of AppMeasurement (such as through the API), make sure that you include the `r` query string parameter in image requests.
-* Within the Analytics interface, you must configure your report suite's [Internal URL filters](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md). Failure to configure internal URL filters can either include internal domains or prevent external domains from appearing.
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | None (derived from the referrer) |
+| **Web SDK / XDM field** | None (derived from the referrer) |
+| **Query parameter** | N/A |
+| **XML tag** | N/A |
+| **Byte limit** | N/A |
+| **Persistence** | Visit |
 
 Adobe persists referring domain for a visit. If a visitor leaves and clicks through a link on a different domain within a single visit, the new value updates and persists for the remainder of the visit. If you only want to see the original value, see [Original referring domain](original-referring-domain.md).
 

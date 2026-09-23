@@ -27,7 +27,16 @@ The 'Identified state' [dimension](overview.md) is specific to [Cross-Device Ana
 
 ## Populate this dimension with data
 
-As long as you have [Cross-Device Analytics](../cda/overview.md) configured for a virtual report suite, this dimension works out of the box.
+This dimension is computed by [Cross-Device Analytics](../cda/overview.md) at the time a report is run, based on whether each hit was stitched to a person. As long as Cross-Device Analytics is configured for a virtual report suite, it works out of the box; there is no variable to set.
+
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | None (computed by Cross-Device Analytics) |
+| **Web SDK / XDM field** | None (computed by Cross-Device Analytics) |
+| **Query parameter** | N/A |
+| **XML tag** | N/A |
+| **Byte limit** | N/A |
+| **Persistence** | N/A |
 
 ## Dimension items
 

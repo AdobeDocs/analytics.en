@@ -32,7 +32,16 @@ The 'Visitor ID' [dimension](overview.md) provides the unique identifier for eac
 
 ## Populate this dimension with data
 
-Adobe automatically generates a visitor ID for each visitor. This value is the same as the concatenated value of the `visid_high` and `visid_low` columns in data feeds. See [Data column reference](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md) for more information.
+Adobe automatically generates a visitor ID for each visitor. This value is the same as the concatenated value of the `visid_high` and `visid_low` columns in data feeds. You can override the automatically generated value with the `visitorID` variable. See [Data column reference](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md) for more information.
+
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | [`visitorID`](/help/implement/vars/config-vars/visitorid.md) |
+| **Web SDK / XDM field** | None |
+| **Query parameter** | [`vid`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **XML tag** | [`<visitorId>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **Byte limit** | 255 bytes |
+| **Persistence** | N/A |
 
 ## Dimension items
 

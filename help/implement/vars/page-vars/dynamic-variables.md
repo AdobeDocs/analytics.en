@@ -33,7 +33,7 @@ Dynamic variables let you copy values from one variable to another without incre
 
 In previous versions of Analytics, image request length was important to prevent truncated data. Improvements to AppMeasurement allow much longer image request query strings, so dynamic variables are typically not needed.
 
-Dynamic variables support query string parameters or HTTP headers in an image request. See [data collection query parameters](../../validate/query-parameters.md) for a full list of available parameters to reference. See [Standard request fields](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields#Request_fields) on Wikipedia for a full list of available HTTP request fields to reference.
+Dynamic variables support query string parameters or HTTP headers in an image request. See [data collection query parameters](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference) for a full list of available parameters to reference. See [Standard request fields](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields#Request_fields) on Wikipedia for a full list of available HTTP request fields to reference.
 
 When Adobe recognizes a dynamic variable prefix, it automatically copies the query string or HTTP header value in your report suite. This action happens before any other processing, including processing rules and VISTA rules.
 

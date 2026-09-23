@@ -38,19 +38,20 @@ The 'Download link' [dimension](overview.md) reports the names of download links
 
 ## Populate this dimension with data
 
-This dimension collects data from the [`pev2` query string](/help/implement/validate/query-parameters.md) in image requests, depending on the value in the `pe` query string. The `pe` query string determines which link dimension receives the `pev2` value:
-
-* **[Custom link](custom-link.md)**: `lnk_o`
-* **Download link** (this page): `lnk_d`
-* **[Exit link](exit-link.md)**: `lnk_e`
-
-If `pev2` is not provided, the link URL (`pev1`) is used as the dimension value instead. When a link name is explicitly provided, the maximum length is 100 bytes. Values derived from the link URL are not subject to this limit.
-
-To populate this dimension using AppMeasurement, send a [`tl()`](/help/implement/vars/functions/tl-method.md) image request with a link type argument of `"d"`. Set the link name argument to the desired value:
+This dimension is populated by [link tracking calls (`tl()`)](/help/implement/vars/functions/tl-method.md). There is no dedicated variable to set. Instead, send a `tl()` image request with a link type argument of `"d"` and set the link name argument to the desired value. The `pe` query string routes the link name to the correct link dimension (`lnk_o` for [custom links](custom-link.md), `lnk_d` for [download links](download-link.md), and `lnk_e` for [exit links](exit-link.md)). If a link name is not provided, the link URL is used as the dimension value instead, and URL-derived values are not subject to the byte limit.
 
 ```js
 s.tl(true,"d","Example download link");
 ```
+
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | [`tl()`](/help/implement/vars/functions/tl-method.md) |
+| **Web SDK / XDM field** | None |
+| **Query parameter** | [`pev2`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **XML tag** | [`<linkName>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **Byte limit** | 100 bytes |
+| **Persistence** | Hit |
 
 ## Dimension items
 

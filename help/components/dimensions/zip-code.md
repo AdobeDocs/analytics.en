@@ -36,17 +36,21 @@ The 'Zip code' [dimension](overview.md) reports the zip or postal code of the vi
 
 ## Populate this dimension with data
 
-This dimension is unique in that it contains multiple ways to populate it with data. You can use either one, or a combination of both.
+This dimension is unique in that it contains multiple ways to populate it with data. You can use either one, or a combination of both:
 
-* Set the zip code directly using the `zip` variable; or
-* Configure it to pull from geolocation data.
+* Set the zip code directly using the [`zip`](/help/implement/vars/page-vars/zip.md) variable.
+* Configure it to pull from geolocation data. When geo zip is used, no variable is set. For AppMeasurement implementations, this dimension works out of the box. For Web SDK implementations, enable [!UICONTROL Geo Lookup] when [configuring a datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html).
 
-The [!UICONTROL Zip option] under [General account settings](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) controls how you want to populate this dimension.
+The [!UICONTROL Zip option] under [General account settings](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) controls how you want to populate this dimension. The reference table below applies when you set the `zip` variable directly.
 
-If you choose to use any option that involves geo zip:
-
-* For AppMeasurement implementations, this dimension works out of the box.
-* For Web SDK implementations, enable [!UICONTROL Geo Lookup] when [configuring a datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html).
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | [`zip`](/help/implement/vars/page-vars/zip.md) |
+| **Web SDK / XDM field** | [`placeContext.geo.postalCode`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/geo) |
+| **Query parameter** | [`zip`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **XML tag** | [`<zip>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **Byte limit** | 50 bytes |
+| **Persistence** | Hit |
 
 ## Dimension items
 

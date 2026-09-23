@@ -35,7 +35,7 @@ Use of these fields is recommended if you intend to use Customer Journey Analyti
 
 Most data object fields in this table correspond to a [mapped XDM field](xdm-var-mapping.md). During Adobe Analytics ingestion, values are first mapped from XDM to Analytics variables. Recognized data object fields are then mapped and overwrite any previously set values when they map to the same Analytics variable. For example, if `data.__adobe.analytics.events` is present, it replaces the entire set of events that would otherwise be derived from XDM; events are not combined across both sources. An empty string (`""`) in a data object field blanks its mapped Analytics variable for the hit, even if the corresponding XDM field contains a value.
 
-Some data object fields also support their respective [Query parameter value](../validate/query-parameters.md) as shorthand values. You can use standard data object fields and shorthand data object fields interchangeably, as long as they are each for unique variables. Avoid setting both a standard data object field and its respective shorthand data object field at the same time. Adobe cannot guarantee which field takes priority.
+Some data object fields also support their respective [Query parameter value](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference) as shorthand values. You can use standard data object fields and shorthand data object fields interchangeably, as long as they are each for unique variables. Avoid setting both a standard data object field and its respective shorthand data object field at the same time. Adobe cannot guarantee which field takes priority.
 
 ## Data object field mapping
 

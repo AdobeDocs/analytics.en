@@ -31,7 +31,16 @@ The 'Referrer type' [dimension](overview.md) reports which generic channels visi
 
 ## Populate this dimension with data
 
-This dimension references multiple lookup tables internal to Adobe. Each value is based on the [referrer](referrer.md) of the hit, which depends on [Internal URL filters](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md). Make sure that the referrer dimension and internal URL filters are configured correctly.
+Adobe derives this dimension from the [referrer](referrer.md) of each hit, matching it against multiple lookup tables internal to Adobe. There is no variable to set. Because each value depends on the referrer, make sure that the referrer dimension and [Internal URL filters](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) are configured correctly.
+
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | None (derived from the referrer) |
+| **Web SDK / XDM field** | None (derived from the referrer) |
+| **Query parameter** | N/A |
+| **XML tag** | N/A |
+| **Byte limit** | N/A |
+| **Persistence** | N/A |
 
 ## Dimension items
 

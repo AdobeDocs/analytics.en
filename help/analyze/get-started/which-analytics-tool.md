@@ -89,7 +89,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparison of to
 
 * When you engage with a 3rd-party provider that has built a supported connection with Adobe Analytics. Integration apps typically incorporate summary-level data into Adobe Analytics permanently and automatically, on a recurring basis.
 
-**[Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
+**[Bulk Data Insertion API](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/)**
 
 * The Bulk Data Insertion API accepts CSV formatted files containing event data, one event per row. Adobe recommends using the Bulk Insertion API for any implementation that requires server-side code or otherwise cannot use AppMeasurement or the Web SDK for data collection.
 

@@ -100,6 +100,6 @@ The debugger has several options available, all of which customize how data is d
 * **[!UICONTROL Displayed Experience Cloud products]**: Shows or hides image requests for each respective CX Enterprise product.
 * **[!UICONTROL URL Decode]**: URL decodes the image request to match what is displayed in reporting. Adobe recommends leaving this box checked.
 * **[!UICONTROL Auto Refresh]**: Automatically refreshes the pop-up every few seconds to check for more image requests on the page. If you need to copy/paste content in the debugger, disable auto-refresh so your selection stays.
-* **[!UICONTROL Friendly Format]**: Toggles the display format between helpful labels and raw query strings in an image request. See [Data collection query parameters](query-parameters.md) for more information.
+* **[!UICONTROL Friendly Format]**: Toggles the display format between helpful labels and raw query strings in an image request. See [Data collection query parameters](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference) for more information.
 
 To save default display options for the debugger, right click the 'Adobe Debugger' link in the top right corner, then copy the link address. Edit your current debugger bookmarklet and paste the updated code snippet into the URL field.

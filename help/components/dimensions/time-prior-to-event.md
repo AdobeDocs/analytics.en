@@ -32,7 +32,16 @@ The 'Time prior to event' [dimension](overview.md) reports the amount of time th
 
 ## Populate this dimension with data
 
-While this dimension technically works out of the box for all implementations, it works best with custom and purchase events. Adobe recommends implementing custom events on your site. If you implement custom events, no additional implementation is required for this dimension.
+Adobe computes this dimension server-side from the elapsed time between the first hit of the visit and the target event. There is no variable to set. While it technically works out of the box, it works best when custom and purchase events are implemented on your site.
+
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | None (computed by Adobe) |
+| **Web SDK / XDM field** | None (computed by Adobe) |
+| **Query parameter** | N/A |
+| **XML tag** | N/A |
+| **Byte limit** | N/A |
+| **Persistence** | N/A |
 
 ## Dimension items
 

@@ -47,6 +47,15 @@ Using any other dimension or metric with this dimension does not return data.
 
 If you have enabled [Bot rules](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md), this dimension automatically collects data. If you have not yet enabled [!UICONTROL Bot rules], this dimension does not appear in Analysis Workspace.
 
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | None (derived by bot detection rules) |
+| **Web SDK / XDM field** | None (derived by bot detection rules) |
+| **Query parameter** | N/A |
+| **XML tag** | N/A |
+| **Byte limit** | N/A |
+| **Persistence** | N/A |
+
 ## Dimension items
 
 Each dimension item lists the name of the bot that matched IAB or custom bot rule criteria.

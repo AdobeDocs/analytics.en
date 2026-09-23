@@ -107,7 +107,7 @@ The `<amp-analytics>` tag supports variable substitutions so that AMP can provid
 
 >[!NOTE]
 >
->Image requests sent to Adobe using this method do not include data for many default reports (for example, browser, screen size, or referrer). If you want to include this information in hits, make sure that they are included as part of the image request query string. See [Data collection query parameters](../validate/query-parameters.md) for a complete list of image requests query parameters and their associated variables.
+>Image requests sent to Adobe using this method do not include data for many default reports (for example, browser, screen size, or referrer). If you want to include this information in hits, make sure that they are included as part of the image request query string. See [Data collection query parameters](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference) for a complete list of image requests query parameters and their associated variables.
 
 Adobe identifies visitors using a built-in AMP function, and sets the cookie `adobe_amp_id`. This visitor ID is unique to any other ID set by Adobe Analytics. A different unique visitor is counted for each CDN that a visitor retrieves content from, which can inflate unique visitor count. Using a separate report suite for AMP pages is highly recommended because of how AMP identifies unique visitors. The Adobe Visitor ID Service is not supported.
 

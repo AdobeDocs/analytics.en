@@ -32,6 +32,15 @@ The 'Activity Map Link' [dimension](overview.md) displays the most popular links
 
 This dimension retrieves data from the [Context data variable](/help/implement/vars/page-vars/contextdata.md) `c.a.activitymap.link`. If your implementation uses [Activity Map](/help/analyze/activity-map/overview.md), this context data variable automatically collects data when links are clicked.
 
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | None (collected by the [Activity Map](/help/analyze/activity-map/overview.md) module) |
+| **Web SDK / XDM field** | None (collected by the [Activity Map](/help/analyze/activity-map/overview.md) module) |
+| **Query parameter** | N/A |
+| **XML tag** | N/A |
+| **Byte limit** | 255 bytes |
+| **Persistence** | N/A |
+
 For a given link that was clicked, Activity Map searches for the following (in order):
 
 1. The `s_objectID` variable

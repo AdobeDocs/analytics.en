@@ -42,7 +42,16 @@ The 'Hit type' [dimension](overview.md) determines if a mobile app was in the fo
 
 ## Populate this dimension with data
 
-This dimension works out of the box for all mobile SDK implementations on version 4.13.6 or higher. The mobile SDK sets the [`customerPerspective`](/help/implement/vars/page-vars/customerperspective.md) variable (the `cp` query parameter) to indicate whether each hit occurred in the foreground or background. If you do not use the mobile SDK, all hits list under `"Foreground"`. If **[!UICONTROL Prevent background hits from starting a new visit]** is selected when configuring a [Virtual report suite](../vrs/vrs-mobile-visit-processing.md), background hits do not inflate [[!UICONTROL Visits]](../metrics/visits.md) and [[!UICONTROL Unique visitors]](../metrics/unique-visitors.md).
+The mobile SDK sets the [`customerPerspective`](/help/implement/vars/page-vars/customerperspective.md) variable to indicate whether each hit occurred in the foreground or background. This dimension works out of the box for all mobile SDK implementations on version 4.13.6 or higher. If you do not use the mobile SDK, all hits list under `"Foreground"`. If **[!UICONTROL Prevent background hits from starting a new visit]** is selected when configuring a [Virtual report suite](../vrs/vrs-mobile-visit-processing.md), background hits do not inflate [[!UICONTROL Visits]](../metrics/visits.md) and [[!UICONTROL Unique visitors]](../metrics/unique-visitors.md).
+
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | [`customerPerspective`](/help/implement/vars/page-vars/customerperspective.md) |
+| **Web SDK / XDM field** | None |
+| **Query parameter** | [`cp`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **XML tag** | [`<customerPerspective>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **Byte limit** | N/A |
+| **Persistence** | N/A |
 
 ## Dimension items
 

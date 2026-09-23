@@ -32,7 +32,16 @@ The 'Persistent cookie support' [dimension](overview.md) shows if the hit used a
 
 ## Populate this dimension with data
 
-Adobe determines the value of this dimension server-side based on the source of the hit's identifier. There is not a way to directly set it. It works out of the box for all implementations.
+Adobe determines this dimension server-side, based on whether the hit's visitor identifier originated from a source that typically persists (such as a cookie). There is no variable to set, and it works out of the box for all implementations.
+
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | None (derived server-side) |
+| **Web SDK / XDM field** | None (derived server-side) |
+| **Query parameter** | N/A |
+| **XML tag** | N/A |
+| **Byte limit** | N/A |
+| **Persistence** | N/A |
 
 ## Dimension items
 

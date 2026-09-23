@@ -36,7 +36,16 @@ The 'Cookie support' [dimension](overview.md) reports if the browser supports co
 
 ## Populate this dimension with data
 
-This dimension collects data from the [`k` query string](/help/implement/validate/query-parameters.md) in image requests. AppMeasurement tries to set a cookie named `s_cc`, then detects if the cookie exists. The result is the query string parameter value `Y` (if the browser supports and has cookies enabled) or `N` (if the browser has cookies disabled). If you use AppMeasurement (such as through tags in Adobe Experience Platform), this dimension works out of the box. If you use a data collection method outside of AppMeasurement (such as through the API), make sure that you include the `k` query string parameter on each hit with the value `Y` or `N`.
+Cookie support is collected automatically, client-side: AppMeasurement tries to set a cookie named `s_cc`, then reports whether it exists — `Y` if the browser supports and has cookies enabled, or `N` if cookies are disabled. It works out of the box in any AppMeasurement or Web SDK (tags) implementation — there is no variable to set. If you collect data outside of AppMeasurement or the Web SDK (such as through the API), send `Y` or `N` on each hit.
+
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | None (auto-collected) |
+| **Web SDK / XDM field** | None (auto-collected) |
+| **Query parameter** | [`k`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **XML tag** | [`<cookiesEnabled>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **Byte limit** | 1 byte |
+| **Persistence** | N/A |
 
 ## Dimension items
 

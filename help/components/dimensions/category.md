@@ -34,7 +34,16 @@ The 'Category' [dimension](overview.md) reports the product category of the hit.
 
 ## Populate this dimension with data
 
-This dimension references the first part of the string in the [`products`](/help/implement/vars/page-vars/products.md) variable. Everything before the first semicolon (`;`) populates this dimension.
+This dimension references the product category in the [`products`](/help/implement/vars/page-vars/products.md) variable, which is everything before the first semicolon (`;`).
+
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | [`products`](/help/implement/vars/page-vars/products.md) |
+| **Web SDK / XDM field** | [`productListItems[].productCategories[].categoryID`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/commerce-details) |
+| **Query parameter** | [`products`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **XML tag** | [`<products>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **Byte limit** | 100 bytes |
+| **Persistence** | Hit |
 
 ## Dimension items
 

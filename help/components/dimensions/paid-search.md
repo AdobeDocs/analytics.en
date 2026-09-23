@@ -25,7 +25,16 @@ The 'Paid search' [dimension](overview.md) lets you look at any metric and compa
 
 ## Populate this dimension with data
 
-The only requirement for this dimension to work properly is to have [Paid search detection](/help/admin/tools/manage-rs/edit-settings/general/paid-search-detection/paid-search-detection.md) configured correctly in report suite settings. If paid search detection is configured correctly and a report suite has data, this dimension always works.
+Adobe derives this dimension by paid search detection, which classifies search-engine traffic as paid or natural. There is no variable to set. The only requirement is to have [Paid search detection](/help/admin/tools/manage-rs/edit-settings/general/paid-search-detection/paid-search-detection.md) configured correctly in report suite settings. If paid search detection is configured correctly and a report suite has data, this dimension always works.
+
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | None (derived by paid search detection) |
+| **Web SDK / XDM field** | None (derived by paid search detection) |
+| **Query parameter** | N/A |
+| **XML tag** | N/A |
+| **Byte limit** | N/A |
+| **Persistence** | N/A |
 
 ## Dimension items
 

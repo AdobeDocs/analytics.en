@@ -20,6 +20,8 @@ topic_v2:
 ---
 # Data Insertion API
 
-The [Data Insertion API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-insertion/) and [Bulk Data Insertion API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/) are both methods to submit server-side collection data to Adobe Analytics. Data Insertion API calls are made one event at a time. Bulk Data Insertion API accepts CSV formatted files containing event data, one event per row. 
+The [Data Insertion API](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/) and [Bulk Data Insertion API](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/) are both methods to submit server-side collection data to Adobe Analytics. Data Insertion API calls are made one event at a time. Bulk Data Insertion API accepts CSV formatted files containing event data, one event per row.
 
-If you are working on a new implementation of server-side collection, Adobe strongly recommends using the Bulk Data Insertion API.
+If you are working on a new implementation of server-side collection, Adobe recommends using the Bulk Data Insertion API.
+
+For endpoints, request and response formats, and the full variable reference, see the [Data Insertion API](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/) and [Bulk Data Insertion API](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/) documentation on Adobe Developer.

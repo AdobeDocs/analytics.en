@@ -32,7 +32,16 @@ Appending tracking code query strings are common in emails, advertisements, soci
 
 ## Populate this dimension with data
 
-This dimension retrieves data from the [`v0` query string](/help/implement/validate/query-parameters.md) in image requests. AppMeasurement collects this data using the [`campaign`](/help/implement/vars/page-vars/campaign.md) variable.
+AppMeasurement collects this data using the [`campaign`](/help/implement/vars/page-vars/campaign.md) variable. This variable typically gets its value from a query string using the [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) utility method, though your organization determines exactly how to set it.
+
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | [`campaign`](/help/implement/vars/page-vars/campaign.md) |
+| **Web SDK / XDM field** | [`marketing.trackingCode`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/campaign-marketing-details) |
+| **Query parameter** | [`v0`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **XML tag** | [`<campaign>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **Byte limit** | 255 bytes |
+| **Persistence** | Configurable |
 
 ## Dimension items
 

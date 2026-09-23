@@ -25,7 +25,11 @@ topic_v2:
 ---
 # Entry dimensions
 
+>[!BEGINSHADEBOX]
+
 *This help page describes how entries work as a [dimension](overview.md). For information on how entries work as a metric, see the [Entries](../metrics/entries.md) metric.*
+
+>[!ENDSHADEBOX]
 
 Entry dimensions are [visit-based](../metrics/visits.md). They record the first dimension item, and persist it for the entire duration of that visit. Entry dimensions are available for all variables with pathing enabled under [Traffic variables](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md) in Report suite settings.
 
@@ -34,7 +38,16 @@ Entry dimensions are [visit-based](../metrics/visits.md). They record the first 
 
 ## Populate entry dimensions with data
 
-A given entry [dimension](overview.md) is based on its associated traffic variable. If the non-entry variable has data, its associated entry dimension also contains data. No implementation changes are required for entry dimensions if your traffic variables contain data.
+A given entry [dimension](overview.md) is based on its associated traffic variable. Adobe derives each entry dimension from the first value seen for that variable during the visit; there is no dedicated variable to set. If the non-entry variable has data, its associated entry dimension also contains data. No implementation changes are required for entry dimensions if your traffic variables contain data.
+
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | None (derived from the visitor's first hit) |
+| **Web SDK / XDM field** | None (derived from the visitor's first hit) |
+| **Query parameter** | N/A |
+| **XML tag** | N/A |
+| **Byte limit** | N/A |
+| **Persistence** | Visit |
 
 ## Dimension items
 

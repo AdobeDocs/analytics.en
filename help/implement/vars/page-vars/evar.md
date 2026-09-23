@@ -29,7 +29,11 @@ topic_v2:
 ---
 # eVar
 
+>[!BEGINSHADEBOX]
+
 *This help page describes how to implement eVars. For information on how eVars work as a dimension, see [eVars](/help/components/dimensions/evar.md) in the Components user guide.*
+
+>[!ENDSHADEBOX]
 
 eVars are custom variables that you can use however you'd like. If you have a [solution design document](/help/implement/prepare/solution-design.md), most dimensions specific to your organization end up as eVars. By default, eVars persist beyond the hit they are set on. You can customize their expiration and allocation under [Conversion variables](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) in Report suite settings.
 

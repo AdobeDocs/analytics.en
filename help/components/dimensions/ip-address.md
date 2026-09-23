@@ -34,6 +34,15 @@ The 'IP Address' [dimension](overview.md) lists the IP address each hit was sent
 
 AppMeasurement automatically collects the IP address from the HTTP header of each image request. It corresponds to the `ip` column in data feeds. See [Data column reference](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md) for more information.
 
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | None (from the HTTP request) |
+| **Web SDK / XDM field** | None (from the HTTP request) |
+| **Query parameter** | None (from the HTTP request) |
+| **XML tag** | [`<ipAddress>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **Byte limit** | N/A |
+| **Persistence** | N/A |
+
 If [!UICONTROL IP Obfuscation] is enabled in the report suite's [General Account Settings](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md), IP addresses are obfuscated or removed everywhere in Analytics, including Data Warehouse.
 
 ## Dimension items

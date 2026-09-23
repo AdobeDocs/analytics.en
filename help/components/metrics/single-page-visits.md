@@ -23,7 +23,11 @@ role_v2:
 ---
 # Single page visits
 
+>[!BEGINSHADEBOX]
+
 *This help page describes how 'Single page visits' works as a metric. See the [Single page visits](../dimensions/single-page-visits.md) dimension for more information.*
+
+>[!ENDSHADEBOX]
 
 The **[!UICONTROL Single page visits]** [metric](overview.md) shows the number of visits where the [Page](../dimensions/page.md) dimension item contained only a single value for the entire visit. This metric is helpful in the context of dimensions where you want to see short visits, but not have as stringent of a rule as [[!UICONTROL Bounces]](bounces.md) does.
 

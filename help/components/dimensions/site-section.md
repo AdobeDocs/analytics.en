@@ -32,7 +32,16 @@ This dimension is related to the [Page](page.md) and [Server](server.md) dimensi
 
 ## Populate this dimension with data
 
-This dimension retrieves data from the [`ch` query string](/help/implement/validate/query-parameters.md) in image requests. AppMeasurement collects this data using the [`channel`](/help/implement/vars/page-vars/channel.md) variable.
+AppMeasurement collects this data using the [`channel`](/help/implement/vars/page-vars/channel.md) variable.
+
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | [`channel`](/help/implement/vars/page-vars/channel.md) |
+| **Web SDK / XDM field** | [`web.webPageDetails.siteSection`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/webpage-details) |
+| **Query parameter** | [`ch`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **XML tag** | [`<channel>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **Byte limit** | 100 bytes |
+| **Persistence** | Hit |
 
 ## Dimension items
 

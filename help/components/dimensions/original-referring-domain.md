@@ -40,12 +40,18 @@ The 'Original referring domain' [dimension](overview.md) reports the first refer
 
 ## Populate this dimension with data
 
-This dimension requires configuration in both the Analytics interface and your implementation.
+Adobe derives this dimension from the visitor's first [referrer](referrer.md), using the domain portion of that referrer URL. There is no variable to set. You must configure your report suite's [Internal URL filters](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md); failure to do so can either include internal domains or prevent external domains from appearing.
 
-* Within your implementation, this dimension retrieves data from the [`r` query string](/help/implement/validate/query-parameters.md) in image requests. AppMeasurement collects this data using the JavaScript variable `document.referrer` in the browser. If you use an AppMeasurement library (such as through tags in Adobe Experience Platform), this dimension works out of the box. If you use a data collection method outside of AppMeasurement (such as through the API), make sure that you include the `r` query string parameter in image requests.
-* Within the Analytics interface, you must configure your report suite's [Internal URL filters](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md). Failure to configure internal URL filters can either include internal domains or prevent external domains from appearing.
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | None (derived from the visitor's first referrer) |
+| **Web SDK / XDM field** | None (derived from the visitor's first referrer) |
+| **Query parameter** | N/A |
+| **XML tag** | N/A |
+| **Byte limit** | N/A |
+| **Persistence** | Visitor |
 
-Adobe persists original referring domain for a visitor's lifetime. If a visitor leaves and clicks through a link on a different domain at any time, the new value is not recorded. If you want to see new values, see [Referring domain](referring-domain.md).
+If a visitor leaves and clicks through a link on a different domain at any time, the new value is not recorded. To see new values, see [Referring domain](referring-domain.md).
 
 ## Dimension items
 

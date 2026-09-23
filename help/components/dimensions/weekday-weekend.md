@@ -30,7 +30,16 @@ The 'Weekday/Weekend' [dimension](overview.md) provides insight on if the hit ha
 
 ## Populate this dimension with data
 
-This dimension works out of the box for all implementations. If a report suite contains data, this dimension works.
+This dimension is derived from the timestamp of each hit; there is no variable to set. Its only dependency is the report suite's time zone, which determines the day of the week for each hit.
+
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | None (derived from the hit timestamp) |
+| **Web SDK / XDM field** | None (derived from the hit timestamp) |
+| **Query parameter** | N/A |
+| **XML tag** | N/A |
+| **Byte limit** | N/A |
+| **Persistence** | Hit |
 
 ## Dimension items
 

@@ -34,6 +34,15 @@ The 'Purchase ID' [dimension](overview.md) provides the unique identifier for a 
 
 This dimension is set using the [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md) variable. It corresponds to the `purchaseid` column in data feeds. See [Data column reference](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md) for more information.
 
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md) |
+| **Web SDK / XDM field** | [`commerce.order.purchaseID`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/commerce-details) |
+| **Query parameter** | [`purchaseID`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **XML tag** | [`<purchaseId>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **Byte limit** | 20 bytes |
+| **Persistence** | Hit |
+
 ## Dimension items
 
 Dimension items include the purchase IDs collected on your site.

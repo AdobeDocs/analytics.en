@@ -26,7 +26,11 @@ topic_v2:
 ---
 # Pages not found
 
+>[!BEGINSHADEBOX]
+
 *This help page describes how 'Pages not found' works as a [dimension](overview.md). See the [Pages not found](../metrics/pages-not-found.md) metric page for information on how it works as a metric.*
+
+>[!ENDSHADEBOX]
 
 The 'Pages not found' dimension shows URLs that contained an error. This dimension is useful when you want to lower the number of errors that visitors get on your site.
 
@@ -39,7 +43,16 @@ The 'Pages not found' dimension shows URLs that contained an error. This dimensi
 
 ## Populate this dimension with data
 
-This dimension retrieves data from the [`pageType` and `g` query strings](/help/implement/validate/query-parameters.md) in image requests. If the `pageType` query string equals `errorPage`, the `g` query string (page URL) is recorded. AppMeasurement collects this data using the [`pageType`](/help/implement/vars/page-vars/pagetype.md) variable. If the `pageType` variable is not defined or set to anything other than `errorPage`, no data for this dimension is collected.
+AppMeasurement collects this data using the [`pageType`](/help/implement/vars/page-vars/pagetype.md) variable. When `pageType` is set to `errorPage`, the page URL of the hit is recorded as a dimension item. If the `pageType` variable is not defined or is set to any other value, no data for this dimension is collected.
+
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | [`pageType`](/help/implement/vars/page-vars/pagetype.md) |
+| **Web SDK / XDM field** | [`web.webPageDetails.isErrorPage`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/webpage-details) |
+| **Query parameter** | [`pageType`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **XML tag** | [`<pageType>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **Byte limit** | N/A |
+| **Persistence** | Hit |
 
 ## Dimension items
 

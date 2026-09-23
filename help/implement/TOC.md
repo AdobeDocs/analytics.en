@@ -122,6 +122,7 @@ user-guide-description: Learn ways to implement Adobe Analytics. Customize what 
   + [Using Web SDK (Alloy)](id/alloy.md)
   + [Using Analytics extension](id/analytics-extension.md)
   + [Using AppMeasurement](id/appmeasurement.md)
+  + [Using the Data Insertion API](id/data-insertion.md)
   + [Migrating to the Visitor ID Service](id/migration.md)
   + [Track across implementation types](id/cross-type-implementation.md)
 + Prepare to implement Adobe Analytics {#prepare}
@@ -170,7 +171,6 @@ user-guide-description: Learn ways to implement Adobe Analytics. Customize what 
     + [Troubleshoot H Code](js/h-code/troubleshooting.md)
   + [Troubleshoot AppMeasurement](js/troubleshooting.md)
 + Implement Analytics on other platforms {#other}
-  + [Implement Analytics using hardcoded image requests](other/hardcoded.md)
   + [Implement Analytics on Ajax](other/ajax.md)
   + [Implement Analytics on AMP](other/amp.md)
   + [Implement Analytics on Digital Assistants](other/digital-assistants.md)
@@ -181,7 +181,6 @@ user-guide-description: Learn ways to implement Adobe Analytics. Customize what 
   + [Campaign tracking workflow](use-cases/campaign-tracking.md)
 + Validate your implementation {#validate}
   + [Legacy debugger](validate/debugger.md)
-  + [Data collection query parameters](validate/query-parameters.md)
   + [Packet monitors](validate/packet-monitor.md)
   + [Hash collisions](validate/hash-collisions.md)
 + [Frequently asked questions](faq.md)

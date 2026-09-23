@@ -31,6 +31,10 @@ role_v2:
 ---
 # Marketing channel
 
+>[!BEGINSHADEBOX]
+
 *This help page refers to the Marketing channel [dimension](overview.md) in Analysis Workspace. For more information on how marketing channels work as a concept, see [Marketing channels overview](../c-marketing-channels/c-getting-started-mchannel.md).*
+
+>[!ENDSHADEBOX]
 
 The 'Marketing channel' dimension functions identically to the ['Last touch channel'](last-touch-channel.md) dimension. Adobe introduced this dimension for use in reports that use custom attribution. Users who viewed custom attribution marketing channel reports were confused with the 'last touch' label, as 'last touch' is not accurate with custom attribution. Adobe introduced the generic 'Marketing channel' dimension so analysts can build custom attribution marketing channel reports without the misleading 'last touch' dimension label.

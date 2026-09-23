@@ -34,11 +34,16 @@ The 'Page URL' [dimension](overview.md) lists the URLs on your site.
 
 ## Populate this dimension with data
 
-This dimension retrieves data from the [`g` and `-g` query strings](/help/implement/validate/query-parameters.md) in [Page view calls (`t()`)](/help/implement/vars/functions/t-method.md). [Link tracking calls (`tl()`)](/help/implement/vars/functions/tl-method.md) always strip this dimension, even if the `g` query string exists.
+AppMeasurement automatically collects the page URL on each [Page view call (`t()`)](/help/implement/vars/functions/t-method.md). You can override the collected value using the [`pageURL`](/help/implement/vars/page-vars/pageurl.md) variable. If a URL is longer than 255 bytes, the overflow is stored in the `-g` query string parameter. Protocol and query strings in the URL are included. [Link tracking calls (`tl()`)](/help/implement/vars/functions/tl-method.md) always strip this dimension, even if the URL value exists.
 
-Sometimes URLs are longer than 255 bytes. AppMeasurement uses the `g` query string parameter for the first 255 bytes of the URL in image requests. If a URL is longer than 255 bytes, the rest of the URL is stored in the `-g` query string parameter. Protocol and query strings in the URL are included in this variable.
-
-AppMeasurement automatically collects this data based on the page's URL. You can override the collected value using the [`pageURL`](/help/implement/vars/page-vars/pageurl.md) variable.
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | [`pageURL`](/help/implement/vars/page-vars/pageurl.md) |
+| **Web SDK / XDM field** | [`web.webPageDetails.URL`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/webpage-details) |
+| **Query parameter** | [`g`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **XML tag** | [`<pageUrl>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **Byte limit** | 255 bytes (No fixed limit with overflow) |
+| **Persistence** | Hit |
 
 ## Populate an eVar with URL
 

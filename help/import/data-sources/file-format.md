@@ -80,7 +80,7 @@ Dimensions and metrics go into the same header row.
 
 {style="table-layout:auto"}
 
-Adobe does not support data sources for any other dimensions or metrics. If variables beyond what are listed in the above tables are required, consider using the [Bulk data insertion API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/) instead.
+Adobe does not support data sources for any other dimensions or metrics. If variables beyond what are listed in the above tables are required, consider using the [Bulk data insertion API](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/) instead.
 
 ## Date
 

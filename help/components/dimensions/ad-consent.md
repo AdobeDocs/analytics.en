@@ -42,16 +42,16 @@ In the future, this dimension can be used to support the encoding of additional 
 
 ## Populate this dimension with data
 
-This dimension collects data from the following [Context data variables](/help/implement/vars/page-vars/contextdata.md)
+This dimension collects data from the [context data variable](/help/implement/vars/page-vars/contextdata.md) `contextData.['adConsent']`. You populate this variable with the relevant Google consent field values: `ad_user_data` (first character) and `ad_personalization` (second character). See [Consent in the Google Ads API reference](https://developers.google.com/google-ads/api/reference/rpc/v15/Consent) for more information.
 
-* `contextData.['adConsent']`
-  
-You populate the context data variable with relevant values for the Google consent fields
-
-* `ad_user_data` (1st character) and 
-* `ad_personalization` (2nd character). 
- 
-See [Consent in the Google Ads API reference](https://developers.google.com/google-ads/api/reference/rpc/v15/Consent) for more information.
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | None (set via the `adConsent` context data variable) |
+| **Web SDK / XDM field** | None |
+| **Query parameter** | N/A |
+| **XML tag** | N/A |
+| **Byte limit** | 100 bytes |
+| **Persistence** | Hit |
 
 The possible values for each of these fields can be:
 

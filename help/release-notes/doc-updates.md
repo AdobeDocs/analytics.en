@@ -68,10 +68,11 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | --- | --- |
 | **September 2026** | |
 | New resize shortcut actions | New keyboard shortcuts in Analysis Workspace now allow you to [resize a panel or visualization](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#resize-panel-or-visualization-actions) wider, narrower, taller, or shorter. |
+| [Adobe Analytics data collection APIs](https://developer.adobe.com/analytics-collection-apis/) | New developer repository that aggregates and modernizes data collection strategies for Adobe Analytics without the use of AppMeasurement or tags. |
 | **August 2026** | |
 | Added new conversational AI tools to the referrer type dimension | The 'Referrer type' dimension now includes the following additional [conversational AI tools](/help/components/dimensions/referrer-type.md#conversational-ai-tools) in the lookup table that Adobe uses:<ul><li>`https://duck.ai`</li><li>`https://you.com`</li></ul> |
 | **June 2026** | |
-| Query string reference update | Significant revisions to [Data collection query parameters](/help/implement/validate/query-parameters.md). |
+| Query string reference update | Significant revisions to [Data collection query parameters](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference). |
 | Segments in Data Warehouse | Updated [Data Warehouse segment compatibility](/help/export/data-warehouse/segment-compatibility.md). |
 | Replaced GA to AA guide | The GA to AA guide referenced Universal Analytics, which was sunset in 2023. A new guide has replaced it, [Transitioning from Google Analytics 4 to Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home). |
 | **May 2026** | |
@@ -363,7 +364,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | June 18, 2020 | New documentation on [Project roles](/help/analyze/analysis-workspace/curate-share/share-projects.md) for shared Workspace projects. When sharing a Workspace project, you can now place recipients in one of three project roles, depending on the project experience you want them to have: Edit, Duplicate and View. |
 | June 18, 2020 | New documentation on [Co-editing Workspace projects](/help/analyze/analysis-workspace/curate-share/share-projects.md). Recipients added to the "Can edit" role can save over a project that has been shared to them. This extends to both admins and non-admins. |
 | **May 2020** |  |
-| May 31, 2020 | New documentation on [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) |
+| May 31, 2020 | New documentation on [Bulk Data Insertion API](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/) |
 | May 21, 2020 | New documentation for [Adobe Analytics dashboards](/help/analyze/mobile-app/home.md) |
 | May 21, 2020 |  New documentation on [accessibility improvements](/help/analyze/analysis-workspace/workspace-faq/aw-accessibility.md) to Analysis Workspace, including improved keyboard navigation, color contrast, and screen reader support. |
 | **April 2020** |  |

@@ -30,7 +30,18 @@ The 'Connection type' [dimension](overview.md) shows how the visitor connected t
 
 ## Populate this dimension with data
 
-This dimension uses a combination of the [`ct` query string](/help/implement/validate/query-parameters.md) and Adobe server-side logic. Adobe uses the following rules in order to determine its value:
+This dimension is determined by a combination of collected data and Adobe server-side logic, not by a variable you set.
+
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | None |
+| **Web SDK / XDM field** | None |
+| **Query parameter** | [`ct`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **XML tag** | [`<connectionType>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **Byte limit** | N/A |
+| **Persistence** | N/A |
+
+Adobe uses the following rules in order to determine its value:
 
 1. If the `ct` query string equals `"modem"`, set the dimension item to `"Modem"`. AppMeasurement only collects this data on unsupported Internet Explorer browsers, making this dimension item uncommon.
 1. Check the IP address of the hit and reference it to a lookup table internal to Adobe. If the IP address is from a mobile carrier, set the dimension item to `"Mobile Carrier"`.

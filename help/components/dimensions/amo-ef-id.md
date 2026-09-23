@@ -25,6 +25,17 @@ The **[!UICONTROL AMO EF ID]** is an ad click identifier used in Adobe Advertisi
 
 ## Populate this dimension with data
 
+This dimension is populated automatically by the [Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview) integration; there is no variable to set.
+
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | None (populated by the Adobe Advertising integration) |
+| **Web SDK / XDM field** | None (populated by the Adobe Advertising integration) |
+| **Query parameter** | N/A |
+| **XML tag** | N/A |
+| **Byte limit** | N/A |
+| **Persistence** | N/A |
+
 This dimension collects its values in multiple ways:
 
 * For click-through traffic, data is collected from the `ef_id` query string parameter in the [Page URL](page-url.md), usually on the page through which ad-driven traffic enters the site.

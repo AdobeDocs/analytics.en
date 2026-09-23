@@ -32,7 +32,16 @@ The 'Language' [dimension](overview.md) shows the top languages that visitors pr
 
 ## Populate this dimension with data
 
-This dimension references a lookup table internal to Adobe. The lookup value is based on the `Accept-Language` HTTP header in image requests. If you use an AppMeasurement library (such as through tags in Adobe Experience Platform), this dimension works out of the box.
+This dimension references a lookup table internal to Adobe. The lookup value is based on the `Accept-Language` HTTP header in image requests. It works out of the box in any AppMeasurement or Web SDK (tags) implementation — there is no variable to set.
+
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | None (HTTP header) |
+| **Web SDK / XDM field** | None (HTTP header) |
+| **Query parameter** | None (uses the `Accept-Language` header) |
+| **XML tag** | [`<language>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **Byte limit** | N/A |
+| **Persistence** | N/A |
 
 ## Dimension items
 

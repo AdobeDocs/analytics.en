@@ -27,7 +27,16 @@ The 'Last touch channel detail' [dimension](overview.md) reports details around 
 
 ## Populate this dimension with data
 
-This dimension copies values from other variables. The variable used references the channel value within each [Marketing channel processing rule](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md). When a hit matches a marketing channel processing rule, the [Last touch channel](last-touch-channel.md) dimension is set to the channel name, and this dimension is set to the channel value set in the rule.
+This dimension is derived by Marketing channel processing rules, which copy values from other variables. The variable used references the channel value within each [Marketing channel processing rule](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md). When a hit matches a marketing channel processing rule, the [Last touch channel](last-touch-channel.md) dimension is set to the channel name, and this dimension is set to the channel value set in the rule. There is no variable to set.
+
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | None (derived by Marketing Channel processing rules) |
+| **Web SDK / XDM field** | None (derived by Marketing Channel processing rules) |
+| **Query parameter** | N/A |
+| **XML tag** | N/A |
+| **Byte limit** | N/A |
+| **Persistence** | N/A |
 
 If you want to set this dimension to a specific value, the following steps are required:
 

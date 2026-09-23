@@ -36,7 +36,16 @@ The 'Color depth' [dimension](overview.md) reports how many colors that the devi
 
 ## Populate this dimension with data
 
-This dimension references a lookup table, translating bit value into a more readable format. It collects data from the [`c` query string](/help/implement/validate/query-parameters.md) in image requests. AppMeasurement uses the `screen.colorDepth` variable to populate the image request query string. If you use AppMeasurement (such as through tags in Adobe Experience Platform), this dimension works out of the box. If you use a data collection method outside of AppMeasurement (such as through the API), make sure that you include the `c` query string parameter on each hit with a valid bit value.
+Color depth is collected automatically, client-side, from the browser's `screen.colorDepth` property, which Adobe translates through a lookup table into a readable format. It works out of the box in any AppMeasurement or Web SDK (tags) implementation — there is no variable to set. If you collect data outside of AppMeasurement or the Web SDK (such as through the API), send a valid bit value on each hit.
+
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | None (auto-collected) |
+| **Web SDK / XDM field** | None (auto-collected) |
+| **Query parameter** | [`c`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **XML tag** | [`<colorDepth>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **Byte limit** | 20 bytes |
+| **Persistence** | N/A |
 
 ## Dimension items
 

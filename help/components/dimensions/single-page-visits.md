@@ -28,7 +28,11 @@ topic_v2:
 ---
 # Single page visits
 
+>[!BEGINSHADEBOX]
+
 *This help page describes how 'Single page visits' works as a [dimension](overview.md). See the [Single page visits](../metrics/single-page-visits.md) metric for more information.*
+
+>[!ENDSHADEBOX]
 
 The 'Single page visits' dimension reports the number of visits that consisted of a single unique [Page](page.md) dimension item. It is the dimension form of the [Single page visits](../metrics/single-page-visits.md) metric.
 
@@ -36,7 +40,16 @@ This dimension is most commonly used as a component within [segmentation](../seg
 
 ## Populate this dimension with data
 
-This dimension works out of the box for all implementations. If a report suite contains data, this dimension works.
+Adobe computes this dimension server-side by evaluating whether each visit contained a single unique page. There is no variable to set; it works out of the box for all implementations.
+
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | None (computed by Adobe) |
+| **Web SDK / XDM field** | None (computed by Adobe) |
+| **Query parameter** | N/A |
+| **XML tag** | N/A |
+| **Byte limit** | N/A |
+| **Persistence** | N/A |
 
 ## Dimension items
 

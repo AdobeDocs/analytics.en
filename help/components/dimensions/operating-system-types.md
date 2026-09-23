@@ -34,7 +34,16 @@ The 'Operating system types' [dimension](overview.md) shows the overarching OS t
 
 ## Populate this dimension with data
 
-This dimension references a lookup table internal to Adobe. The lookup value is based on the `User-Agent` HTTP header in image requests. Adobe partners with [DeviceAtlas](https://deviceatlas.com/) to maintain lookups between user agent and operating system type.
+Adobe derives this dimension from the `User-Agent` HTTP header, matching it against an internal lookup table that Adobe maintains in partnership with [DeviceAtlas](https://deviceatlas.com/). There is no variable to set.
+
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | None (derived from the user agent) |
+| **Web SDK / XDM field** | None (derived from the user agent) |
+| **Query parameter** | N/A |
+| **XML tag** | N/A |
+| **Byte limit** | N/A |
+| **Persistence** | N/A |
 
 * For AppMeasurement implementations, this dimension works out of the box.
 * For Web SDK implementations, enable [!UICONTROL Device Lookup] when [configuring a datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html).

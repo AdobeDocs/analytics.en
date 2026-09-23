@@ -31,6 +31,15 @@ The 'Activity Map Region' [dimension](overview.md) displays the regions on your 
 
 This dimension retrieves data from the [Context data variable](/help/implement/vars/page-vars/contextdata.md) `c.a.activitymap.region`. If your implementation uses [Activity Map](/help/analyze/activity-map/overview.md), this context data variable automatically collects data when links are clicked.
 
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | None (collected by the [Activity Map](/help/analyze/activity-map/overview.md) module) |
+| **Web SDK / XDM field** | None (collected by the [Activity Map](/help/analyze/activity-map/overview.md) module) |
+| **Query parameter** | N/A |
+| **XML tag** | N/A |
+| **Byte limit** | 255 bytes |
+| **Persistence** | N/A |
+
 For a given link that was clicked, check the parent DOM element for the following (in order):
 
 * A value in the attribute set by [`ActivityMap.regionIDAttribute`](/help/implement/vars/config-vars/activitymap-regionidattribute.md) - set to the `id` attribute by default

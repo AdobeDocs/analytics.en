@@ -28,7 +28,11 @@ topic_v2:
 ---
 # Time spent per visit
 
+>[!BEGINSHADEBOX]
+
 *This help page describes how 'Time spent per visit' works as their respective [dimensions](overview.md). See the [Time spent per visit](../metrics/time-spent-per-visit.md) metric for more information.*
+
+>[!ENDSHADEBOX]
 
 The 'Time spent per visit' dimensions record the amount of time a visitor spent on the entire visit. It uses the following steps to measure calculation:
 
@@ -48,7 +52,16 @@ This dimension is related to the [Average time spent on site](../metrics/average
 
 ## Populate this dimension with data
 
-These dimensions work out of the box for all implementations. If a report suite contains data, these dimensions work.
+Adobe computes these dimensions server-side from the elapsed time between the first and last hit of the visit. There is no variable to set; they work out of the box for all implementations.
+
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | None (computed by Adobe) |
+| **Web SDK / XDM field** | None (computed by Adobe) |
+| **Query parameter** | N/A |
+| **XML tag** | N/A |
+| **Byte limit** | N/A |
+| **Persistence** | Visit |
 
 ## Dimension items
 

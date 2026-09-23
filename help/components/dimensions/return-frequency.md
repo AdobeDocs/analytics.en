@@ -34,9 +34,16 @@ The 'Return frequency' [dimension](overview.md) shows the length of time that pa
 
 ## Populate this dimension with data
 
-This dimension works out of the box for all implementations. If a report suite contains data, this dimension works.
+Adobe computes this dimension server-side by comparing the current visit to the visitor's previous visit. There is no variable to set; it works out of the box for all implementations.
 
-Data for this dimension is set on the first hit of the visit, and persists for the entirety of the visit. The value cannot change mid-visit.
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | None (computed by Adobe) |
+| **Web SDK / XDM field** | None (computed by Adobe) |
+| **Query parameter** | N/A |
+| **XML tag** | N/A |
+| **Byte limit** | N/A |
+| **Persistence** | Visit |
 
 ## Dimension items
 

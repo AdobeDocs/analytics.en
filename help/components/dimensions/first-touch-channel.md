@@ -34,9 +34,18 @@ The 'First touch channel' [dimension](overview.md) reports the first marketing c
 
 ## Populate this dimension with data
 
-This dimension directly references channel names that you have defined in the [Marketing channel manager](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md).
+This dimension is derived by Marketing channel processing rules. It directly references channel names that you have defined in the [Marketing channel manager](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md). Every hit runs through your report suite's Marketing channel processing rules in numeric order until it finds a match, which ties that marketing channel to the hit. There is no variable to set.
 
-Every hit sent to Adobe data collection servers run through your report suite's Marketing channel processing rules. It iterates through each rule in numeric order until it finds a match, in which that marketing channel ties to the hit. The first touch channel persists with the visitor until they don't visit the site for longer than the visitor engagement period (30 days by default).
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | None (derived by Marketing Channel processing rules) |
+| **Web SDK / XDM field** | None (derived by Marketing Channel processing rules) |
+| **Query parameter** | N/A |
+| **XML tag** | N/A |
+| **Byte limit** | N/A |
+| **Persistence** | Configurable |
+
+The first touch channel persists with the visitor until they don't visit the site for longer than the visitor engagement period (30 days by default).
 
 If you want to set this dimension to a specific value, the following steps are required:
 

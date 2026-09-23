@@ -38,7 +38,7 @@ This dimension is different from screen height. Browser height is the number of 
 console.log(`Browser height: ${window.innerHeight} pixels\nScreen height: ${screen.height} pixels`);
 ```
 
-Browser height is always smaller than or equal to screen height, since browser height doesn't include browser navigation or borders.
+Browser height is typically smaller than or equal to screen height, since browser height doesn't include browser navigation or borders.
 
 >[!NOTE]
 >
@@ -46,9 +46,16 @@ Browser height is always smaller than or equal to screen height, since browser h
 
 ## Populate this dimension with data
 
-This dimension retrieves data from the [`bh` query string](/help/implement/validate/query-parameters.md) in image requests. AppMeasurement collects this data using the JavaScript variable `window.innerHeight` in the browser. If you use an AppMeasurement library (such as through tags in Adobe Experience Platform), this dimension works out of the box. If you use a data collection method outside of AppMeasurement (such as through the API), make sure that you include the `bh` query string parameter on the first hit of each visit.
+Browser height is collected automatically, client-side, from the browser's `window.innerHeight` property. It works out of the box in any AppMeasurement or Web SDK (tags) implementation — there is no variable to set. If you collect data outside of AppMeasurement or the Web SDK (such as through the API), send the value on the first hit of each visit. If the browser height is adjusted mid-visit, the adjustment is not recorded.
 
-Adobe persists browser height for a visit. If browser height is adjusted mid-visit, the adjustment is not recorded.
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | None (auto-collected) |
+| **Web SDK / XDM field** | None (auto-collected) |
+| **Query parameter** | [`bh`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **XML tag** | [`<browserHeight>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **Value range** | 0–65,535 |
+| **Persistence** | Visit |
 
 ## Dimension items
 

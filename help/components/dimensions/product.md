@@ -32,7 +32,16 @@ The 'Product' [dimension](overview.md) reports the name of the product in the hi
 
 ## Populate this dimension with data
 
-This dimension references the second part of the string in the [`products`](/help/implement/vars/page-vars/products.md) variable. Characters between the first and second semicolon (`;`) populates this dimension.
+This dimension references the product name in the [`products`](/help/implement/vars/page-vars/products.md) variable, which is the string between the first and second semicolon (`;`).
+
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | [`products`](/help/implement/vars/page-vars/products.md) |
+| **Web SDK / XDM field** | [`productListItems[].name`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/commerce-details) |
+| **Query parameter** | [`products`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **XML tag** | [`<products>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **Byte limit** | 100 bytes |
+| **Persistence** | Hit |
 
 ## Dimension items
 

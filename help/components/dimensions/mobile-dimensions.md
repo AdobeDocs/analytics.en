@@ -36,7 +36,11 @@ topic_v2:
 ---
 # Mobile lookup dimensions
 
+>[!BEGINSHADEBOX]
+
 *This page references the properties of mobile devices accessing your website. See [Mobile lifecycle dimensions](lifecycle-dimensions.md) or [Mobile lifecycle metrics](../metrics/lifecycle-metrics.md) for tracking within a mobile app.*
+
+>[!ENDSHADEBOX]
 
 Mobile lookup [dimensions](overview.md) provide insight around the properties of mobile devices that visit your site. These properties are based on the user agent and IP address of the hit. You can use these dimensions to help understand what features that a mobile device supports.
 

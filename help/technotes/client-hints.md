@@ -62,7 +62,7 @@ Low-entropy hints are automatically provided by the browser and ingested for der
 
 For both libraries, collection of high-entropy hints is **disabled by default**. 
 
-For data submitted via API, such as via [Data Insertion API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-insertion/) or [Bulk Data Insertion API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/), hints must be explicitly included in the payload. See the respective documentation for details.
+For data submitted via API, such as via [Data Insertion API](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/) or [Bulk Data Insertion API](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/), hints must be explicitly included in the payload. See the respective documentation for details.
 
 +++
 
@@ -156,7 +156,7 @@ No. Client hints can only be collected through a secure HTTP connection, such as
 
 +++**How do I include client hint data when using API submission?**
 
-See documentation for including these via [Bulk Data Insertion API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/file-format/).
+See documentation for including these via [Bulk Data Insertion API](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/file-format/).
 
 +++
 

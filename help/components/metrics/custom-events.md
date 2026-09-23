@@ -30,7 +30,11 @@ topic_v2:
 ---
 # Custom events
 
+>[!BEGINSHADEBOX]
+
 *This help page describes how custom events work as a metric. For information on how custom events work as an implementation variable, see [Events overview](/help/implement/vars/page-vars/events/events-overview.md) in the Implement user guide.*
+
+>[!ENDSHADEBOX]
 
 Custom event [metrics](overview.md) show the number of hits where a given custom event was set in an image request. These metrics are vital to many implementations, as they provide insight to events specific to each organization.
 

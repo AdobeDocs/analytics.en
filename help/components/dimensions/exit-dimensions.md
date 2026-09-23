@@ -25,13 +25,26 @@ topic_v2:
 ---
 # Exit dimensions
 
+>[!BEGINSHADEBOX]
+
 *This help page describes how exits work as a [dimension](overview.md). For information on how exits work as a metric, see the [Exits](../metrics/exits.md) metric.*
+
+>[!ENDSHADEBOX]
 
 Exit dimensions record the last dimension item, and retroactively apply it to all hits in the visit. Exit dimensions are available for all variables with pathing enabled under [Traffic variables](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md) in Report suite settings.
 
 ## Populate exit dimensions with data
 
-A given exit dimension is based on its associated traffic variable. If the non-exit variable has data, its associated exit dimension also contains data. No implementation changes are required for exit dimensions if your traffic variables contain data.
+A given exit dimension is based on its associated traffic variable. Adobe derives each exit dimension from the last value seen for that variable during the visit; there is no dedicated variable to set. If the non-exit variable has data, its associated exit dimension also contains data. No implementation changes are required for exit dimensions if your traffic variables contain data.
+
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | None (derived from the visitor's last hit) |
+| **Web SDK / XDM field** | None (derived from the visitor's last hit) |
+| **Query parameter** | N/A |
+| **XML tag** | N/A |
+| **Byte limit** | N/A |
+| **Persistence** | Visit |
 
 ## Dimension items
 

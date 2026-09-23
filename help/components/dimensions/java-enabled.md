@@ -34,7 +34,16 @@ The 'Java enabled' [dimension](overview.md) determines if the browser at the tim
 
 ## Populate this dimension with data
 
-This dimension retrieves data from the [`v` query string](/help/implement/validate/query-parameters.md) in image requests. AppMeasurement collects this data by detecting if Java is enabled in the browser. If you use an AppMeasurement library (such as through tags in Adobe Experience Platform), this dimension works out of the box. If you use a data collection method outside of AppMeasurement (such as through the API), make sure that you include the `v` query string parameter containing "Y" or "N" if you would like to use this dimension.
+Java enabled is collected automatically, client-side: AppMeasurement detects whether Java is enabled in the browser and reports "Y" or "N". It works out of the box in any AppMeasurement or Web SDK (tags) implementation — there is no variable to set. If you collect data outside of AppMeasurement or the Web SDK (such as through the API), send "Y" or "N" to use this dimension.
+
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | None (auto-collected) |
+| **Web SDK / XDM field** | None (auto-collected) |
+| **Query parameter** | [`v`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **XML tag** | [`<javaEnabled>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **Byte limit** | 1 byte |
+| **Persistence** | N/A |
 
 ## Dimension items
 

@@ -30,7 +30,16 @@ Visitors that have never purchased something are not included in this dimension.
 
 ## Populate this dimension with data
 
-Adobe automatically populates this dimension based on the [`purchase`](/help/implement/vars/page-vars/events/event-purchase.md) event in your implementation. If you implement the `purchase` event on your site, this dimension always works.
+Adobe computes this dimension server-side from the visitor's purchase history. There is no variable to set; it depends on the [`purchase`](/help/implement/vars/page-vars/events/event-purchase.md) event being implemented on your site.
+
+| Property | Value |
+| --- | --- |
+| **AppMeasurement variable** | None (computed by Adobe) |
+| **Web SDK / XDM field** | None (computed by Adobe) |
+| **Query parameter** | N/A |
+| **XML tag** | N/A |
+| **Byte limit** | N/A |
+| **Persistence** | N/A |
 
 ## Dimension items
 

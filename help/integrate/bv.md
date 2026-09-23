@@ -1,7 +1,6 @@
 ---
 title: Brand Visibility Integration
 description: Integrate Brand Visibility with CAdobe Analytics
-feature: 
 role: User
 ---
 
@@ -222,7 +221,7 @@ See the following issues and how to troubleshoot these issues.
 
 | Issue | Troubleshoot |
 |---|---|
-| The connector will not enable, or the site list is empty. |Check whether:<ul><li>Adobe Brand Visibility onboarding is complete for the site.</li><li>BYOCDN log forwarding is configured and confirmed for the site.</li><li>You are working in the correct report suite.</li><ul> | 
+| The connector will not enable, or the site list is empty. | Check whether:<ul><li>Adobe Brand Visibility onboarding is complete for the site.</li><li>BYOCDN log forwarding is configured and confirmed for the site.</li><li>You are working in the correct report suite.</li></ul> |
 | The connector is enabled but no data appears. | Check whether: <ul><li>Data is visible in the Agentic Traffic dashboard for the connected site (if not, the issue is upstream of Analytics).</li><li>Enough time has passed for the initial 90-day backfill and at least one hourly sync.</li><li>- The selected date range in your report includes a period after the connector was enabled.</li></ul> |
 | Data appears incomplete or unexpected. | Check whether: <ul><li>The report suite is not also expected to receive data for a different Brand Visibility site (each report suite connects to exactly one site).</li><li>You are reading the **Requests** metric rather than counting rows or hits elsewhere in the report suite.</li><li>The dimensions you are viewing match the list in Section 4; unrelated evars or events in the same report suite are not part of this integration.</li></ul> |
 
@@ -230,8 +229,6 @@ See the following issues and how to troubleshoot these issues.
 >
 >[Brand Visibility /LLMO integration reference](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/bv)
 >[BYOCDN Log Forwarding reference](https://experienceleague.adobe.com/en/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)
-
----
 
 ## Drafting notes for Docs (not for publication)
 

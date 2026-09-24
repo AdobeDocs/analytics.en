@@ -50,15 +50,15 @@ var visitor = Visitor.getInstance("YOUR_ORG_ID@AdobeOrg");
 var ecid = visitor.getMarketingCloudVisitorID();
 ```
 
-Send that value on each hit as the `mid` query parameter or the `<marketingCloudVisitorId>` XML tag. If your data forwards to Audience Manager, also send the region from [`getLocationHint`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getlocationhint) as the `aamlh` parameter (or `<imsRegion>` tag). To associate your own customer identifiers with the visitor, use [`setCustomerIDs`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/setcustomerids).
+Send that value on each hit as the `mid` query parameter, along with your IMS organization ID as the `mcorgid` parameter so the ECID resolves correctly. If your data forwards to Audience Manager, also send the region from [`getLocationHint`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getlocationhint) as the `aamlh` parameter. To associate your own customer identifiers with the visitor, use [`setCustomerIDs`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/setcustomerids).
 
 For server-side collection, obtain the ECID on the client and forward it to your server to send on each hit. To generate an ECID entirely server-side, without a client, use the ID Service's [direct integration](https://experienceleague.adobe.com/en/docs/id-service/using/implementation/direct-integration).
 
 ## Using the Analytics visitor ID
 
-The Analytics visitor ID (`aid`) is stored in the [`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) cookie. When a hit arrives without an identifier, the collection server assigns an `aid` and returns it in the response body. Some [response types](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/response-types) also include this identifier in the response body. Who stores that ID and resends it is the difference between the two implementation styles.
+The Analytics visitor ID (`aid`) is stored in the [`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) cookie. When a hit arrives without an identifier, the collection server assigns an `aid` and attempts to set a cookie containing that identifier. Some [response types](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/response-types) also include this identifier in the response body.
 
-* **Client-side (direct image requests).** The browser stores the `s_vi` cookie that the server returns and sends it on every later request to the same collection domain, so the visitor is recognized automatically. For this to work, the collection domain must be able to set and read the cookie — use a first-party CNAME tracking server. Because this model depends on cookies, it degrades where browsers restrict them (third-party cookie blocking, Intelligent Tracking Prevention); prefer the ECID for durable identity.
+* **Client-side (direct image requests).** The browser stores the `s_vi` cookie that the server returns and sends it on every later request to the same collection domain. The visitor is then recognized automatically, with no `aid` to set yourself. Because this model depends on cookies, it carries the same durability limits as any cookie-based identity. See [Visitor identification using AppMeasurement](appmeasurement.md) for first-party versus third-party cookie behavior, and the [order of operations](overview.md) for how Adobe chooses which identifier to use. Adobe recommends using an ECID for durable identity.
 
   >[!NOTE]
   >
@@ -72,7 +72,7 @@ The Analytics visitor ID (`aid`) is stored in the [`s_vi`](https://experiencelea
 
   The first, identifier-less hit is already attributed to the `aid` the server returns, so you lose no data by sending it before you have an ID. For the response types that return the ID (`3` for JavaScript, `11` for XML, `10` for JSON) and the request format, see [Response type](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/response-types) in the Data Insertion API documentation.
 
-  Because a server-side request carries no visitor cookies, and its own IP address and user agent belong to the sender, also forward the visitor's real IP address (the `X-Forwarded-For` header) and user agent (the `User-Agent` header) so hits are attributed correctly.
+  A server-side request carries no visitor cookies, and its own IP address and user agent belong to the sender. To attribute hits correctly, also forward the visitor's real IP address (the `X-Forwarded-For` header) and user agent (the `User-Agent` header).
 
 ## Using a custom visitor ID
 

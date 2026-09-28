@@ -13,11 +13,18 @@ feature_v2:
     internal-label: Analysis Workspace
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
     internal-label: Integrations
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: fe0a7292-80bc-407a-b456-64170267d1cc
     internal-label: Advertising integration
   - id: a9364d69-0c51-44bf-8b5f-6d99c04493b8
     internal-label: Advertising Analytics
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting

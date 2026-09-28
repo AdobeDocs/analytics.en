@@ -4,7 +4,7 @@ title: View/Manage Privacy Labeling for Data Governance
 feature: Data Governance
 role: Admin
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-TQID: https://experienceleague.adobe.com/0muNPJ8HVoX6ro-bqp6I3dWiOrNGSHF9yBy-qRWLhZI
+TQID: 'https://experienceleague.adobe.com/0muNPJ8HVoX6ro-bqp6I3dWiOrNGSHF9yBy-qRWLhZI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -13,9 +13,13 @@ feature_v2:
     internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
     internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
     internal-label: Events
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

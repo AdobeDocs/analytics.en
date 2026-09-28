@@ -3,16 +3,20 @@ description: Overview page for configuring settings that apply to all report sui
 title: Company Settings overview
 feature: Company Settings
 exl-id: 3c86288a-817f-42da-90f9-b5220a2c2c23
-TQID: https://experienceleague.adobe.com/mRB6Qr-IyfkS7FqmkY2avRZUNLcPl6wP-dzmqlc8DeE
+TQID: 'https://experienceleague.adobe.com/mRB6Qr-IyfkS7FqmkY2avRZUNLcPl6wP-dzmqlc8DeE'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
     internal-label: Reports
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
     internal-label: Report Builder
+  - id: c6a85389-fb1b-4b26-96ea-08f17fed0c9f
+    internal-label: Company Settings
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

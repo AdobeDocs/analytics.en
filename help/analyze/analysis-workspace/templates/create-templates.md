@@ -18,6 +18,11 @@ feature_v2:
 subfeature_v2:
   - id: afb76b85-c4c7-4167-959c-8c31401f54be
     internal-label: Project canvas
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Create and manage templates
 

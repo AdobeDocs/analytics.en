@@ -4,7 +4,7 @@ title: Data Warehouse Overview
 feature: Data Warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 exl-id: 6a051d53-397b-4a55-9cca-1c83b31c9448
-TQID: https://experienceleague.adobe.com/Vkn9mWvBzaiIBf1KYIEUK8cRwTuzw41MT-v-thMBg38
+TQID: 'https://experienceleague.adobe.com/Vkn9mWvBzaiIBf1KYIEUK8cRwTuzw41MT-v-thMBg38'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -13,11 +13,15 @@ feature_v2:
     internal-label: Reports
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
     internal-label: Analysis Workspace
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: e3e906cf-5493-4e0a-9a33-bf0ac37393d6
     internal-label: Custom reports
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
     internal-label: Report suites
+  - id: f47edbe0-f963-46ff-a667-71011396f5f3
+    internal-label: Data Warehouse
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

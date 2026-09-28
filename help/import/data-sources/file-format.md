@@ -4,7 +4,7 @@ description: Correctly generate a file for use in data sources.
 exl-id: 6632b970-e931-4272-a69b-c1130ad6475f
 feature: Data Sources
 role: Admin
-TQID: https://experienceleague.adobe.com/aOyIlKV8OwvmigJ7RFcNQsrsBiHbrC0a-IPN4xR0OZc
+TQID: 'https://experienceleague.adobe.com/aOyIlKV8OwvmigJ7RFcNQsrsBiHbrC0a-IPN4xR0OZc'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -13,9 +13,13 @@ feature_v2:
     internal-label: Metrics
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
     internal-label: API
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
     internal-label: Events
+  - id: f46a60da-b0b2-4ca3-bd91-271173f4123d
+    internal-label: Data sources
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

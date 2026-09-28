@@ -4,7 +4,7 @@ keywords: Virtual Report Suite
 title: Create virtual report suites
 feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-TQID: https://experienceleague.adobe.com/-h1EQpbFeysnvrQfqyvI-zi1IqxvK3m6ac1VaKaKZRQ
+TQID: 'https://experienceleague.adobe.com/-h1EQpbFeysnvrQfqyvI-zi1IqxvK3m6ac1VaKaKZRQ'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -13,6 +13,8 @@ feature_v2:
     internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
     internal-label: Analysis Workspace
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
     internal-label: Components
@@ -22,6 +24,8 @@ subfeature_v2:
     internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
     internal-label: Calculated Metrics
+  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+    internal-label: VRS
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

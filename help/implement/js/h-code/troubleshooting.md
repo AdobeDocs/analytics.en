@@ -4,18 +4,22 @@ description: Learn some common issues with legacy JavaScript implementations.
 feature: Implementation Basics
 exl-id: 51d6e286-7008-4736-a196-bd8ac4e3e9cb
 role: Developer
-TQID: https://experienceleague.adobe.com/DootwtTj5kDIRHKhFPeY3Fnt3bWdVLsXc6J3UEc5LPI
+TQID: 'https://experienceleague.adobe.com/DootwtTj5kDIRHKhFPeY3Fnt3bWdVLsXc6J3UEc5LPI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
     internal-label: Implementations
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: df312454-73c4-43f6-a90e-18f5043f074c
     internal-label: Tags
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
     internal-label: Variables
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

@@ -4,16 +4,20 @@ description: Navigate the interface to create, edit, or delete processing rules.
 feature: Processing Rules
 role: Admin
 exl-id: 897d2bb6-cc10-43b1-b436-20985d24d998
-TQID: https://experienceleague.adobe.com/Ah57YA-n9UY-OLwpdKSheSqm53nXa-KoTkPuX8CBTfU
+TQID: 'https://experienceleague.adobe.com/Ah57YA-n9UY-OLwpdKSheSqm53nXa-KoTkPuX8CBTfU'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
     internal-label: Metrics
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
     internal-label: Events
+  - id: fbaf7f9a-8341-44f6-aa57-6c8d50741804
+    internal-label: Processing rules
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

@@ -4,7 +4,7 @@ description: Determine what events to include in link tracking image requests.
 feature: Appmeasurement Implementation
 exl-id: 53c9e122-425c-4ec3-8a32-96e4d112f348
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/7BKaDxchTRu39doWzm8f32DOemgpvj1s-4uzfjJkOEA
+TQID: 'https://experienceleague.adobe.com/7BKaDxchTRu39doWzm8f32DOemgpvj1s-4uzfjJkOEA'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -22,6 +22,8 @@ subfeature_v2:
     internal-label: Variables
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
     internal-label: Events
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

@@ -4,7 +4,7 @@ description: Use Adobe Analytics to track your marketing efforts.
 feature: Implementation Basics
 exl-id: 9f7920e0-471c-46bc-9314-7b0a7c93fdce
 role: Admin, Developer, Leader
-TQID: https://experienceleague.adobe.com/Jz-kv8lbo-l8d-xiR0B2FFR6GhVL8Gb-PiuHejRzMac
+TQID: 'https://experienceleague.adobe.com/Jz-kv8lbo-l8d-xiR0B2FFR6GhVL8Gb-PiuHejRzMac'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -15,9 +15,13 @@ feature_v2:
     internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
     internal-label: Analysis Workspace
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
     internal-label: Components
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

@@ -4,7 +4,7 @@ description: Measure the time when a specific action takes place.
 feature: Appmeasurement Implementation
 exl-id: 3fab36c8-a006-405a-9ef1-2547c2b36b0d
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/4321rEzlE5cFkTZTHsyyG17E3cl3wXHeJ6BZxdoe6xQ
+TQID: 'https://experienceleague.adobe.com/4321rEzlE5cFkTZTHsyyG17E3cl3wXHeJ6BZxdoe6xQ'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -13,9 +13,13 @@ feature_v2:
     internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
     internal-label: Analysis Workspace
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
     internal-label: Components
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

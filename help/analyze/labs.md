@@ -4,7 +4,7 @@ description: Preview prototype projects for Adobe Analytics
 feature: Labs
 role: Admin
 exl-id: e5eafa04-f508-4330-b62a-113a60c5c4bb
-TQID: https://experienceleague.adobe.com/au-obObVIyJSay963HGriDJr1FQfjoXvCBEet94AbMI
+TQID: 'https://experienceleague.adobe.com/au-obObVIyJSay963HGriDJr1FQfjoXvCBEet94AbMI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -15,11 +15,15 @@ feature_v2:
     internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
     internal-label: Dashboards
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
     internal-label: Alerts
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
     internal-label: Calculated Metrics
+  - id: e69d6e08-d70a-4d1e-9168-b9061b2e860c
+    internal-label: Labs
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

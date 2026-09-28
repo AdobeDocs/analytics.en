@@ -18,6 +18,8 @@ feature_v2:
 subfeature_v2:
   - id: b99602d0-836e-4dbb-979f-c0dec53f883c
     internal-label: Privacy
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

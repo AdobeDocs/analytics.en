@@ -10,6 +10,8 @@ product_v2:
 feature_v2:
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
     internal-label: Integrations
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: fe0a7292-80bc-407a-b456-64170267d1cc
     internal-label: Advertising integration

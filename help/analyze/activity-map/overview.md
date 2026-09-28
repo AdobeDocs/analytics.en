@@ -4,7 +4,7 @@ title: Activity Map overview
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-TQID: https://experienceleague.adobe.com/1-o8wAr6cY8jSR2facQEvh--wvXByJf6R01r4RcVEhI
+TQID: 'https://experienceleague.adobe.com/1-o8wAr6cY8jSR2facQEvh--wvXByJf6R01r4RcVEhI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -19,6 +19,8 @@ feature_v2:
     internal-label: Implementations
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
     internal-label: Dashboards
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
     internal-label: Components
@@ -28,6 +30,8 @@ subfeature_v2:
     internal-label: Variables
   - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
     internal-label: Report Suite settings
+  - id: d40ce8ba-a8b5-4daa-9c46-16a4e57a022b
+    internal-label: Activity Map
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

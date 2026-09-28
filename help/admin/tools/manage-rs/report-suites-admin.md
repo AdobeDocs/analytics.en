@@ -3,13 +3,18 @@ description: A report suite defines the complete, independent reporting on a cho
 title: Report Suite Manager
 feature: Report Suite Settings
 exl-id: c36e5378-c8a7-4f18-b143-8ce862638c76
-TQID: https://experienceleague.adobe.com/qjRtfQCZ0K-h-cr7PlXcdkTllCq-RLwIcmV-I6nQHDo
+TQID: 'https://experienceleague.adobe.com/qjRtfQCZ0K-h-cr7PlXcdkTllCq-RLwIcmV-I6nQHDo'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
 feature_v2:
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
     internal-label: Admin Tools
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
+subfeature_v2:
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

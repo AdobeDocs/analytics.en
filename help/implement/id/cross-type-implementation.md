@@ -4,7 +4,7 @@ description: Use different implementation types and track visitors seamlessly be
 exl-id: 18aa5595-d2a7-4df2-a4ef-a5040c097483
 feature: Implementation Basics
 role: Admin, Developer, Leader
-TQID: https://experienceleague.adobe.com/FM6c33rpXxzy1huu8KE0VBkfe4FGIySczmVMrprFEUY
+TQID: 'https://experienceleague.adobe.com/FM6c33rpXxzy1huu8KE0VBkfe4FGIySczmVMrprFEUY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -13,6 +13,8 @@ feature_v2:
     internal-label: Implementations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
     internal-label: API
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: c069c44e-5426-4c1a-accc-8028662f2fde
     internal-label: Functions
@@ -20,6 +22,8 @@ subfeature_v2:
     internal-label: Tags
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
     internal-label: Variables
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

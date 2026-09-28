@@ -4,7 +4,7 @@ title: Global report suites
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
 role: Admin
-TQID: https://experienceleague.adobe.com/IcE0DXKBiNdfunqOMbeAQPV-m4zXR1PiVIXSGQqnd9E
+TQID: 'https://experienceleague.adobe.com/IcE0DXKBiNdfunqOMbeAQPV-m4zXR1PiVIXSGQqnd9E'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -14,6 +14,8 @@ feature_v2:
 subfeature_v2:
   - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
     internal-label: VRS
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

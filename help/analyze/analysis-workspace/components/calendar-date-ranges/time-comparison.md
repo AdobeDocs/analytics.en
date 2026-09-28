@@ -4,7 +4,7 @@ title: Date Comparison
 feature: Date Ranges
 role: User, Admin
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
-TQID: https://experienceleague.adobe.com/8JGo2UzVdsArtXKFa3pLZtvjOSH5qQowPoftuzNvZfs
+TQID: 'https://experienceleague.adobe.com/8JGo2UzVdsArtXKFa3pLZtvjOSH5qQowPoftuzNvZfs'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -20,6 +20,8 @@ subfeature_v2:
     internal-label: Components
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
     internal-label: Visualizations
+  - id: 48da7efd-b4e7-5fc2-85c1-7983bf649b9e
+    internal-label: Date Ranges
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

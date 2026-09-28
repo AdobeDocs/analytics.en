@@ -3,13 +3,18 @@ title: Communicate impact to users
 description: Learn effective ways to communicate the impact of an event in your organization.
 exl-id: 9ba83f3f-2eea-44c2-80b2-a0a9111d51cf
 feature: Curate and Share
-TQID: https://experienceleague.adobe.com/Ku2Rgll0xTFejohK1gTwbQ6qY8IrneI0i0Ii5Tpycho
+TQID: 'https://experienceleague.adobe.com/Ku2Rgll0xTFejohK1gTwbQ6qY8IrneI0i0Ii5Tpycho'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
     internal-label: Reports
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+subfeature_v2:
+  - id: c510df06-c813-424c-abc1-c7ae8b03e9b3
+    internal-label: Curate and Share
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

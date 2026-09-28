@@ -14,6 +14,8 @@ feature_v2:
     internal-label: Reports
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
     internal-label: Data configuration and collection
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: c89b8d67-4154-4bfd-87fa-95e9c48afc6a
     internal-label: Data classifications

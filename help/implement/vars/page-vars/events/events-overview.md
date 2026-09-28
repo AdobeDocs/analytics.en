@@ -4,7 +4,7 @@ description: Set the events variable, which governs most metrics on your site.
 feature: Appmeasurement Implementation
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/ZP2y0-Ip7JFp6DZvB5VW0PgTk7yhTWUocwzkLX2D2RM
+TQID: 'https://experienceleague.adobe.com/ZP2y0-Ip7JFp6DZvB5VW0PgTk7yhTWUocwzkLX2D2RM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -15,11 +15,15 @@ feature_v2:
     internal-label: Metrics
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
     internal-label: API
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
     internal-label: Events
   - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
     internal-label: Report Suite settings
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

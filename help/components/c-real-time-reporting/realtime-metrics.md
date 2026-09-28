@@ -4,7 +4,7 @@ title: Supported real-time metrics and dimensions overview
 topic-fix: Reports
 feature: Real-time
 exl-id: 736a3caf-ee04-4aa4-8d9b-ba891cabda61
-TQID: https://experienceleague.adobe.com/ytZc5-5SJKR84AjcaBcWT2NobNwaZwX8JZe74vvdOus
+TQID: 'https://experienceleague.adobe.com/ytZc5-5SJKR84AjcaBcWT2NobNwaZwX8JZe74vvdOus'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -20,6 +20,8 @@ subfeature_v2:
     internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
     internal-label: Calculated Metrics
+  - id: e3f5b014-59dd-41c0-90f5-c405dcfaed07
+    internal-label: Real time reporting
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

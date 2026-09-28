@@ -3,7 +3,7 @@ title: Get Started with Marketing Channels
 description: Learn about the Marketing Channels workflow, the automatic setup, and how to apply template report suite settings to multiple report suites.
 feature: Marketing Channels
 exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
-TQID: https://experienceleague.adobe.com/ZPF3XewOODBtH3XFLBoULMQmdkcQnCsF08KN-1QbSjI
+TQID: 'https://experienceleague.adobe.com/ZPF3XewOODBtH3XFLBoULMQmdkcQnCsF08KN-1QbSjI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -12,11 +12,15 @@ feature_v2:
     internal-label: Metrics
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
     internal-label: Admin Tools
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
     internal-label: Calculated Metrics
   - id: fbaf7f9a-8341-44f6-aa57-6c8d50741804
     internal-label: Processing rules
+  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
+    internal-label: Marketing Channels
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

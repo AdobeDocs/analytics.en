@@ -3,16 +3,20 @@ description: Understand the segment creation user interface.
 title: Create Segments
 feature: Segmentation
 exl-id: 0cec43bd-c2cc-4c8a-ae16-e8b5ad61f281
-TQID: https://experienceleague.adobe.com/s8SCegMSTdPKWLB7DF4LhpcoVcbwgPO2rwBT3v3w-tY
+TQID: 'https://experienceleague.adobe.com/s8SCegMSTdPKWLB7DF4LhpcoVcbwgPO2rwBT3v3w-tY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
     internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
     internal-label: Calculated Metrics
+  - id: c47a19a5-f47b-4e53-afe0-e230da195ebe
+    internal-label: Segmentation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

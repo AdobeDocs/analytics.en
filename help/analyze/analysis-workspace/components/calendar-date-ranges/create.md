@@ -4,7 +4,7 @@ description: Understand how to create a date range that you can use in Analysis 
 feature: Date Ranges
 role: User
 exl-id: 62ce2ca5-4df1-43bf-88ce-3c9f106f4a59
-TQID: https://experienceleague.adobe.com/79QwrgEU9OG45PKPlMW6bmO916hUNwSAfYKpTC7zft4
+TQID: 'https://experienceleague.adobe.com/79QwrgEU9OG45PKPlMW6bmO916hUNwSAfYKpTC7zft4'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -16,6 +16,8 @@ feature_v2:
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
     internal-label: Components
+  - id: 48da7efd-b4e7-5fc2-85c1-7983bf649b9e
+    internal-label: Date Ranges
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

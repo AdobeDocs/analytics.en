@@ -3,16 +3,24 @@ title: Exclude specific dates in analysis
 description: Tips for excluding dates or date ranges if you do not want to include it in reports.
 exl-id: 744666c0-17f3-443b-9760-9c8568bec600
 feature: Curate and Share, Segmentation
-TQID: https://experienceleague.adobe.com/bqSpdTA1BeNtN2UfqRXAwc0iP6bXKFAy9ZSCGlVAZys
+TQID: 'https://experienceleague.adobe.com/bqSpdTA1BeNtN2UfqRXAwc0iP6bXKFAy9ZSCGlVAZys'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
     internal-label: Reports
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
     internal-label: VRS
+  - id: c510df06-c813-424c-abc1-c7ae8b03e9b3
+    internal-label: Curate and Share
+  - id: c47a19a5-f47b-4e53-afe0-e230da195ebe
+    internal-label: Segmentation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

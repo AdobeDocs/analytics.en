@@ -13,6 +13,11 @@ feature_v2:
     internal-label: Metrics
   - id: b7156124-d291-4de4-ac0c-ed17d8078449
     internal-label: AI Tools
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
     internal-label: Data quality

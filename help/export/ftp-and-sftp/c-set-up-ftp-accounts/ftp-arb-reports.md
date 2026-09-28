@@ -4,16 +4,20 @@ keywords: ftp;sftp
 title: Report Builder delivered reports
 feature: FTP Export
 exl-id: 0026b6dc-023f-4896-ba0d-0eec16a9d469
-TQID: https://experienceleague.adobe.com/BedcLtaOC7xlFaDR2dqyXhiuycmbyfwaReNXw9XEGMw
+TQID: 'https://experienceleague.adobe.com/BedcLtaOC7xlFaDR2dqyXhiuycmbyfwaReNXw9XEGMw'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
     internal-label: Reports
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
     internal-label: Report Builder
+  - id: a8bf2e97-0add-4437-b976-1fc5154911a8
+    internal-label: FTP Export
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

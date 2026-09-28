@@ -4,7 +4,7 @@ keywords: Data Feed;job;metrics;pre column;post column;bots;date filtering;event
 title: Calculate metrics
 feature: Data Feeds
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
-TQID: https://experienceleague.adobe.com/6q0Nxb4ne7NJYJi2Lw4k1xPqJC5Gn1ihRDG8nW22J8o
+TQID: 'https://experienceleague.adobe.com/6q0Nxb4ne7NJYJi2Lw4k1xPqJC5Gn1ihRDG8nW22J8o'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -13,9 +13,13 @@ feature_v2:
     internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
     internal-label: Analysis Workspace
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
     internal-label: Events
+  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+    internal-label: Data feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

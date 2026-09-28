@@ -11,6 +11,12 @@ product_v2:
 feature_v2:
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
     internal-label: Integrations
+  - id: 57d3d944-b7a8-5380-92a1-556c210375c3
+    internal-label: Audience Analytics
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: e6c28e30-8689-4bf4-8fa8-561343d308a9
     internal-label: Experience Cloud integration
@@ -18,6 +24,8 @@ subfeature_v2:
     internal-label: Advertising integration
   - id: a9364d69-0c51-44bf-8b5f-6d99c04493b8
     internal-label: Advertising Analytics
+  - id: d40ce8ba-a8b5-4daa-9c46-16a4e57a022b
+    internal-label: Activity Map
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

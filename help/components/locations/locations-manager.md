@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Locations manager
 feature: Classifications
 exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
-TQID: https://experienceleague.adobe.com/h1mgdT-o4pJHt8qk3WlIovLoOubAygCh36497nYYG10
+TQID: 'https://experienceleague.adobe.com/h1mgdT-o4pJHt8qk3WlIovLoOubAygCh36497nYYG10'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -15,6 +15,8 @@ feature_v2:
     internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
     internal-label: Analysis Workspace
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
     internal-label: Report Builder

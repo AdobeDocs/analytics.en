@@ -72,6 +72,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | Feature | Description |
 | --- | --- |
 | **September 2026** | |
+| Journey canvas comparison on arrows and fallout | Updated the '[!UICONTROL Compare to]' setting in [Configure a Journey canvas visualization](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings) to show that the percent change between date ranges now displays on each node, arrow, and fallout in the journey. |
 | New resize shortcut actions | New keyboard shortcuts in Analysis Workspace now allow you to [resize a panel or visualization](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#resize-panel-or-visualization-actions) wider, narrower, taller, or shorter. |
 | [Adobe Analytics data collection APIs](https://developer.adobe.com/analytics-collection-apis/) | New developer repository that aggregates and modernizes data collection strategies for Adobe Analytics without the use of AppMeasurement or tags. |
 | **August 2026** | |

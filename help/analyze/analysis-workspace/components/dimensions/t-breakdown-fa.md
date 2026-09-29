@@ -45,9 +45,9 @@ You can break down your data in Analysis Workspace in unlimited ways for your sp
 
 You can break down metrics by dimension items or audience segments across selected time periods. You can also drill down further to a more granular level.
 
-   >[!NOTE]
-   >
-   >The number of breakdowns to show in the table is limited to 200. This limit increases for exporting breakdowns.
+>[!NOTE]
+>
+>The number of breakdowns to show in the table is limited to 200. This limit increases for exporting breakdowns.
 
 ## Breakdown by position
 

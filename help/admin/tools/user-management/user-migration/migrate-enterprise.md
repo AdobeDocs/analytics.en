@@ -112,40 +112,40 @@ If you need to migrate existing Adobe ID user accounts to an Enterprise ID or Fe
 
 1. In the template ( [!DNL sample.csv]), complete the following required fields:
 
-<table id="table_1B5EEFDB5BD8436EB760BE5FFAB1CF02"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Field </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Email </p> </td> 
-   <td colname="col2"> <p>Copied from the <span class="filepath"> User Logins List.tab</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>First Name </p> </td> 
-   <td colname="col2"> <p>Copied from the <span class="filepath"> User Logins List.tab</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Last Name </p> </td> 
-   <td colname="col2"> <p>Copied from the <span class="filepath"> User Logins List.tab</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Identity Type </p> </td> 
-   <td colname="col2"> <p><span class="term"> Federated ID</span> or <span class="term"> Enterprise ID</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Domain </p> </td> 
-   <td colname="col2"> <p>Ensure that domains in <span class="term"> Domain</span> and <span class="term"> Email</span> column are matching the domain(s) established in the prerequisites</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Country Code </p> </td> 
-   <td colname="col2"> </td> 
-  </tr> 
- </tbody> 
-</table>
+   <table id="table_1B5EEFDB5BD8436EB760BE5FFAB1CF02"> 
+   <thead> 
+   <tr> 
+      <th colname="col1" class="entry"> Field </th> 
+      <th colname="col2" class="entry"> Description </th> 
+   </tr>
+   </thead>
+   <tbody> 
+   <tr> 
+      <td colname="col1"> <p>Email </p> </td> 
+      <td colname="col2"> <p>Copied from the <span class="filepath"> User Logins List.tab</span>. </p> </td> 
+   </tr> 
+   <tr> 
+      <td colname="col1"> <p>First Name </p> </td> 
+      <td colname="col2"> <p>Copied from the <span class="filepath"> User Logins List.tab</span>. </p> </td> 
+   </tr> 
+   <tr> 
+      <td colname="col1"> <p>Last Name </p> </td> 
+      <td colname="col2"> <p>Copied from the <span class="filepath"> User Logins List.tab</span>. </p> </td> 
+   </tr> 
+   <tr> 
+      <td colname="col1"> <p>Identity Type </p> </td> 
+      <td colname="col2"> <p><span class="term"> Federated ID</span> or <span class="term"> Enterprise ID</span>. </p> </td> 
+   </tr> 
+   <tr> 
+      <td colname="col1"> <p>Domain </p> </td> 
+      <td colname="col2"> <p>Ensure that domains in <span class="term"> Domain</span> and <span class="term"> Email</span> column are matching the domain(s) established in the prerequisites</a>. </p> </td> 
+   </tr> 
+   <tr> 
+      <td colname="col1"> <p>Country Code </p> </td> 
+      <td colname="col2"> </td> 
+   </tr> 
+   </tbody> 
+   </table>
 
    For more information about the fields in the [!DNL .csv] file, see [CSV file format](https://helpx.adobe.com/enterprise/using/users.html).
 

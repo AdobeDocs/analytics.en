@@ -76,7 +76,6 @@ user-guide-description: Learn about Analytics administration tasks, such managin
         + [Success events](tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md)
         + [Classification Hierarchies](tools/manage-rs/edit-settings/conversion-var-admin/classification-hierarchies.md)
         + [List Variables](tools/manage-rs/edit-settings/conversion-var-admin/list-var-admin.md)
-        + [Merchandising eVars](tools/manage-rs/edit-settings/conversion-var-admin/merchandising-evars.md)
       + Marketing Channels {#marketing-channels}
         + [Marketing Channel Manager](tools/manage-rs/edit-settings/marketing-channels/c-channels.md)
         + [Marketing Channel Processing Rules](tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)

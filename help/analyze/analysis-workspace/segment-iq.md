@@ -20,9 +20,13 @@ subfeature_v2:
     internal-label: Segment Builder
   - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
     internal-label: Attribution
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner

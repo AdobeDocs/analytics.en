@@ -4,7 +4,7 @@ description: Partner with Adobe to make sure high-traffic events don't experienc
 feature: Report Suite Settings
 role: Admin
 exl-id: a6bbd975-6d31-40f5-8f80-491ec3a5c5f5
-TQID: https://experienceleague.adobe.com/sRBWnaCF2I3WCOMrgWQvF9DP-jZ8eKwSfPbnbWpUcEI
+TQID: 'https://experienceleague.adobe.com/sRBWnaCF2I3WCOMrgWQvF9DP-jZ8eKwSfPbnbWpUcEI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -14,6 +14,8 @@ feature_v2:
 subfeature_v2:
   - id: f52db89b-2666-4cad-9c50-9da4d3ffcfd0
     internal-label: Traffic Management
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

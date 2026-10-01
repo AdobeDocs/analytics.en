@@ -28,6 +28,7 @@ index: true
     + [Create projects](analysis-workspace/build-workspace-project/create-projects.md)
     + [Open projects](analysis-workspace/build-workspace-project/open-projects.md)
     + [Save projects](analysis-workspace/build-workspace-project/save-projects.md)
+    + {hide-from-toc} [Use cached results](analysis-workspace/build-workspace-project/cached-results.md)
     + [Table of contents](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
     + Folders in Workspace {#workspace-folders}
       + [Overview](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)

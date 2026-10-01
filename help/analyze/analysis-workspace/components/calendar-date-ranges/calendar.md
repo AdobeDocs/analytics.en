@@ -4,7 +4,7 @@ title: Date Ranges Overview
 feature: Date Ranges
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-TQID: https://experienceleague.adobe.com/UsXBUB8vK-aIiQBoMfahyU9vt5rVfZadDojwKstFnj4
+TQID: 'https://experienceleague.adobe.com/UsXBUB8vK-aIiQBoMfahyU9vt5rVfZadDojwKstFnj4'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -20,6 +20,8 @@ subfeature_v2:
     internal-label: Visualizations
   - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
     internal-label: Panels
+  - id: 48da7efd-b4e7-5fc2-85c1-7983bf649b9e
+    internal-label: Date Ranges
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

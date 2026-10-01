@@ -4,16 +4,20 @@ keywords: Virtual Report Suite
 title: Virtual report suite workflow
 feature: VRS
 exl-id: 6f68b5a2-04d6-4521-86d0-85c9f323d03c
-TQID: https://experienceleague.adobe.com/psqP8b-OG8WguflQ1pPJZrEDbxR-pyuFaNTq3nl-Np4
+TQID: 'https://experienceleague.adobe.com/psqP8b-OG8WguflQ1pPJZrEDbxR-pyuFaNTq3nl-Np4'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
     internal-label: Metrics
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
     internal-label: Calculated Metrics
+  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+    internal-label: VRS
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

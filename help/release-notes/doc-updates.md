@@ -31,6 +31,11 @@ feature_v2:
 subfeature_v2:
   - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
     internal-label: Release notes
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
@@ -67,6 +72,8 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | Feature | Description |
 | --- | --- |
 | **September 2026** | |
+| Journey canvas comparison on arrows and fallout | Updated the '[!UICONTROL Compare to]' setting in [Configure a Journey canvas visualization](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings) to show that the percent change between date ranges now displays on each node, arrow, and fallout in the journey. |
+| Merchandising eVars | Revamped and consolidated merchandising variable documentation into relevant components:<ul><li>[eVar (Merchandising)](/help/components/dimensions/evar-merchandising.md) dimension in the Components guide</li><li>[eVar (Merchandising)](/help/implement/vars/page-vars/evar-merchandising.md) variable in the Implement guide</li><li>[Conversion variables](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) in the Admin guide</li></ul> |
 | New resize shortcut actions | New keyboard shortcuts in Analysis Workspace now allow you to [resize a panel or visualization](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#resize-panel-or-visualization-actions) wider, narrower, taller, or shorter. |
 | [Adobe Analytics data collection APIs](https://developer.adobe.com/analytics-collection-apis/) | New developer repository that aggregates and modernizes data collection strategies for Adobe Analytics without the use of AppMeasurement or tags. |
 | **August 2026** | |
@@ -307,7 +314,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | August 5, 2021 | Updated classifications documentation on [templates](/help/components/classifications/importer/c-download-saint-data.md), [browser import](/help/components/classifications/importer/browser-import.md), and [browser export](/help/components/classifications/importer/browser-export.md) to indicate options unavailable for report suites that are enabled for the New Classification Architecture. |
 | August 2, 2021 | Updated multiple pages to reflect the re-branding of [Adobe Experience Platform Launch](/help/implement/launch/overview.md) |
 | **July 2021** |  |
-| July 23, 2021 | New in-depth discussion of [Merchandising eVars](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/merchandising-evars.md) |
+| July 23, 2021 | New in-depth discussion of [Merchandising eVars](/help/components/dimensions/evar-merchandising.md) |
 | July 15, 2021 | Added new documentation on the new [Adobe Analytics landing page](/help/analyze/landing.md) |
 | **June 2021** |  |
 | June 15, 2021 | Updated [Marketing Channels best practices](/help/components/c-marketing-channels/mchannel-best-practices.md) |

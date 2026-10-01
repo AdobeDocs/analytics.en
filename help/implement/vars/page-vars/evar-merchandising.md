@@ -15,6 +15,8 @@ feature_v2:
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
     internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -32,11 +34,16 @@ topic_v2:
 
 >[!BEGINSHADEBOX]
 
-*This help page describes how to implement merchandising eVars. For information on how merchandising eVars work as a dimension, see [eVars (Merchandising dimension)](/help/components/dimensions/evar-merchandising.md) in the Components user guide.*
+*This help page describes how to implement merchandising eVars. For information on how merchandising eVars work as a dimension, see [eVar (Merchandising dimension)](/help/components/dimensions/evar-merchandising.md) in the Components user guide.*
 
 >[!ENDSHADEBOX]
 
-For a detailed discussion of how merchandising eVars work, see [Merchandising eVars and product finding methods](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/merchandising-evars.md).
+Merchandising eVars bind a value to individual products, so that success events involving each product are credited to the value bound to that product. You can set the value in one of two ways:
+
+* **[!UICONTROL Product Syntax]**: Set the value on each product in the [`products`](products.md) variable.
+* **[!UICONTROL Conversion Variable Syntax]**: Set the value in the eVar itself. The value binds to the products on a hit that contains a binding event.
+
+For how binding, allocation, and expiration work, see [eVar (Merchandising dimension)](/help/components/dimensions/evar-merchandising.md).
 
 ## Set up eVars in report suite settings
 
@@ -46,9 +53,21 @@ Before using eVars in your implementation, make sure that you configure the eVar
 >
 >Failure to correctly configure merchandising eVars results in unexpected values or data loss for the variable. Make sure it is correctly configured for your implementation.
 
+## Choose a syntax
+
+Use [!UICONTROL Product Syntax] when the merchandising value is available at the time you set the `products` variable, or when products in the same hit need different values. Use [!UICONTROL Conversion Variable Syntax] when the value is known before the product, such as the search term or internal campaign that led the visitor to the product. See [How binding and allocation work](/help/components/dimensions/evar-merchandising.md#how-binding-and-allocation-work) for a full comparison.
+
 ## Implement using product syntax
 
-When 'Product Syntax' is enabled, the merchandising category is populated directly within the `products` variable, so selecting and setting a binding event is not required. This is the recommended method and should be used unless the value is not available to set in `products` when the success event takes place.
+When [!UICONTROL Product Syntax] is enabled, the merchandising value is set directly within the `products` variable, so binding events are not used. Merchandising eVars go in the last segment of each product:
+
+```js
+s.products = "[category];[name];[quantity];[revenue];[events];[eVars]";
+```
+
+Delimit multiple merchandising eVars on the same product with a pipe (`|`). The empty placeholders for quantity, revenue, and events are required even if you don't use them. Without them, the eVar value is ignored.
+
+The value is bound to the product on that hit. Whether a later value replaces an existing binding depends on the [!UICONTROL Allocation] setting. See [How binding and allocation work](/help/components/dimensions/evar-merchandising.md#how-binding-and-allocation-work).
 
 ```js
 // The bare minimum to set a merchandising eVar with product syntax
@@ -57,11 +76,9 @@ s.products = ";Example product;;;;eVar1=Example merchandising value";
 // An example single product with product syntax
 s.products = "Example category;Example product;1;5.99;event1=1;eVar1=Turtles";
 
-// Tie a merchandising eVar to a different values on two different products
+// Tie a merchandising eVar to different values on two different products
 s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2;550;;eVar1=love birds";
 ```
-
-The value for `eVar1` is assigned to the product. All subsequent success events that involve this product are credited to the eVar value.
 
 ### Product syntax using the Web SDK
 
@@ -107,13 +124,27 @@ The following example shows a single [product](products.md) using multiple merch
 
 The above example object would be sent to Adobe Analytics as `";Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large"`.
 
-If using the [**data object**](/help/implement/aep-edge/data-var-mapping.md), eVar merchandising uses `data.__adobe.analytics.eVar1` - `data.__adobe.analytics.eVar250` following AppMeasurement syntax.
+If using the [**data object**](/help/implement/aep-edge/data-var-mapping.md), product syntax merchandising eVars are set in `data.__adobe.analytics.products`, using the same syntax as the AppMeasurement `products` variable. The data object equivalent of the XDM example above:
+
+```json
+"data": {
+  "__adobe": {
+    "analytics": {
+      "products": ";Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large"
+    }
+  }
+}
+```
 
 ## Implement using conversion variable syntax
 
-Conversion Variable Syntax is used when the eVar value is not available to set in the `products` variable. This scenario typically means that your page has no context of the merchandising channel or finding method. In these cases you set the merchandising variable before you arrive at the product page, and the value persists until the binding event occurs.
+Use [!UICONTROL Conversion Variable Syntax] when the eVar value is not available to set in the `products` variable. This scenario typically means that your product page has no context of the merchandising channel or finding method. In these cases, set the merchandising eVar on or before the page where the binding event occurs. The value persists until it expires or is overwritten with a new value.
 
-When the binding event selected during configuration occurs, the persisted value of the eVar is associated with the product. For example, if `prodView` is specified as the binding event, the merchandising category is tied to the current product list only at the time the event occurs. Only subsequent binding events can update a merchandising eVar that has already been assigned to a product.
+When a hit contains both the `products` variable and a selected [!UICONTROL Merchandising Binding Event], the eVar's current value binds to every product on that hit. Setting the eVar alongside a product without a binding event does not bind the value. Whether a later binding replaces an existing one depends on the [!UICONTROL Allocation] setting. See [How binding and allocation work](/help/components/dimensions/evar-merchandising.md#how-binding-and-allocation-work).
+
+For an example that sets several product finding method eVars at once, see [Best practice: product finding methods](/help/components/dimensions/evar-merchandising.md#best-practice-product-finding-methods).
+
+The following example sets a merchandising eVar before the binding event:
 
 ```js
 // Place on the same or previous page before the binding event:
@@ -124,14 +155,16 @@ s.events = "prodView";
 s.products = ";Canary";
 ```
 
-The value `"Aviary"` for `eVar1` is assigned to the product `"Canary"`. All subsequent success events that involve this product are credited to `"Canary"`. Additionally, the current value of the merchandising variable is tied to all subsequent products until one of the following conditions is met:
+If [!UICONTROL Product View Event] is a binding event, the value `"Aviary"` for `eVar1` is bound to the product `"Canary"`. Subsequent success events that involve this product are credited to `"Aviary"`. The value `"Aviary"` also binds to products on later hits that contain a binding event, until one of the following conditions is met:
 
-* The eVar expires (based on the 'Expire After' setting)
+* The eVar expires (based on the [!UICONTROL Expire After] setting).
 * The merchandising eVar is overwritten with a new value.
 
 ### Conversion variable syntax using the Web SDK
 
-If using the [**XDM object**](/help/implement/aep-edge/xdm-var-mapping.md), syntax operates similarly to implementing other [eVars](evar.md) and [events](events/events-overview.md). The XDM mirroring the example above would look like the following:
+If using the [**XDM object**](/help/implement/aep-edge/xdm-var-mapping.md), syntax operates similarly to implementing other [eVars](evar.md) and [events](events/events-overview.md). If using the [**data object**](/help/implement/aep-edge/data-var-mapping.md), syntax follows AppMeasurement.
+
+The XDM mirroring the AppMeasurement example above would look like the following.
 
 Set the eVar on the same or previous event call:
 
@@ -162,7 +195,7 @@ Set the binding event and values for the products string:
 ]
 ```
 
-If using the [**data object**](/help/implement/aep-edge/data-var-mapping.md), the data objects mirroring the example above would look like the following:
+The data objects mirroring the AppMeasurement example above would look like the following.
 
 Set the eVar on the same or previous event call:
 
@@ -188,3 +221,4 @@ Set the binding event and values for the products string:
   }
 }
 ```
+

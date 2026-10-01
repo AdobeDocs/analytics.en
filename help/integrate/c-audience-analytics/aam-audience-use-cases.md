@@ -3,7 +3,7 @@ description: Learn about uses Audience Analytics cases.
 title: Audience Analytics Use Cases
 feature: Audience Analytics
 exl-id: 5e03e78f-225b-4634-8a4c-f89d17603182
-TQID: https://experienceleague.adobe.com/xtcKnkrf-d5MwX0pPS13-Am4cff9UmuU6UMKLsN7grw
+TQID: 'https://experienceleague.adobe.com/xtcKnkrf-d5MwX0pPS13-Am4cff9UmuU6UMKLsN7grw'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -14,6 +14,8 @@ feature_v2:
     internal-label: Analysis Workspace
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
     internal-label: Integrations
+  - id: 57d3d944-b7a8-5380-92a1-556c210375c3
+    internal-label: Audience Analytics
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
     internal-label: Components

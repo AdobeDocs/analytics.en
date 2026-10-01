@@ -4,7 +4,7 @@ title: Curate And Share Projects Overview
 feature: Curate and Share
 role: User, Admin
 exl-id: 38b92af3-646d-4c30-84ab-a0007c0a39e8
-TQID: https://experienceleague.adobe.com/EduqOjWYaUYaVqHo-oRzvVuE9ZiVPDbS-16-Uvtu398
+TQID: 'https://experienceleague.adobe.com/EduqOjWYaUYaVqHo-oRzvVuE9ZiVPDbS-16-Uvtu398'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -17,9 +17,13 @@ feature_v2:
     internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
     internal-label: Dashboards
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
     internal-label: Components
+  - id: c510df06-c813-424c-abc1-c7ae8b03e9b3
+    internal-label: Curate and Share
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

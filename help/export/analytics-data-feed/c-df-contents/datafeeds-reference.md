@@ -5,7 +5,7 @@ subtopic: data feeds
 title: Data column reference
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-TQID: https://experienceleague.adobe.com/EcbkWUUxHG0e3O8f9f8G5yBAqYHb-tocQygeWY2Zqfc
+TQID: 'https://experienceleague.adobe.com/EcbkWUUxHG0e3O8f9f8G5yBAqYHb-tocQygeWY2Zqfc'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -24,6 +24,8 @@ feature_v2:
     internal-label: Integrations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
     internal-label: API
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
     internal-label: Components
@@ -43,6 +45,8 @@ subfeature_v2:
     internal-label: Events
   - id: fe0a7292-80bc-407a-b456-64170267d1cc
     internal-label: Advertising integration
+  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+    internal-label: Data feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -227,8 +231,8 @@ Previous updates to this table can be found on this page's [commit history on Gi
 | | **`stats_server`** | Not of use. Adobe internal server that processed the hit. | char(30) |
 | **`post_`** | **`s_kwcid`** | Keyword ID used in Adobe Advertising integrations. | varchar(255) |
 | | **`s_resolution`** | Raw screen resolution value. Gathered using the JavaScript function `screen.width x screen.height`. | char(20) |
-| **`post_`** | **`tnt`** | Used in Adobe Target integrations. Represents all tests currently qualified for. Format is: `TargetCampaignID:TargetRecipeID:TargetType\|Event/Action`. | text |
-| **`post_`** | **`tnt_action`** | Used in Adobe Target integrations. Represents all tests the hit qualified for. | text |
+| **`post_`** | **`tnt`** | Used in Adobe Target integrations. Lists the Target activities and experiences the visitor qualified for. The `post_tnt` column persists values from previous hits, similar to eVars. To see only the activities and events for the current hit, use `tnt_action`. Multiple entries are comma-separated. Each entry uses the same format as `tnt_action`, but without the event ID. | text |
+| **`post_`** | **`tnt_action`** | Used in Adobe Target integrations. Lists only the Target activities and experiences that the current hit qualified for, along with the associated events. Unlike `post_tnt`, values do not persist from previous hits. Multiple entries are comma-separated. Each entry uses one of the following formats:<ul><li>Most activities: `activityID:experienceID:trafficType\|eventID`</li><li>Some automated activities, such as Auto-Target: `activityID:experienceID:trafficType:algorithmID\|eventID`</li></ul>Algorithm ID values are internal to Target. Some events include a value, appended as `\|value`. Event IDs include `0` (activity entry), `1` (visit), `2` (impression), and `32767` (conversion). If a hit has multiple events for the same activity and experience, each event is a separate entry. | text |
 | | **`tnt_instances`** | Used in Adobe Target integrations. Target instances variable. | text |
 | **`post_`** | **`transactionid`** | A unique identifier where various data points can be uploaded later through data sources. Collected using the [`transactionID`](/help/implement/vars/page-vars/transactionid.md) variable. | text |
 | | **`truncated_hit`** | A flag indicating that the image request was truncated (a partial hit was received). <br>Y: Hit was truncated; partial hit received <br>N: Hit was not truncated; full hit received | char(1)|

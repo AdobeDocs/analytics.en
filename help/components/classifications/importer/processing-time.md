@@ -3,13 +3,15 @@ title: Classification importer processing time
 description: Understand the time frame Adobe processes classification files, and how to minimize processing time.
 feature: Classifications
 exl-id: 6b8b87f1-5dbc-46b8-9912-0e3086ff4b2a
-TQID: https://experienceleague.adobe.com/D53-pBQ6RKbTCjEIyAgXmh1ZGx9FEtj5sLF8nHUp7P0
+TQID: 'https://experienceleague.adobe.com/D53-pBQ6RKbTCjEIyAgXmh1ZGx9FEtj5sLF8nHUp7P0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
     internal-label: Metrics
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
     internal-label: Calculated Metrics

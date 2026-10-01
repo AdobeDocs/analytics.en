@@ -2,6 +2,12 @@
 title: Brand Visibility Integration
 description: Integrate Brand Visibility with CAdobe Analytics
 role: User
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 
 # Adobe Brand Visibility integration

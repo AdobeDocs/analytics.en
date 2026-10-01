@@ -3,7 +3,7 @@ description: Virtual report suites segment your Adobe Analytics data so you can 
 title: Virtual report suites overview
 feature: VRS
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
-TQID: https://experienceleague.adobe.com/gEs8c9pIUGbbPx7DBAwFhSvT-C6W2vfosgMkrO-32ic
+TQID: 'https://experienceleague.adobe.com/gEs8c9pIUGbbPx7DBAwFhSvT-C6W2vfosgMkrO-32ic'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -31,6 +31,8 @@ subfeature_v2:
     internal-label: Report suites
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
     internal-label: Calculated Metrics
+  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+    internal-label: VRS
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

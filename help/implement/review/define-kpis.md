@@ -4,16 +4,20 @@ description: Make sure that your key performance indicators and associated metri
 feature: Implementation Basics
 exl-id: ca2af0ec-2719-4ee2-aa00-b48a54ee9e14
 role: Admin, Leader
-TQID: https://experienceleague.adobe.com/5gk97uJXKiJqu9E6uv-U6jk1vmovfyVeiUVgMwwc8hQ
+TQID: 'https://experienceleague.adobe.com/5gk97uJXKiJqu9E6uv-U6jk1vmovfyVeiUVgMwwc8hQ'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
     internal-label: Metrics
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
     internal-label: Calculated Metrics
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

@@ -16,6 +16,8 @@ feature_v2:
     internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
     internal-label: Dashboards
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: a5b0e28e-686f-409c-8733-7a2b13fe13c2
     internal-label: Folders
@@ -29,6 +31,8 @@ subfeature_v2:
     internal-label: Panels
   - id: eb853e43-1634-4181-adf2-a44d64395ec3
     internal-label: Hotkeys
+  - id: c457b289-f974-4a67-a5b6-dec3ffa77675
+    internal-label: Workspace basics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

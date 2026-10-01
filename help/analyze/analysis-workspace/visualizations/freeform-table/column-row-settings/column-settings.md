@@ -50,7 +50,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Row and column s
 >[!ENDSHADEBOX]
 
 
-To access [!UICONTROL Column settings], select ![Column settings](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) in the column heading.
+To access [!UICONTROL Column settings], select ![Column settings](/help/assets/icons/Setting.svg) in the column heading.
 
 ![Column settings](assets/column-settings.png)
 

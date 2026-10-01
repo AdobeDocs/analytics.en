@@ -47,7 +47,7 @@ You can view and manage all scheduled workbooks in the **[!UICONTROL Workbooks]*
 
    * Select the column icon ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) to define which columns to show.
 
-   * Select the filter icon ![Filter icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg), then select [!UICONTROL **Show all**] to show all scheduled workbooks for a given org.
+    * Select the filter icon ![Filter icon](/help/assets/icons/Filter.svg), then select [!UICONTROL **Show all**] to show all scheduled workbooks for a given org.
 
 1. Select one or more workbooks.
 

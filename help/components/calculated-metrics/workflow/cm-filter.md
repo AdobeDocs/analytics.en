@@ -57,7 +57,7 @@ Filtering makes it easier to search for calculated metrics in the segment rail.
 
 1. In Adobe Analytics, select the **[!UICONTROL Components]** tab, then select **[!UICONTROL Calculated metrics]**. 
 
-1. In the Calculated metrics manager, click the **[!UICONTROL Filters]** icon:  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
+1. In the Calculated metrics manager, click the **[!UICONTROL Filters]** icon:  ![](/help/assets/icons/Filter.svg)
 
    ![](assets/filtering.png)
 

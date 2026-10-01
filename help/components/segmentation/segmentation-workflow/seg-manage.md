@@ -102,7 +102,7 @@ The Analytics Segment manager shows you all the segments you own and that have b
 
    Or 
 
-   In an existing report, select the Segments icon ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) in the left navigation, then select **[!UICONTROL Manage]**.
+    In an existing report, select the Segments icon ![](/help/assets/icons/Segmentation.svg) in the left navigation, then select **[!UICONTROL Manage]**.
 
 ## Available actions in the Segment manager
 

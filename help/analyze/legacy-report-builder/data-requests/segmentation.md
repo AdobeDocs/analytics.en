@@ -67,7 +67,7 @@ You may have specific combinations of report dimensions that you would like to t
 
 ## Search for and apply segments
 
-Any segments that were created in Reports & Analytics (now end-of-lifed), Report Builder, or Data Warehouse appear in this segment list. To refresh the list, click the Refresh icon ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg).
+Any segments that were created in Reports & Analytics (now end-of-lifed), Report Builder, or Data Warehouse appear in this segment list. To refresh the list, click the Refresh icon ![](/help/assets/icons/Refresh.svg).
 
 You can apply one or multiple segments to any given request. This includes sequential segments.
 
@@ -83,7 +83,7 @@ You can apply one or multiple segments to any given request. This includes seque
 
 ## Filter segments {#filter}
 
-**Filter** segments by clicking on the Filter icon:  ![Filter icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
+**Filter** segments by clicking on the Filter icon:  ![Filter icon](/help/assets/icons/Filter.svg)
 
 Available filters include: 
 
@@ -101,7 +101,7 @@ Available filters include:
 
 Adding a segment control lets you switch segments from within a workbook instead of having to go into the Request Wizard.
 
-1. Click the Control icon ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) next to the segment drop-down.
+1. Click the Control icon ![](/help/assets/icons/Filter.svg) next to the segment drop-down.
 
 1. Check all the segments that you want to appear in the segment control, or check **[!UICONTROL Select All]**.
 
@@ -120,7 +120,7 @@ Adding a segment control lets you switch segments from within a workbook instead
 
 ## Refresh the list of segments {#refresh}
 
-Any time you add a new segment or edit an existing one, you should click the Refresh icon ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) to refresh the cached list of segments.
+Any time you add a new segment or edit an existing one, you should click the Refresh icon ![](/help/assets/icons/Refresh.svg) to refresh the cached list of segments.
 
 ## Manage segments across requests {#manage}
 

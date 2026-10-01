@@ -48,9 +48,9 @@ To view information about a component in the Data Dictionary:
 
 1. (Optional) In the search field, begin typing the name of the component you want to view.
 
-   The type of component can be identified by both color and icon. **Dimensions** ![Dimension icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) are orange, **Segments** ![Segment icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) are blue, **Date ranges** ![Date range icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) are purple, and **Metrics** ![Metric icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) are green. The Adobe icon indicates either a calculated metric template or a segment template, and the calculator icon ![Calculator icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) indicated a calculated metric that was created by an Analytics administrator in your organization.   
+    The type of component can be identified by both color and icon. **Dimensions** ![Dimension icon](/help/assets/icons/Data.svg) are orange, **Segments** ![Segment icon](/help/assets/icons/Segmentation.svg) are blue, **Date ranges** ![Date range icon](/help/assets/icons/Calendar.svg) are purple, and **Metrics** ![Metric icon](/help/assets/icons/Event.svg) are green. The Adobe icon indicates either a calculated metric template or a segment template, and the calculator icon ![Calculator icon](/help/assets/icons/Calculator.svg) indicated a calculated metric that was created by an Analytics administrator in your organization.   
 
-1. (Optional) Select the **Filter** icon ![Data Dictionary Filter icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg), then select any of the following filter options to filter the list of components:
+1. (Optional) Select the **Filter** icon ![Data Dictionary Filter icon](/help/assets/icons/Filter.svg), then select any of the following filter options to filter the list of components:
 
    |Option | Function |
    |---------|----------|
@@ -69,7 +69,7 @@ To view information about a component in the Data Dictionary:
 
    {style="table-layout:auto"}
 
-1. (Optional) Select the **Sort** icon ![Sort components icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg), then select any of the following filter options to sort the list of components:
+1. (Optional) Select the **Sort** icon ![Sort components icon](/help/assets/icons/SortOrderDown.svg), then select any of the following filter options to sort the list of components:
 
    {{components-sort-options}}
 

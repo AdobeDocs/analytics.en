@@ -212,7 +212,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | **May 2023** | |
 | Deep Linking (Mobile App) documentation | Allows users to send links to scorecards that will lead them directly to the scorecard project in the app. [Learn more](/help/analyze/mobile-app/create-scorecard.md#shareable-link) |
 | Documentation for updated Home screen for the Analytics dashboards app (Mobile App)| The new updated Home screen allows you to view all of your scorecards in one consolidated scorecard list. [Learn more](/help/analyze/mobile-app/executive.md#use-dashboards) |
-| Spectrum icons | Replaced, where appropriate, screenshots of user interface icons in the documentation with references to the equivalent icons in [Adobe's Spectrum Design System](https://spectrum.adobe.com/page/icons/). |
+| Spectrum icons | Replaced, where appropriate, screenshots of user interface icons in the documentation with references to the actual icons in [Adobe's Spectrum Design System](https://spectrum.adobe.com). |
 | Reporting Activity Manager | Updated this beta documentation, specifically the section on [Viewing reporting activity for individual report suites](/help/admin/tools/reporting-activity-manager/reporting-activity-overview.md). |
 | Analysis Workspace overview | Updated [Analysis Workspace overview](/help/analyze/analysis-workspace/home.md) to include more general overview information and links to relevant content. |
 | Create projects | Created a new article that explains in detail how to [Create projects](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) in Analysis Workspace. |

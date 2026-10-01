@@ -49,7 +49,7 @@ When should you share segments with the entire company versus just a group of us
   
 
 
-   The Shared icon appears next to the segment:  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
+    The Shared icon appears next to the segment:  ![](/help/assets/icons/Share.svg)
 
 1. You can filter on segments shared with you by going to **[!UICONTROL Filters]** > **[!UICONTROL Other Filters]** > **[!UICONTROL Shared with Me]**.
 

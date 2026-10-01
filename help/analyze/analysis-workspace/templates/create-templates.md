@@ -105,7 +105,7 @@ Administrators can Rename, tag, and approve company templates.
     
    A list of the company templates are displayed. All regular projects, unless they're pinned, are not displayed.
 
-   Company templates can be identified by the ![templates icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg) that precedes the template name. 
+   Company templates can be identified by the ![templates icon](/help/assets/icons/FileTemplate.svg) that precedes the template name. 
 
    ![Display company templates filters](assets/company-templates-filter.png)
 

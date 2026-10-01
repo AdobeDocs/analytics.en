@@ -57,7 +57,7 @@ Adobe offers several types of metrics for use in Analysis Workspace:
 
 * **Calculated metric templates** ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg): Adobe-defined metrics that behave similarly to calculated metrics. You can use them as-is in Workspace projects, or save a copy to customize its logic. Calculated metric templates show an Adobe icon in the list of available components.
 
-You can see whether a metric is approved ![Approved icon](https://spectrum.adobe.com/static/icons/ui_18/CheckmarkSize100.svg)  or not. If you want more details on a metric, hover over the metric, and select ![Info icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg). See [Component info](use-components-in-workspace.md#component-info) for more information.
+You can see whether a metric is approved ![Approved icon](/help/assets/icons/Checkmark.svg)  or not. If you want more details on a metric, hover over the metric, and select ![Info icon](/help/assets/icons/InfoOutline.svg). See [Component info](use-components-in-workspace.md#component-info) for more information.
 
 
 ## Use metrics in Analysis Workspace

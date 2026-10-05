@@ -51,9 +51,9 @@ These release notes cover the September 2026 release period. Adobe Analytics rel
 
 | Feature and description | [Rollout starts](releases.md) | [General Availability](releases.md) |
 | ----------- | ---------- | ---- |
-| **CX Enterprise Coworker: Analyze Adobe Analytics data in Coworker Chat** <br/>Adobe CX Enterprise Coworker Chat can now perform advanced data analysis that was previously possible only in Analysis Workspace. Coworker Chat accesses data from your Adobe Analytics report suites, allowing you to explore that data and get answers to natural-language prompts.<p>(Documentation link to follow.)</p> | October 2, 2026 | TBD<p>(Originally planned for September 25, 2026)</p> |
 | **Automatically generate component descriptions** <br/>You can now automatically generate descriptions for dimensions, metrics, calculated metrics, segments, and date ranges. This allows Workspace users understand which components to use, especially in organizations with large component libraries. <p>You can generate a description for a single component, or generate descriptions for many components at the same time.</p> <p>(Documentation link to follow.)<!--For more information, see [Automatically generate descriptions](/help/components/add-component-descriptions.md#automatically-generate-descriptions).--></p> | | October 28, 2026 |
 | **Adobe Brand Visibility integration**<br/>Connect Adobe Brand Visibility with your organization's Adobe Analytics data so you can measure how AI-driven discovery translates into real website engagement and business outcomes.<p>(Documentation link to follow.)</p> | | October 2026</p> |
+| **CX Enterprise Coworker: Analyze Adobe Analytics data in Coworker Chat** <br/>Adobe CX Enterprise Coworker Chat can now perform advanced data analysis that was previously possible only in Analysis Workspace. Coworker Chat accesses data from your Adobe Analytics report suites, allowing you to explore that data and get answers to natural-language prompts.<p>(Documentation link to follow.)</p> | October 2, 2026 | TBD<p>(Originally planned for September 25, 2026)</p> |
 
 ### Fixes in Adobe Analytics
 

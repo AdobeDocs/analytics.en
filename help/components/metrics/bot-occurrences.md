@@ -39,3 +39,5 @@ Using any other dimension with this metric does not return data.
 ## How this metric is calculated
 
 Adobe checks every hit to see if it matches bot rules that your organization has configured. If a given hit matches a bot rule, the hit is excluded from reporting, and this metric increases by one. This metric includes both page views ([`t()`](/help/implement/vars/functions/t-method.md)) and link tracking hits ([`tl()`](/help/implement/vars/functions/tl-method.md)), whereas [Bot page views](bot-page-views.md) do not include link tracking hits.
+
+To see the number of product string sub-hits that matched bot rules, use the [Bot product occurrences](bot-product-occurrences.md) metric.

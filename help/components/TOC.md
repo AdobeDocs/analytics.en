@@ -127,6 +127,7 @@ nudge: red
   + [Average time on site](metrics/average-time-on-site.md)
   + [Bot occurrences](metrics/bot-occurrences.md)
   + [Bot page views](metrics/bot-page-views.md)
+  + [Bot product occurrences](metrics/bot-product-occurrences.md)
   + [Bounce rate](metrics/bounce-rate.md)
   + [Bounces](metrics/bounces.md)
   + [Cart additions](metrics/cart-additions.md)

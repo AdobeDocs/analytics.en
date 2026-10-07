@@ -3,7 +3,7 @@ title: Final review in the Web SDK upgrade assistant
 description: Review and finalize a Web SDK migration, then publish the resulting tags library to production.
 feature: Implementation Basics
 role: Admin, Developer, Leader
-hide: true
+badge: Beta
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

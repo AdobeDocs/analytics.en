@@ -3,7 +3,7 @@ title: Web SDK implementation in the Web SDK upgrade assistant
 description: Review the Web SDK actions that the upgrade assistant adds to your existing tags rules.
 feature: Implementation Basics
 role: Admin, Developer, Leader
-hide: true
+badge: Beta
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

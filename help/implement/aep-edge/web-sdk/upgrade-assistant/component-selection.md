@@ -3,7 +3,7 @@ title: Component selection in the Web SDK upgrade assistant
 description: Choose which tags rules, data elements, and extensions to include in a Web SDK migration.
 feature: Implementation Basics
 role: Admin, Developer, Leader
-hide: true
+badge: Beta
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

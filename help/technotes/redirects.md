@@ -133,11 +133,11 @@ s.referrer="https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tick
 s.pageURL="https://www.flytohawaii.example"
 ```
 
-## Verify the referrer with the Adobe Debugger {#verify}
+## Verify the referrer with Adobe Experience Platform Debugger {#verify}
 
 Run a test to verify that the referrer, originating URL ( *`s_server`*) and campaign variables are being captured.
 
-These variables will be represented as the following parameters in the [CX Enterprise Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html).
+These variables will be represented as the following parameters in [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/en/docs/experience-platform/debugger/home).
 
 <table id="table_5F3B987D4D514CA283F7B9F52EBC2301"> 
  <thead> 

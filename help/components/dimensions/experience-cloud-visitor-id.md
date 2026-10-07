@@ -40,8 +40,8 @@ This dimension requires an implementation that uses the Visitor ID Service (Visi
 
 | Property | Value |
 | --- | --- |
-| **AppMeasurement variable** | None (set by the Experience Cloud Visitor ID Service) |
-| **Web SDK / XDM field** | None (set by the Experience Cloud Identity Service) |
+| **AppMeasurement variable** | None (set by the Adobe Visitor ID Service) |
+| **Web SDK / XDM field** | None (set by the Experience Platform Identity Service) |
 | **Query parameter** | [`mid`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML tag** | [`<marketingCloudVisitorId>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Byte limit** | N/A |
@@ -49,4 +49,4 @@ This dimension requires an implementation that uses the Visitor ID Service (Visi
 
 ## Dimension items
 
-Dimension items include the Experience Cloud ID of each visitor.
+Dimension items include the ECID of each visitor.

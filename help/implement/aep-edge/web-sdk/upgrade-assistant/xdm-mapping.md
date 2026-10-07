@@ -3,7 +3,7 @@ title: XDM mapping in the Web SDK upgrade assistant
 description: Map your Adobe Analytics variables to fields in an XDM schema as part of a Web SDK migration.
 feature: Implementation Basics
 role: Admin, Developer, Leader
-hide: true
+badge: Beta
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

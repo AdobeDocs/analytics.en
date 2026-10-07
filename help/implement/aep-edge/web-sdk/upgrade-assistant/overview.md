@@ -3,7 +3,7 @@ title: Web SDK upgrade assistant
 description: Plan and execute the migration of your Adobe Analytics tags extension to the Adobe Experience Platform Web SDK.
 feature: Implementation Basics
 role: Admin, Developer, Leader
-hide: true
+badge: Beta
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

@@ -131,14 +131,14 @@ To view published segments:
 
 There are two ways to capture the Adobe Audience Manager UUID currently associated with the browser:
 
-* Adobe CX Enterprise Debugger
+* Adobe Experience Platform Debugger
 * Native developer tool in browsers (for example, Chrome Developer Tools)
 
 The following screenshots show you how to retrieve the Adobe Audience Manager UUID in your browser and use it in Audience Manager Visitor Profile Viewer to validate trait & segment membership.
 
-### Method 1: Use Adobe CX Enterprise Debugger
+### Method 1: Use Adobe Experience Platform Debugger
 
-1. Download and install [Adobe CX Enterprise Debugger](/help/implement/validate/debugger.md) in the Chrome Web Store.
+1. Download and install the [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/en/docs/experience-platform/debugger/home) in the Chrome Web Store.
 1. Launch the debugger when loading a page.
 1. Scroll to the Audience Manager section and find the Adobe Audience Manager UUID set on the current browser page
 (`35721780439475290181087231320657663953` in the example below)

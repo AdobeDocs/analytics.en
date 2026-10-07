@@ -67,9 +67,9 @@ The opt-out page for your organization depends on the [`trackingServerSecure`](.
   1. On your web server, open the AppMeasurement.js file used on your site in a code or text editor.
   1. Note the `trackingServer` variable value.
 
-* Using the [Adobe CX Enterprise Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html):
+* Using [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/en/docs/experience-platform/debugger/home):
   1. Navigate to your site using the Chrome browser.
-  1. Open the CX Enterprise Debugger, then go to the [!UICONTROL Network tab].
+  1. Open Adobe Experience Platform Debugger, then go to the [!UICONTROL Network tab].
   1. Note the [!UICONTROL Request URL - Hostname] value.
 
 Once you have found your implementation's `trackingServer` domain, append the path `/optout.html` to the end. For example:

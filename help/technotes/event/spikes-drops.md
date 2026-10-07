@@ -53,7 +53,7 @@ Traffic drops are categorized into two sections: partial data and zero data.
 
 ### Potential causes of partially missing data or decreased traffic
 
-* **Implementation changes**: Use the [debugger](/help/implement/validate/debugger.md) to validate that the desired dimensions work.
+* **Implementation changes**: Use a [debugging tool](/help/implement/validate/debugging-tools.md) to validate that the desired dimensions work.
 * **Decreased referring traffic**: If a popular banner ad or hyperlink on another site is removed, it can cause a dramatic decrease in traffic. Trend the [Referring domains](/help/components/dimensions/referring-domain.md) dimension from before and after the drop to research further.
 * **Site performance issues**: Incorrect distribution of traffic through load balancers or server issues hosting your site can contribute to a decrease in Analytics reporting. Work with the team within your organization that manages the integrity and health of your site to investigate any potential performance issues.
 * **Changes in natural search ranking**: Traffic can potentially decrease if another site ousts your natural search ranking for some of your keywords. This decrease can be especially evident if your site is no longer on the first page of search results. Trend the [Search engines](/help/components/dimensions/search-engine.md) dimension to research further.

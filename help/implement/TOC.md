@@ -139,8 +139,15 @@ user-guide-description: Learn ways to implement Adobe Analytics. Customize what 
   + [Edge Network event types](aep-edge/hit-types.md)
   + Web SDK {#web-sdk}
     + [Web SDK overview](aep-edge/web-sdk/overview.md)
-    + Migration planner {#planner}
-      + [Planner overview](aep-edge/web-sdk/planner/overview.md)
+    + Upgrade assistant {#upgrade-assistant}
+      + [Upgrade assistant overview](aep-edge/web-sdk/upgrade-assistant/overview.md)
+      + [Manage migrations](aep-edge/web-sdk/upgrade-assistant/manager.md)
+      + [Component selection](aep-edge/web-sdk/upgrade-assistant/component-selection.md)
+      + [Audit findings](aep-edge/web-sdk/upgrade-assistant/audit-findings.md)
+      + [Report suite verification](aep-edge/web-sdk/upgrade-assistant/rs-verification.md)
+      + [XDM mapping](aep-edge/web-sdk/upgrade-assistant/xdm-mapping.md)
+      + [Web SDK implementation](aep-edge/web-sdk/upgrade-assistant/web-sdk-implementation.md)
+      + [Final review](aep-edge/web-sdk/upgrade-assistant/final-review.md)
     + [Migrate to the Web SDK using tags](aep-edge/web-sdk/analytics-extension-to-web-sdk.md)
     + [Migrate to the Web SDK using JavaScript](aep-edge/web-sdk/appmeasurement-to-web-sdk.md)
     + [New implementation using tags](aep-edge/web-sdk/web-sdk-tag-extension.md)
@@ -180,8 +187,7 @@ user-guide-description: Learn ways to implement Adobe Analytics. Customize what 
   + [Use AppMeasurement with iFrames](use-cases/iframe.md)
   + [Campaign tracking workflow](use-cases/campaign-tracking.md)
 + Validate your implementation {#validate}
-  + [Legacy debugger](validate/debugger.md)
-  + [Packet monitors](validate/packet-monitor.md)
+  + [Debugging tools](validate/debugging-tools.md)
   + [Hash collisions](validate/hash-collisions.md)
 + [Frequently asked questions](faq.md)
 + Review your implementation {#review}

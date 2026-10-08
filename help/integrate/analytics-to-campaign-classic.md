@@ -13,6 +13,8 @@ feature_v2:
     internal-label: Integrations
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
     internal-label: Admin Tools
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: b13acd70-7a51-4028-8c44-5f3b1bbe3ad4
     internal-label: Campaign integration

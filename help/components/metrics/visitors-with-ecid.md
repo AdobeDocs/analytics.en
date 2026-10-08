@@ -3,7 +3,7 @@ title: Visitors with Experience Cloud ID
 description: The number of unique visitors using an ECID.
 feature: Metrics
 exl-id: 16c170d0-3546-4e0a-8f3c-c141b8a0e4fe
-TQID: https://experienceleague.adobe.com/CCk7FDZhZ3mFYXtAggcxnAjvJoJp5zMf0NNk5w0tVY8
+TQID: 'https://experienceleague.adobe.com/CCk7FDZhZ3mFYXtAggcxnAjvJoJp5zMf0NNk5w0tVY8'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -14,7 +14,7 @@ feature_v2:
     internal-label: Integrations
 subfeature_v2:
   - id: e6c28e30-8689-4bf4-8fa8-561343d308a9
-    internal-label: CX Enterprise integration
+    internal-label: Experience Cloud integration
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
     internal-label: Calculated Metrics
 role_v2:

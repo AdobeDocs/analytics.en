@@ -144,7 +144,7 @@ user-guide-description: Learn ways to implement Adobe Analytics. Customize what 
       + [Manage migrations](aep-edge/web-sdk/upgrade-assistant/manager.md)
       + [Component selection](aep-edge/web-sdk/upgrade-assistant/component-selection.md)
       + [Audit findings](aep-edge/web-sdk/upgrade-assistant/audit-findings.md)
-      + [Report suite verification](aep-edge/web-sdk/upgrade-assistant/rs-verification.md)
+      + [Mapper preparation](aep-edge/web-sdk/upgrade-assistant/mapper-prep.md)
       + [XDM mapping](aep-edge/web-sdk/upgrade-assistant/xdm-mapping.md)
       + [Web SDK implementation](aep-edge/web-sdk/upgrade-assistant/web-sdk-implementation.md)
       + [Final review](aep-edge/web-sdk/upgrade-assistant/final-review.md)

@@ -1,5 +1,5 @@
 ---
-title: Report suite verification in the Web SDK upgrade assistant
+title: Mapper preparation in the Web SDK upgrade assistant
 description: Review the Analytics variables in your report suites and choose which ones to carry forward into XDM mapping.
 feature: Implementation Basics
 role: Admin, Developer, Leader
@@ -36,13 +36,13 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
 ---
-# Report suite verification
+# Mapper preparation
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa_upgradeassistant_rsverification"
->title="Report suite verification"
+>id="aa_upgradeassistant_mapperprep"
+>title="Mapper preparation"
 >abstract="Review the Analytics variables that your tags property sends to each report suite. Variables that you select here carry forward to XDM mapping. Use the tabs to check for recent data, find duplicate variables, and compare settings across report suites."
 
 <!-- markdownlint-enable MD034 -->
@@ -76,7 +76,7 @@ If your tags property sends data to more than one report suite, the **[!UICONTRO
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa_upgradeassistant_rsverification_refresh"
+>id="aa_upgradeassistant_mapperprep_refresh"
 >title="Refresh report suite data"
 >abstract="Checks the report suites linked to this tags property again, including their variable settings and recent data, then reruns the variable analysis. If the upgrade assistant hasn't found any report suites yet, it looks for them in the tags property first. Your selections and decisions are kept."
 

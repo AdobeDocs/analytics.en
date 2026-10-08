@@ -11,6 +11,8 @@ product_v2:
 feature_v2:
   - id: 57d3d944-b7a8-5380-92a1-556c210375c3
     internal-label: Audience Analytics
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
 subfeature_v2:
   - id: a97e0d8c-238a-47ee-8d81-16bd45309bed
     internal-label: Audience Manager integration

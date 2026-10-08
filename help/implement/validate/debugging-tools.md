@@ -14,6 +14,8 @@ feature_v2:
     internal-label: Reports
   - id: a421fb65-2c82-457a-921c-28c46b697a39
     internal-label: Analytics basics
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e992d880-33bc-4949-a648-aa7d410276cd
     internal-label: Validation

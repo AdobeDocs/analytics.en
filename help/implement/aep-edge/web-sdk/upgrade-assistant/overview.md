@@ -50,7 +50,7 @@ The upgrade assistant guides you through the following steps, and each step buil
 
 1. **[Component selection](component-selection.md)**: Choose the rules, data elements, and extensions to include in the migration.
 1. **[Audit findings](audit-findings.md)**: Review optional cleanup recommendations for the components that you selected.
-1. **[Report suite verification](rs-verification.md)**: Review the Analytics variables in your report suites and choose which ones to carry forward.
+1. **[Mapper preparation](mapper-prep.md)**: Review the Analytics variables in your report suites and choose which ones to carry forward.
 1. **[XDM mapping](xdm-mapping.md)**: Map your Analytics variables to fields in an XDM schema.
 1. **[Web SDK implementation](web-sdk-implementation.md)**: Review the Web SDK actions that the upgrade assistant adds to your rules.
 1. **[Final review](final-review.md)**: Select an Experience Platform sandbox, review what the migration creates, and finalize the migration.

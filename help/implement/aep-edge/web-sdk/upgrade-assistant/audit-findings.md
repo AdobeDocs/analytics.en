@@ -54,7 +54,7 @@ The upgrade assistant checks the rules and data elements that you selected in [c
 * Duplicate data elements that you could consolidate
 * Data elements that might be unused, which you could disable
 
-This step is optional. You can resolve as many findings as you want, or continue directly to [report suite verification](rs-verification.md).
+This step is optional. You can resolve as many findings as you want, or continue directly to [Mapper preparation](mapper-prep.md).
 
 ## Review a finding {#review}
 

@@ -47,7 +47,7 @@ topic_v2:
 
 <!-- markdownlint-enable MD034 -->
 
-The Web SDK sends data using [Experience Data Model (XDM)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) fields, so each Analytics variable that you carry forward from [report suite verification](rs-verification.md) needs a matching field in an XDM schema. In this step, you choose a schema and map your variables to its fields.
+The Web SDK sends data using [Experience Data Model (XDM)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) fields, so each Analytics variable that you carry forward from [Mapper preparation](mapper-prep.md) needs a matching field in an XDM schema. In this step, you choose a schema and map your variables to its fields.
 
 ## Choose a schema {#schema}
 

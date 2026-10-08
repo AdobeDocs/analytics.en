@@ -29,7 +29,6 @@ The 'Bot product occurrences' [metric](overview.md) shows the number of sub-hits
 Since bot reporting is separated from the rest of your report suite data, this metric only works with the following dimensions:
 
 * [Bot name](../dimensions/bot-name.md)
-* [Product](../dimensions/product.md)
 * Time-based dimensions (for example, [Day](../dimensions/day.md), [Week](../dimensions/week.md), or [Month](../dimensions/month.md))
 
 Using any other dimension with this metric does not return data.

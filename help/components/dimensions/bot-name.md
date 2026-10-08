@@ -41,7 +41,6 @@ Hits that match [!UICONTROL Bot rules] are automatically filtered out of all of 
 Since bot reporting is separated from the rest of your report suite data, only the following dimensions and metrics are supported with this dimension:
 
 * [Page](page.md)
-* [Product](product.md) (only with [Bot product occurrences](../metrics/bot-product-occurrences.md))
 * Time-based dimensions (for example, [Day](day.md), [Week](week.md), or [Month](month.md))
 * [Bot occurrences](../metrics/bot-occurrences.md)
 * [Bot page views](../metrics/bot-page-views.md)

@@ -332,10 +332,10 @@ If you create multiple rules that do not share the same **[!UICONTROL Set Classi
 
 ### Example
 
-You want to classify with the classification **[!UICONTROL Type]** how users search for an athlete using the search string as the key dimension. For example, using this rule set:
+You want to classify with the classification **[!UICONTROL Type]** what type of search users perform using the search string as the key dimension. For example, using this rule set:
 
 ![Rules priority](assets/rule-priority.png)
 
-* When a user searches for `Cowboys Fantasy Tony Romo`, `Romo` is classified as **[!UICONTROL Type]**.
-* When a user searches for `Cowboys Fantasy Tony Romeo`, `Fantasy` is classified as **[!UICONTROL Type]**.
+* When a user searches for `Cowboys with Tony Romo`, `Team` is classified as **[!UICONTROL Type]**. 
+* When a user searches for `Cowboys vs. Broncos with Tony Romeo`, `Player` is classified as **[!UICONTROL Type]**.
 * When a user searches for `Cowboys vs. Broncos`, `Team` is classified as **[!UICONTROL Type]**.

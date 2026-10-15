@@ -39,8 +39,6 @@ The `trackingServerSecure` variable determines the domain that AppMeasurement us
 >
 >[`trackingServer`](configuration-variables.md#retired-configuration-variables) is a retired variant of this variable. It specified the domain for data sent over HTTP; with the prevalence of HTTPS, use `trackingServerSecure` instead. If `s.trackingServerSecure` is blank, AppMeasurement falls back to the `s.trackingServer` value.
 
-Before the [Adobe Visitor ID Service](https://experienceleague.adobe.com/en/docs/id-service/using/home) (`VisitorAPI.js`), this variable also determined where third-party cookies were set. Adobe strongly recommends using the Visitor ID Service in all implementations where possible.
-
 ## Edge domain using the Web SDK extension
 
 The Web SDK uses [!UICONTROL Edge domain] to handle both Tracking Server and Secure Tracking Server. You can set the desired [!UICONTROL Edge domain] value when configuring the Web SDK extension.
@@ -82,35 +80,21 @@ If this field is left blank, it defaults to the value in [!UICONTROL Tracking Se
 The `s.trackingServerSecure` variable is a string that contains the domain to send data to Adobe. It is domain only; omit protocol, path, port, and slashes. If this variable is blank, it uses the value in the `s.trackingServer` variable. If both `s.trackingServerSecure` and `s.trackingServer` are blank, it defaults to `[rsid].2o7.net`.
 
 ```js
-// Example value when participating in the Adobe-managed certificate program
+// Example value when using a first-party domain
 s.trackingServerSecure = "data.example.com";
 
-// Example value sending data directly to Adobe
+// Example value when using a third-party domain
 s.trackingServerSecure = "example.data.adobedc.net";
 ```
 
-## Considerations determining the value for `trackingServerSecure`
+## Considerations for determining the value for `trackingServerSecure`
 
-The value that you use for `trackingServerSecure` (or `edgeDomain`) depends on several factors:
+The value that you use for `trackingServerSecure` (or `edgeDomain`) depends on how your organization sends data to Adobe:
 
-* Your participation in the [Adobe-managed certificate program](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert)
-* If you have the [Adobe Visitor ID Service](https://experienceleague.adobe.com/en/docs/id-service/using/home) implemented and correctly set up
+* **If your organization uses a first-party domain**, such as through the [Adobe-managed certificate program](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert), a [customer-managed certificate](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/customer-managed-cert), or a [content delivery network (CDN)](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cdn), set the value to that domain. For example, `data.example.com`.
+* **If your organization uses a third-party domain**, set the value to your tenant ID subdomain of `data.adobedc.net`. For example, `example.data.adobedc.net`.
 
-**If your organization participates in the Adobe-managed certificate program**, set the value to the first-party domain that was selected when setting up the certificate. Typically this value is a subdomain owned by your organization. For example, `data.example.com`. CNAME records in your organization redirect that data to Adobe.
-
-**If not participating in the certificate program**, set the value to a subdomain of `data.adobedc.net`. Adobe recommends using your organization's company ID for consistency. For example, `example.data.adobedc.net`. Use the following steps to determine your company ID:
-  
-1. Log in to [Adobe CX Enterprise](https://experience.adobe.com) using your Adobe ID credentials.
-1. Anywhere in the CX Enterprise interface, press `[Cmd]` + `[I]` (iOS) or `[Ctrl]` + `[I]` (Windows).
-1. A **[!UICONTROL User data debugger]** appears. Select the **[!UICONTROL Assigned orgs]** tab.
-1. Expand the desired IMS organization.
-1. Locate the **[!UICONTROL Tenant]** field. This value is the recommended subdomain of `data.adobedc.net` to use.
-
->[!NOTE]
->
->Do not use any subdomains deeper than `example.data.adobedc.net`. For example, `custom.example.data.adobedc.net` is not a valid tracking server.
-
-Older implementations might have values like `sc.omtrdc.net` or `2o7.net`. These were primarily used in previous versions of Adobe Analytics and are still valid.
+See [Choose a data collection domain](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/collection-domain) in the CX Enterprise interface and administration guide for details on each option, including how to find your tenant ID.
 
 Adobe highly recommends maintaining this information in a [solution design document](../../prepare/solution-design.md) for consistency across your organization.
 

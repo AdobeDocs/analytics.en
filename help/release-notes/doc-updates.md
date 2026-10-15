@@ -72,6 +72,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | Feature | Description |
 | --- | --- |
 | **October 2026** | |
+| Data collection through a CDN | Added [Route data collection through a CDN](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cdn) to the CX Enterprise interface and administration guide. |
 | Bot product occurrences metric | Added the [Bot product occurrences](/help/components/metrics/bot-product-occurrences.md) metric, which shows the number of product string sub-hits that matched bot rules. <p>Also updated the [Bot name](/help/components/dimensions/bot-name.md) dimension and [Bot occurrences](/help/components/metrics/bot-occurrences.md) metric to reference the new metric.</p> |
 | **September 2026** | |
 | Journey canvas comparison on arrows and fallout | Updated the '[!UICONTROL Compare to]' setting in [Configure a Journey canvas visualization](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings) to show that the percent change between date ranges now displays on each node, arrow, and fallout in the journey. |

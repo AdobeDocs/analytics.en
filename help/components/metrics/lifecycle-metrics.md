@@ -18,15 +18,23 @@ role_v2:
 ---
 # Mobile lifecycle metrics
 
+>[!BEGINSHADEBOX]
+
+*This page references data tracked commonly through the Adobe Experience Platform Mobile SDK. For dimensions tracked using the Mobile SDK, see [Mobile lifecycle dimensions](../dimensions/lifecycle-dimensions.md). For mobile device information using user agent, see [Mobile lookup dimensions](../dimensions/mobile-dimensions.md).*
+
+>[!ENDSHADEBOX]
+
 | Lifecycle metric name | Description | Context data variable |
 | --- | --- | --- |
-| First Launches | | `a.InstallEvent` |
-| Upgrades | | `a.UpgradeEvent` |
-| Launches | | `a.LaunchEvent` |
-| Crashes | | `a.CrashEvent` |
-| Total Session Length | | |
-| Action Time Total | | `a.action.time.total` |
-| Action Time In App | | `a.action.time.inapp` |
-| Lifetime Value (event) | | `a.ltv.amount` |
+| **[!UICONTROL First Launches]** | The number of times the app was run for the first time after it was installed or reinstalled. | `a.InstallEvent` |
+| **[!UICONTROL Upgrades]** | The number of times the app was run for the first time after an upgrade, or after its version number changed. | `a.UpgradeEvent` |
+| **[!UICONTROL Launches]** | The number of times the app was run, including runs after crashes and installs. A launch is also counted when the app resumes from the background after the lifecycle session timeout is exceeded. | `a.LaunchEvent` |
+| **[!UICONTROL Crashes]** | The number of times the app crashed before it was closed. The crash is reported the next time the app is started. | `a.CrashEvent` |
+| **[!UICONTROL Total Session Length]** | The total number of seconds that app sessions lasted, based on how long the app was open and in the foreground. Each launch reports the length of the previous session; this metric is the sum of those values. | `a.PrevSessionLength` |
+| **[!UICONTROL Action Time Total]** | The total number of seconds (clock time) between the start and end of a timed action, across sessions. Populated by the `trackTimedAction` methods in the legacy Mobile Services SDK (4.x). | `a.action.time.total` |
+| **[!UICONTROL Action Time In App]** | The number of seconds spent in the app between the start and end of a timed action, across sessions. Populated by the `trackTimedAction` methods in the legacy Mobile Services SDK (4.x). | `a.action.time.inapp` |
+| **[!UICONTROL Lifetime Value (event)]** | The lifetime value of a user, such as lifetime purchases, ad views, video completes, or social shares. Populated by the `trackLifetimeValueIncrease` method in the legacy Mobile Services SDK (4.x). | `a.ltv.amount` |
 
-{style="table-layout:auto"}
+>[!NOTE]
+>
+>The [!UICONTROL Action Time Total], [!UICONTROL Action Time In App], and [!UICONTROL Lifetime Value (event)] metrics are populated by methods in the legacy Mobile Services SDK (4.x), which is no longer supported. The Adobe Experience Platform Mobile SDK does not populate these metrics automatically. See [Adobe Mobile Library (v4) to Experience Platform Analytics migration](https://developer.adobe.com/client-sdks/resources/upgrade-platform-sdks/analytics/) for alternatives to timed actions and lifetime value tracking.

@@ -76,6 +76,47 @@ Navigation in [!UICONTROL Analysis Workspace] works top down, and from left to r
 1. Use arrow keys to navigate to the area where you want to drop the component.
 1. Press **[!UICONTROL Enter]** to place the component.
 
+### Keyboard navigation for table columns {#table-columns}
+
+You can resize and rearrange table columns with the keyboard. The same keys work on macOS and Windows.
+
+#### Resize columns {#resize-columns}
+
+You can resize columns in freeform tables and cohort tables using the column resize separator, which is the boundary between two column headers.
+
+1. Press **[!UICONTROL Tab]** until a column resize separator has focus.
+
+   Instructions for resizing display while the separator has focus. Screen readers announce these instructions and the current width of the column as a percentage.
+
+1. Use the following keys to resize the column. A column can't be resized beyond its minimum or maximum width.
+
+   | Key | Action |
+   | --- | --- |
+   | **[!UICONTROL Left Arrow]** | Narrow the column to the left of the separator by 10 pixels. |
+   | **[!UICONTROL Right Arrow]** | Widen the column to the left of the separator by 10 pixels. |
+   | **[!UICONTROL Enter]** | Reset the column width. |
+
+#### Rearrange columns {#rearrange-columns}
+
+In a freeform table that you can edit, you can move a column left or right using the **[!UICONTROL Rearrange]** menu in the column header.
+
+1. Press **[!UICONTROL Tab]** until the **[!UICONTROL Rearrange]** button in the column header has focus.
+1. Press **[!UICONTROL Enter]**, **[!UICONTROL Space]**, or **[!UICONTROL Down Arrow]** to open the menu.
+1. Select **[!UICONTROL Move column left]** or **[!UICONTROL Move column right]**.
+
+   To close the menu without moving the column, press **[!UICONTROL Esc]**. Focus returns to the **[!UICONTROL Rearrange]** button.
+
+   After you move a column, screen readers announce the column name and its new position within its group.
+
+Consider the following when rearranging columns with the keyboard:
+
+* A column moves only within its group of sibling columns, which are the columns at the same level under the same parent header. You can't use the keyboard to move a column into a different group or to copy a column.
+* When you move a parent header, its nested columns and filters move with it.
+* **[!UICONTROL Move column left]** is disabled for the first column in a group. **[!UICONTROL Move column right]** is disabled for the last column in a group.
+* The **[!UICONTROL Rearrange]** button is available only for columns that you can also rearrange by dragging. It isn't available for:
+  * Read-only tables or tables with interactions disabled.
+  * Date columns in cohort tables.
+
 ### Keyboard shortcuts (hotkeys) 
 
 [!UICONTROL Analysis Workspace] offers a rich set of [keyboard shortcuts (hotkeys)](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) for a more seamless workflow. 

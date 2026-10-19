@@ -108,6 +108,10 @@ Note that on your keyboard the following symbols might be used:
 
 Width resizes in steps of one grid column, and height resizes in steps of one grid cell (approximately 25 pixels).
 
+## Table column actions
+
+You can resize and rearrange table columns with the keyboard. These actions aren't global hotkeys. They're available when a column resize separator or a column header's **[!UICONTROL Rearrange]** button has focus. See [Keyboard navigation for table columns](/help/analyze/analysis-workspace/workspace-faq/aw-accessibility.md#table-columns).
+
 ## Democratization actions
 
  |  Action  |  Shortcut Mac  |  Shortcut Windows  |

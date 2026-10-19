@@ -85,6 +85,15 @@ Date values are output in the format `1YYMMDDHHMM`:
 
 For example, if the Date Range Week field shows `1260901`, the year is 1900 + 126 = **2026** and the month is 09 = **October**.
 
+## Classification dimensions in Data Warehouse {#classifications}
+
+{{release-limited-testing-section}}
+
+Data Warehouse reports get classification data directly from [classification sets](/help/components/classifications/sets/overview.md). As a result, classification dimensions in Data Warehouse reports can differ from the same dimensions in Analysis Workspace:
+
+* **Deleted classification values appear blank**: When you delete classification data from a classification set, Data Warehouse reports show a blank value for that classification. To learn how to delete classification data, see [Classification set file formats](/help/components/classifications/sets/data-files.md).
+* **Multiple classification values can appear where Analysis Workspace shows one (uncommon)**: In uncommon cases, Analysis Workspace presents several different classification values as a single value. Data Warehouse shows each of these values. As a result, classification values may occasionally differ between Data Warehouse and Analysis Workspace.
+
 ## Metrics defined differently in Data Warehouse
 
 * **[[!UICONTROL Visits]](/help/components/metrics/visits.md)**: Excludes non-persistent cookie visits, unlike the Visits metric in other Adobe Analytics tools.

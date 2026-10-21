@@ -80,6 +80,7 @@ Previous updates to this table can be found on this page's [commit history on Gi
 | `xdm.environment.browserDetails.acceptLanguage` | Helps set the [Language](/help/components/dimensions/language.md) dimension. |
 | `xdm.environment.browserDetails.cookiesEnabled` | Sets the [Cookie Support](/help/components/dimensions/cookie-support.md) dimension. Valid values include `Y` (the browser accepts cookies) and `N` (the browser rejects cookies). |
 | `xdm.environment.browserDetails.javaEnabled` | Sets the [Java enabled](/help/components/dimensions/java-enabled.md) dimension. Valid values include `Y` (Java is enabled) and `N` (Java is disabled). |
+| `xdm.environment.browserDetails.javaScriptVersion` | Sets the [JavaScript version](/help/components/dimensions/javascript-version.md) dimension. |
 | `xdm.environment.browserDetails.userAgent` | Used as a fallback [unique visitor](/help/components/metrics/unique-visitors.md) identification method. Typically populated using the `User-Agent` HTTP request header. You can map this field to an eVar if you would like to use it in reports. |
 | `xdm.environment.browserDetails.viewportHeight` | Sets the [Browser Height](/help/components/dimensions/browser-height.md) dimension. |
 | `xdm.environment.browserDetails.viewportWidth` | Sets the [Browser Width](/help/components/dimensions/browser-width.md) dimension. |
@@ -159,7 +160,7 @@ Previous updates to this table can be found on this page's [commit history on Gi
 
 {style="table-layout:auto"}
 
-<!-- `environment.browserDetails.javaScriptVersion` and `web.webPageDetails.homePage` were included in the original table, but they no longer exist in Analytics. | -->
+<!-- `web.webPageDetails.homePage` was included in the original table, but it no longer exists in Analytics. -->
 
 ## Mapping other XDM fields to Analytics variables
 

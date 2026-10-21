@@ -63,6 +63,7 @@ nudge: red
   + [Identified state](dimensions/identified-state.md)
   + [IP Address](dimensions/ip-address.md)
   + [Java enabled](dimensions/java-enabled.md)
+  + [JavaScript version](dimensions/javascript-version.md)
   + [Language](dimensions/language.md)
   + [Last touch channel](dimensions/last-touch-channel.md)
   + [Last touch channel detail](dimensions/last-touch-detail.md)

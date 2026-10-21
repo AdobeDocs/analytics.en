@@ -54,7 +54,6 @@ The following dimensions are retired. Most were Reports & Analytics reports that
 * **Hierarchy**: A custom dimension (`hier1`–`hier5`) used to capture a site's hierarchical structure for reporting. It is retired and not available in Analysis Workspace. Use [eVars](evar.md) and classifications instead.
 * **Home Page**: A flag indicating whether the current page was the visitor's browser home page. It is a legacy dimension with no modern equivalent due to modern browser privacy practices.
 * **JavaScript Support**: Indicated whether the visitor's browser supported JavaScript. A legacy dimension that is no longer meaningful for modern measurement.
-* **JavaScript Version**: Reported the JavaScript version the visitor's browser supported. A legacy dimension that is no longer collected.
 * **Next Page**: A pathing dimension showing the next page a visitor viewed. Use the [Flow visualization](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) in Analysis Workspace for current pathing dimensions.
 * **Previous Page**: A pathing dimension showing the previous page a visitor viewed. Use the [Flow visualization](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) in Analysis Workspace for current pathing dimensions.
 * **Time Zone**: The visitor's time zone, derived from the timestamp offset in AppMeasurement image requests. The Web SDK collects time zone using [`placeContext`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/context).

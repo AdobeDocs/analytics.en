@@ -67,6 +67,7 @@ You can action on date ranges using the action bar ➋. The action bar contains 
 | ![Edit](/help/assets/icons/Edit.svg)| **[!UICONTROL Rename]** | Rename a single selected date range. When selected, you can rename the date range inline. |
 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)| **[!UICONTROL Approve]** | Approve the selected date ranges. |
 | ![Copy](/help/assets/icons/Copy.svg)|  **[!UICONTROL Copy]** | Copy the selected date ranges. New date ranges are created with the same name and suffix (Copy) |
+| ![AI](/help/assets/icons/AI.svg) | **[!UICONTROL Generate descriptions]** | <p>Generate descriptions for the selected date ranges, replacing any existing descriptions.</p><p>To avoid overwriting existing descriptions, first [filter](#filter-panel) the list to show only date ranges without a description (in the filter, under [!UICONTROL **Other filters**], select [!UICONTROL **Missing description**]).</p><p>You are prompted for a confirmation. Large requests run in the background, and you receive a notification when they complete.</p><p>See [Automatically generate descriptions](/help/analyze/analysis-workspace/components/add-component-descriptions.md#automatically-generate-descriptions) for more information.</p> |
 | ![FileCSV](/help/assets/icons/FileCSV.svg)| **[!UICONTROL Export to CSV]** | Export the selected date ranges to a `Date ranges List.csv` file. |
 
 ### Active filter bar

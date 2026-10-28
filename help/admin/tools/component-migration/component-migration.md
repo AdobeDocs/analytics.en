@@ -47,7 +47,7 @@ The migration process includes:
 >
 >* The Adobe Analytics APIs. For more information, see the [Adobe Analytics APIs](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Analytics%202.0%20APIs). All API definitions are available in the **[!UICONTROL Select a definition]** drop-down menu.
 >
->* Adobe CX Enterprise Coworker. For more information, see [Migrate Adobe Analytics projects to Customer Journey Analytics with Coworker](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/migrate-projects-aa-cja) in the Adobe CX Enterprise Coworker documentation.
+>* Adobe CX Enterprise Coworker. For more information, see [Migrate Adobe Analytics projects to Customer Journey Analytics with Coworker](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/migrate-projects-aa-cja) in the Adobe CX Enterprise Coworker documentation.
 
 
 ## Prepare for a migration

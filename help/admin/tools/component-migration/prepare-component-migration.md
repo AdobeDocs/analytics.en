@@ -32,7 +32,7 @@ topic_v2:
 ---
 # Prepare to migrate components and projects from Adobe Analytics to Customer Journey Analytics
 
-Before anyone in your organization begins migrating projects as described in [Migrate components and projects from Adobe Analytics to Customer Journey Analytics](/help/admin/tools/component-migration/component-migration.md), complete the following sections.
+Before anyone in your organization begins migrating projects, either as described in [Migrate components and projects from Adobe Analytics to Customer Journey Analytics](/help/admin/tools/component-migration/component-migration.md) or with [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/migrate-projects-aa-cja), complete the following sections.
 
 ## Prerequisites
 
@@ -132,6 +132,12 @@ Remove these elements from the Adobe Analytics project before migrating the proj
 * [Page summary](/help/analyze/analysis-workspace/c-panels/page-summary.md)
 
 * [Contribution Analysis](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis)
+
+### Unsupported report suites
+
+<!-- FLAG: Sourced from Coworker's response in the Coworker UI (October 2026), not from engineering. Confirm that panels that use a virtual report suite can't be migrated, in both Coworker and the Adobe Analytics user interface. -->
+
+Panels that use a [virtual report suite](/help/components/vrs/vrs-about.md) can't be migrated. Make sure every panel in the project uses a base report suite.
 
 ## Decide as an organization how you will map components
 

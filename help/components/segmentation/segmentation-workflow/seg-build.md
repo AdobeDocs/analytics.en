@@ -90,6 +90,10 @@ You can configure the type and scope of your definition:
 
 You can always change these settings later.
 
+>[!NOTE]
+>
+>The segment builder interface does not support all segment definitions created via the [API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/segments/#create-a-segment). This page may load unsuccessfully or throw errors for those segments.
+
 ### Components
 
 A vital part of the construction of your segment definition is using dimensions, metrics, existing segments and date ranges. All these components are available from the component panel in the Segment builder.
@@ -111,7 +115,6 @@ To add a component:
    
    This option displays only when [!UICONTROL **Person**] is selected as the scope (container) of your definition from the **[!UICONTROL Include]** or **[!UICONTROL Exclude]** drop-down menu.
 
-   **NOTE**: This functionality is in the Limited Testing phase of release and might not be available yet in your environment. This note will be removed when the functionality is generally available. For information about the Customer Journey Analytics release process, see [Adobe Analytics feature releases](/help/release-notes/releases.md).
 
 1. (Optional) Modify the default operator. For example, from **[!UICONTROL equals]** to **[!UICONTROL equals any of]**. See [Operators](../seg-reference/seg-operators.md) for a detailed overview of the available operators.
 

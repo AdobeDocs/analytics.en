@@ -187,7 +187,7 @@ user-guide-description: Learn ways to implement Adobe Analytics. Customize what 
   + [Use AppMeasurement with iFrames](use-cases/iframe.md)
   + [Campaign tracking workflow](use-cases/campaign-tracking.md)
 + Validate your implementation {#validate}
-  + [Debugging tools](validate/debugging-tools.md)
+  + [Debug Analytics data collection](validate/debugging.md)
   + [Hash collisions](validate/hash-collisions.md)
 + [Frequently asked questions](faq.md)
 + Review your implementation {#review}

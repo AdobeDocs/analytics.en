@@ -156,7 +156,7 @@ No. Client hints can only be collected through a secure HTTP connection, such as
 
 +++**How do I include client hint data when using API submission?**
 
-See documentation for including these via [Bulk Data Insertion API](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/file-format/).
+See documentation for including these via [Bulk Data Insertion API](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/file-format).
 
 +++
 

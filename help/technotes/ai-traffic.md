@@ -66,9 +66,11 @@ You can use the Referrer type dimension in Analysis Workspace to analyze the fol
 
 * Agentic workflows
 
-The Referrer type dimension includes the [Conversational AI tools dimension item](/help/components/dimensions/referrer-type.md#conversational-ai-tools). This dimension item includes a predefined list of AI chatbots. 
+The Referrer type dimension includes the [Conversational AI tools dimension item](/help/components/dimensions/referrer-type.md#conversational-ai-tools). This dimension item includes only visits that have a referrer from a predefined list of AI chatbots.
 
-For more information, see [Referrer type](/help/components/dimensions/referrer-type.md).
+>[!IMPORTANT]
+>
+>Some conversational AI tools, such as ChatGPT, do not send a referrer when they open links, so their visits are not included in this dimension item. For more information, see [Include AI traffic that has no referrer](/help/components/dimensions/referrer-type.md#include-ai-traffic-that-has-no-referrer).
 
 ### Analyze AI traffic using bot detection
 

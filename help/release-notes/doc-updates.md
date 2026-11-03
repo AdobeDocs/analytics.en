@@ -71,6 +71,8 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 | Feature | Description |
 | --- | --- |
+| **November 2026** | |
+| Include AI traffic that has no referrer | Added a note to the [Conversational AI tools](/help/components/dimensions/referrer-type.md#conversational-ai-tools) section of the 'Referrer type' dimension. The value is based only on the referrer, and some AI tools, including ChatGPT, open links without one. Also added ways to [include AI traffic that has no referrer](/help/components/dimensions/referrer-type.md#include-ai-traffic-that-has-no-referrer) by using UTM parameters. |
 | **October 2026** | |
 | Lock selection for visualizations | Restructured [Manage data sources](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md) to separate configuring data source settings from locking the selection. Also clarified how [lock selection](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md#lock-selection) works when a visualization is locked to rows in a freeform table, including what happens when locked breakdown rows are no longer in the table. |
 | Keyboard navigation for table columns | Documented how to [resize](/help/analyze/analysis-workspace/workspace-faq/aw-accessibility.md#resize-columns) and [rearrange](/help/analyze/analysis-workspace/workspace-faq/aw-accessibility.md#rearrange-columns) table columns in Analysis Workspace using the keyboard, including screen reader feedback. Also added a [Table column actions](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#table-column-actions) section to Hotkeys. |

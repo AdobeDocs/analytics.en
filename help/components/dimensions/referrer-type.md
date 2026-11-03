@@ -46,7 +46,7 @@ Adobe derives this dimension from the [referrer](referrer.md) of each hit, match
 
 Dimension items include the type of referrer of the hit. Specific values include the following:
 
-* **Typed/Bookmarked**: No referrer data exists for the hit.
+* **Typed/Bookmarked**: No referrer data exists for the hit. This value includes visits from [conversational AI tools that open links without a referrer](#include-ai-traffic-that-has-no-referrer).
 * **Search engines**: The referrer came from a recognized search engine that includes a keyword query string.
 * **Conversational AI tools**: The referrer came from a recognized conversational AI tool.
 * **Social networks:**: Referrer data belonged to an Adobe-recognized social network.
@@ -56,6 +56,10 @@ Dimension items include the type of referrer of the hit. Specific values include
 * **Email**: Referrer originated from a URL with a protocol of `imap://` or `mail://`. Does not include online email services, as these typically use `https://` protocol.
 
 ### Conversational AI tools
+
+>[!IMPORTANT]
+>
+>This value includes only visits that have a referrer from the following list. Some conversational AI tools, such as ChatGPT, do not send a referrer when they open links, so their visits are not included. For more information, see [Include AI traffic that has no referrer](#include-ai-traffic-that-has-no-referrer).
 
 The following list references the 'Conversational AI tools' lookup table that Adobe uses. Adobe provides this list as a courtesy to Adobe Analytics customers. If you would like to recommend that Adobe adds a domain to this list, have a support delegate in your organization contact Customer Care.
 
@@ -80,6 +84,18 @@ The following list references the 'Conversational AI tools' lookup table that Ad
 * `https://chat.mistral.ai`
 * `https://meta.ai`
 * `https://you.com`
+
+#### Include AI traffic that has no referrer
+
+Some conversational AI tools, including ChatGPT, open links without sending a referrer. Adobe reports these visits under 'Typed/Bookmarked' instead of 'Conversational AI tools'. AI tools can change how they open links at any time. If your 'Conversational AI tools' traffic drops, a tool might have stopped sending a referrer. The drop does not mean that Adobe Analytics lost data.
+
+Instead of a referrer, some of these tools add a UTM query string parameter to the links that they open, such as `utm_source=chatgpt.com` or `utm_source=perplexity`. To get a fuller count of traffic from conversational AI tools, use the UTM parameter together with the 'Conversational AI tools' value:
+
+* **Capture the UTM parameter in a variable**: Set an eVar to the `utm_source` value of the landing page URL. Use the [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) plug-in, the URL parameter features in the Web SDK or Adobe Analytics extension, or a [processing rule](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-use-cases.md) that reads the query string parameter.
+* **Create a marketing channel for AI tools**: Create a [Marketing channel processing rule](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md) that matches if any of its conditions are true. Add the **[!UICONTROL Referrer Is Conversational AI]** condition, and a **[!UICONTROL Query String Parameter]** `utm_source` condition for each value that AI tools use, such as `chatgpt.com` or `perplexity`.
+* **Create a segment**: Create a [segment](/help/components/segmentation/seg-overview.md) that matches either 'Referrer type' equals 'Conversational AI tools' or your UTM eVar contains a value that AI tools use. Because the [Page URL](page-url.md) dimension includes query strings, you can also match Page URL contains `utm_source=chatgpt.com`. This option works without implementation changes.
+
+Some AI tools send neither a referrer nor a UTM parameter. You can't identify traffic from these tools as AI traffic.
 
 ### Social networks
 

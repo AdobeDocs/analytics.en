@@ -90,7 +90,7 @@ Start an [Edge Trace](https://experienceleague.adobe.com/en/docs/experience-plat
 
 ### Check processing {#web-sdk-processing}
 
-In the Assurance session that Edge Trace opens, search events for `hitdebugger`. These events use the vendor `com.adobe.analytics.hitdebugger`, and their payloads show values after Analytics processing, such as the Experience Cloud ID (`mcvisId`) and `pageName`.
+In the Assurance session that Edge Trace opens, search events for `hitdebugger`. These events use the vendor `com.adobe.analytics.hitdebugger`, and their payloads show values after Analytics processing, such as the ECID (`mcvisId`) and `pageName`.
 
 For a guided walkthrough, see [Set up Adobe Analytics with Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/platform-learn/implement-web-sdk/applications-setup/setup-analytics).
 

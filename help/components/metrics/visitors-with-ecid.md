@@ -30,7 +30,7 @@ topic_v2:
 ---
 # Visitors with Experience Cloud ID
 
-The '[!UICONTROL Visitors with Experience Cloud ID]' [metric](overview.md) shows the number of unique visitors who were identified by Adobe with an ECID (using the [Visitor ID Service](https://experienceleague.adobe.com/en/docs/id-service/using/home) or [Experience Platform Identity Service](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)). This metric is helpful to compare with the [Unique visitors](unique-visitors.md) metric to make sure the majority of visitors to your site uses an ECID. If a large portion of visitors don't use this identifier, it can indicate an issue within your implementation.
+The '[!UICONTROL Visitors with Experience Cloud ID]' [metric](overview.md) shows the number of unique visitors who were identified by Adobe with an ECID (using the [Visitor ID Service](https://experienceleague.adobe.com/en/docs/id-service/using/home) or [Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/overview)). This metric is helpful to compare with the [Unique visitors](unique-visitors.md) metric to make sure the majority of visitors to your site uses an ECID. If a large portion of visitors don't use this identifier, it can indicate an issue within your implementation.
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ This metric is based on the [Unique visitors](unique-visitors.md) metric, except
 
 ## Debug your ECID setup
 
-The '[!UICONTROL Visitors with Experience Cloud ID]' metric can be useful in troubleshooting CX Enterprise integrations, or identifying areas of your site that don't have the Visitor ID Service or Experience Platform Identity Service deployed.
+The '[!UICONTROL Visitors with Experience Cloud ID]' metric can be useful in troubleshooting CX Enterprise integrations, or identifying areas of your site that don't have the Visitor ID Service or Web SDK deployed.
 
 Drag the '[!UICONTROL Visitors with Experience Cloud ID]' side-by-side with Unique visitors to compare them:
 

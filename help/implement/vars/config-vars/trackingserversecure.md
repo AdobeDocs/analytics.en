@@ -98,15 +98,15 @@ See [Choose a data collection domain](https://experienceleague.adobe.com/en/docs
 
 Adobe highly recommends maintaining this information in a [solution design document](../../prepare/solution-design.md) for consistency across your organization.
 
-## Ramifications for not using the Visitor ID Service or Experience Platform Identity Service
+## Ramifications for not using the Visitor ID Service or Web SDK {#ramifications-for-not-using-the-visitor-id-service-or-experience-platform-identity-service}
 
 Adobe strongly recommends using ECID as the primary form of visitor identity in all implementations. Collecting ECIDs can be implemented in several different ways, depending on implementation type:
 
 * Manual AppMeasurement implementations use `VisitorAPI.js` and call the `getInstance` method. See [Implement the Visitor ID Service for Analytics](https://experienceleague.adobe.com/en/docs/id-service/using/implementation/setup-analytics) for more information.
 * Implementations using the Adobe Analytics tag extension use the [[!UICONTROL Experience Cloud ID Service] tag extension](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview), which implements the Visitor ID Service. Once added, no additional configuration is required.
-* Implementations using any form of the Web SDK (`alloy.js` or the Web SDK tag extension) automatically include the Experience Platform Identity Service. No configuration is required beyond setting the `edgeDomain` value.
+* Implementations using any form of the Web SDK (`alloy.js` or the Web SDK tag extension) automatically include Edge Network identity. No configuration is required beyond setting the `edgeDomain` value.
 
 **If your implementation does not use ECIDs**, consider the following impacts to your implementation:
 
-* If not using the Visitor ID Service or Experience Platform Identity Service, `trackingServerSecure` determines cookie location. Setting this variable to a third-party domain forces AppMeasurement to use a fallback cookie, as most modern browsers reject third-party cookies.
+* If not using the Visitor ID Service or Web SDK, `trackingServerSecure` determines cookie location. Setting this variable to a third-party domain forces AppMeasurement to use a fallback cookie, as most modern browsers reject third-party cookies.
 * Internal link tracking and Activity Map might be less reliable.

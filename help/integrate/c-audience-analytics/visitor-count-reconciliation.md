@@ -42,11 +42,11 @@ The visitor metrics are:
  <tbody> 
   <tr> 
    <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html"  > Adobe Audience Manager: Total Segment Population</a> </p> </td> 
-   <td colname="col3"> <p>Count of devices (Experience Cloud IDs) that were a member of your segment during the lookback period. </p> </td> 
+   <td colname="col3"> <p>Count of devices (ECIDs) that were a member of your segment during the lookback period. </p> </td>
   </tr> 
   <tr> 
    <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html"  > Adobe Audience Manager: Real-Time Segment Population</a> </p> </td> 
-   <td colname="col3"> <p>Count of devices (Experience Cloud IDs) that were a member of your segment and reached your properties during the lookback period. </p> </td> 
+   <td colname="col3"> <p>Count of devices (ECIDs) that were a member of your segment and reached your properties during the lookback period. </p> </td>
   </tr> 
   <tr> 
    <td colname="col2"> <p>Analytics: Unique Visitors </p> </td> 
@@ -54,7 +54,7 @@ The visitor metrics are:
   </tr> 
   <tr> 
    <td colname="col2"> <p>Analytics: Visitors with Experience Cloud ID </p> </td> 
-   <td colname="col3"> <p>Shows you the number of unique visitors with a Experience Cloud ID who reached your properties during the reporting window. </p> </td> 
+   <td colname="col3"> <p>Shows you the number of unique visitors with an ECID who reached your properties during the reporting window. </p> </td>
   </tr> 
  </tbody> 
 </table>

@@ -32,7 +32,7 @@ To see any Advertising Analytics search data in Analytics, you need to configure
 
 1. Navigate to **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 
-1. Select the report suite that is mapped to your CX Enterprise organization.
+1. Select the report suite that is mapped to your Adobe organization.
 1. Click **[!UICONTROL Edit Settings]** > **[!UICONTROL Advertising Analytics Configuration]**.
 
    ![Reporting](assets/aa-reporting.png)

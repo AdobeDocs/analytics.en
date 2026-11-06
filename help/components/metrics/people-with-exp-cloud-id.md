@@ -1,6 +1,6 @@
 ---
 title: People with Experience Cloud ID
-description: The number of people in Cross-Device Analytics who have an Experience Cloud ID.
+description: The number of people in Cross-Device Analytics who have an ECID.
 feature: Metrics
 exl-id: 072e7d2b-3a08-49c6-a892-4cea2cc10159
 TQID: https://experienceleague.adobe.com/w85poHKHnDYQ0iTItr2r26q1aRpN50AsdYzg6v82Jpk
@@ -21,7 +21,7 @@ role_v2:
 ---
 # People with Experience Cloud ID
 
-'People with Experience Cloud ID' is a [Cross-device analytics](../cda/overview.md) metric that shows the number of [People](people.md) who were identified by Adobe using the [Visitor ID Service](https://experienceleague.adobe.com/en/docs/id-service/using/home) or [Experience Platform Identity Service](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home).
+'People with Experience Cloud ID' is a [Cross-device analytics](../cda/overview.md) metric that shows the number of [People](people.md) who were identified by Adobe using the [Visitor ID Service](https://experienceleague.adobe.com/en/docs/id-service/using/home) or [Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/overview).
 
 ## How this metric is calculated
 
@@ -29,4 +29,4 @@ Considering each [People](people.md) (identified or unidentified), this [metric]
 
 You can create the calculated metric `[People with ECID] ÷ [People]` to obtain the percent of visitors to your site using the ID service.
 
-See the equivalent non-CDA metric [Visitors with Experience Cloud ID](visitors-with-ecid.md) for more information around importance of Experience Cloud ID and debugging your setup.
+See the equivalent non-CDA metric [Visitors with Experience Cloud ID](visitors-with-ecid.md) for more information around importance of ECID and debugging your setup.

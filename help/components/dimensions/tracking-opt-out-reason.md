@@ -38,7 +38,7 @@ topic_v2:
 
 >[!BEGINSHADEBOX]
 
-*This page refers to the [dimension](overview.md) that lets you see potential data impact from enabling certain Report Suite settings. It is not related to the [Adobe Experience Cloud ID Opt-in Service](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html).*
+*This page refers to the [dimension](overview.md) that lets you see potential data impact from enabling certain Report Suite settings. It is not related to the Visitor ID Service [Opt-in Service](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html).*
 
 >[!ENDSHADEBOX]
 

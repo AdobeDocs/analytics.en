@@ -58,7 +58,7 @@ var ecid = visitor.getMarketingCloudVisitorID();
 
 Send that value on each hit as the `mid` query parameter, along with your IMS organization ID as the `mcorgid` parameter so the ECID resolves correctly. If your data forwards to Audience Manager, also send the region from [`getLocationHint`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getlocationhint) as the `aamlh` parameter. To associate your own customer identifiers with the visitor, use [`setCustomerIDs`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/setcustomerids).
 
-For server-side collection, obtain the ECID on the client and forward it to your server to send on each hit. To generate an ECID entirely server-side, without a client, use the ID Service's [direct integration](https://experienceleague.adobe.com/en/docs/id-service/using/implementation/direct-integration).
+For server-side collection, obtain the ECID on the client and forward it to your server to send on each hit. To generate an ECID entirely server-side, without a client, use the Visitor ID Service's [direct integration](https://experienceleague.adobe.com/en/docs/id-service/using/implementation/direct-integration).
 
 ## Using the Analytics visitor ID
 

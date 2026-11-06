@@ -58,7 +58,7 @@ The following variables were introduced to Bulk data insertion, previously unava
 * **`ipaddress`**: The [IP address](/help/components/dimensions/ip-address.md) dimension.
 * **`language`**: The [Language](/help/components/dimensions/language.md) dimension.
 * **`list1`** - **`list3`**: [List variables](/help/implement/vars/page-vars/list.md).
-* **`marketingCloudVisitorID`**: The visitor's Experience Cloud ID.
+* **`marketingCloudVisitorID`**: The visitor's ECID.
 * **`tnta`**: Target data payload used in [Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) integrations.
 * **`trackingServer`**: The [`trackingServer`](/help/implement/vars/config-vars/configuration-variables.md) variable.
 * **`transactionID`**: The [`transactionID`](/help/implement/vars/page-vars/transactionid.md) variable.

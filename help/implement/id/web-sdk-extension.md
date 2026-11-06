@@ -31,7 +31,7 @@ The Web SDK tag extension in Adobe Experience Platform Data Collection empowers 
 
 Identity data can be extended to support custom IDs and multiple namespaces using XDM's [`identityMap`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/identity-map). Adobe recommends using ECID as the primary identifier for Analytics, using other identity management options for advanced scenarios.
 
-Since the Visitor ID Service is baked in natively to the tag extension, it only requires that you set **[!UICONTROL Edge Domain]** to the desired value. If this field is set correctly, visitor identification works without any additional configuration.
+Since Edge Network identity is baked in natively to the tag extension, it only requires that you set **[!UICONTROL Edge Domain]** to the desired value. If this field is set correctly, visitor identification works without any additional configuration.
 
 >[!NOTE]
 >

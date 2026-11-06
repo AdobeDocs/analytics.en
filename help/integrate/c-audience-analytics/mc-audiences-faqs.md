@@ -151,7 +151,7 @@ Yes. In the Adobe Audience Manager destination setup, you will see only report s
 
 +++ Why can't I turn on certain report suites for SSF in Analytics Admin?
 
-Only suites that are mapped to your CX Enterprise Org can be enabled. 
+Only suites that are mapped to your Adobe organization can be enabled. 
 
 For more FAQs on this topic, see [Server-Side Forwarding FAQ](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-faq.md).
 

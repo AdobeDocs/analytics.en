@@ -119,7 +119,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparison of to
 
 **[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)** should be used:
 
-* To access variables otherwise hidden in the UI - IP address, Experience Cloud ID, Analytics Visitor ID, Page URL) 
+* To access variables otherwise hidden in the UI - IP address, ECID, Analytics Visitor ID, Page URL)
 * To access more granular data than the UI (denormalized table view) 
 * To download data in a format suitable for a Pivot Table input 
 * If the client wants to input Adobe data into a 3rd-party data visualization tool (slightly summarized, and not hit-level) 

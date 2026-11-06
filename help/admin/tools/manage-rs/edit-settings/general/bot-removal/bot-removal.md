@@ -50,9 +50,9 @@ For more detail, see [Understand and configure bot rules](/help/admin/tools/mana
 
 In addition, since bots are morphing quickly, Adobe offers several other powerful features that, when combined properly and on a regular basis, can help drive the removal of these enemies of data quality. Those features are: Visitor ID Service, segmentation, Data Warehouse, customer attributes, and virtual report suites. Here is an overview of how you can use these tools.
 
-### Step 1: Pass your visitors' Experience Cloud ID into a new declared ID
+### Step 1: Pass your visitors' ECID into a new declared ID {#step-1-pass-your-visitors-experience-cloud-id-into-a-new-declared-id}
 
-To start, create a new declared ID in the [People Core Service](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html). Pass your visitor's Experience Cloud ID into this new declared ID, which can be done quickly and easily with [tags in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html). Let's use the name "ECID" for the declared ID.
+To start, create a new declared ID in the [People Core Service](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html). Pass your visitor's ECID into this new declared ID, which can be done quickly and easily with [tags in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html). Let's use the name "ECID" for the declared ID.
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-cust-attr-setup.png)
 
@@ -68,9 +68,9 @@ Now that you have your visitor's ECID passed into a declared ID, you can use [se
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-filter-seg1.png)
 
-### Step 3: Export all [!DNL Experience Cloud IDs] from the segment via Data Warehouse
+### Step 3: Export all [!DNL ECIDs] from the segment via Data Warehouse {#step-3-export-all-experience-cloud-ids-from-the-segment-via-data-warehouse}
 
-Now that you have identified the bots using segments, the next step is to use Data Warehouse to extract all the Experience Cloud IDs associated with this segment. This screenshot shows how you should set up your [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) request:
+Now that you have identified the bots using segments, the next step is to use Data Warehouse to extract all the ECIDs associated with this segment. This screenshot shows how you should set up your [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) request:
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-dwh-3.png)
 

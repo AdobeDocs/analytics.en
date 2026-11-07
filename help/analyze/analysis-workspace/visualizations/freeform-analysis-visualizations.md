@@ -150,6 +150,30 @@ To edit a legend label:
 1. Enter the new label text.
 1. Press **[!UICONTROL Enter]** to save.
 
+### Concise labels
+
+When each series in the visualization shares the same metric, segment, dimension item, or date range, each legend label repeats it. Labels can become long, and the text that differentiates them is often visible only when you hover over each label.
+
+The **[!UICONTROL Concise labels]** setting intelligently focuses on the information that differentiates one label from another. It removes any metric, segment, dimension item, or date range name only when the name appears in every label. For example, if a segment is applied to every column in the source table, the segment is removed from the legend labels. If the segment is applied to every column except one, the legend labels still include the segment. To see the full label, hover over a legend label.
+
+Concise labels are off by default. To turn on concise labels for a visualization:
+
+1. Select ![Setting](/help/assets/icons/Setting.svg) **[!UICONTROL Settings]** in the visualization header.
+1. Select the **[!UICONTROL Settings]** tab.
+1. Make sure **[!UICONTROL Legend visible]** is selected. **[!UICONTROL Concise labels]** is available only when the legend is visible.
+1. Select **[!UICONTROL Concise labels]**.
+
+Concise labels are available for the following visualizations:
+
+* [Area and area stacked](area.md)
+* [Bar and bar stacked](bar.md)
+* [Combo](combo-charts.md)
+* [Donut](donut.md)
+* [Histogram](histogram.md)
+* [Horizontal bar and horizontal bar stacked](horizontal-bar.md)
+* [Line](line.md)
+* [Venn](venn.md)
+
 
 ## Settings
 
@@ -177,6 +201,7 @@ Which visualization settings are available depends on the visualization. The tab
 | **[!UICONTROL Percentages]** | Display values in percentages. |
 | **[!UICONTROL 100% stacked]** | Turn the chart into a 100% stacked visualization.  Only applicable for an area, bar and horizontal bar stacked visualization. |
 | **[!UICONTROL Legend visible]** | Show the legend text. |
+| **[!UICONTROL Concise labels]** | Shorten legend labels to focus on the information that differentiates one label from another. Metric, segment, dimension item, and date range names that appear in every label are removed. This setting is available only when **[!UICONTROL Legend visible]** is selected and is off by default. For more information, see [Concise labels](#concise-labels). |
 | **[!UICONTROL Limit max items]** | Limit the number of items that a visualization displays. When selected, define the number of max items. |
 | **[!UICONTROL Show annotations]** | Show the annotations made for this visualization. |
 | **[!UICONTROL Hide title]** | Hide the title of the visualization. |

@@ -31,11 +31,11 @@ The Report Suite Usage tab provides server usage data for each report suite in a
 
 >[!IMPORTANT]
 >
->If a report suite is not linked to a CX Enterprise organization, its usage data is not reflected in this dashboard. Also, a billing ID could be tied to multiple CX Enterprise Orgs; there is not always a 1:1 relationship between an org and a billing ID.
+>If a report suite is not linked to an Adobe organization, its usage data is not reflected in this dashboard. Also, a billing ID could be tied to multiple organizations; there is not always a 1:1 relationship between an org and a billing ID.
 
 The Report Suite Usage dashboard
 
-* Shows the current usage period's server call usage (All Calls, Primary, Secondary, Mobile Primary, Mobile Secondary) for each report suite in your CX Enterprise organization.
+* Shows the current usage period's server call usage (All Calls, Primary, Secondary, Mobile Primary, Mobile Secondary) for each report suite in your organization.
 * Shows percentage of overall usage per server call category.
 * Is updated daily.
 * Is downloadable.

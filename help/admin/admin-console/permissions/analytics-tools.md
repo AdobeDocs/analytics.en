@@ -59,7 +59,7 @@ Analytics Tools permission items grant access to features within Adobe Analytics
 | [!UICONTROL Code Manager] | Grants access to Admin > All admin > Code manager. |
 | [!UICONTROL Code Manager - Web Services] | Grants access to the Code Manager via the 1.4 API. |
 | [!UICONTROL Company Settings UI Access] | Not used |
-| [!UICONTROL Component migration] | Grants access to Admin > All admin > Component migration. |
+| [!UICONTROL Component migration] | Grants the ability to [migrate projects and components to Customer Journey Analytics](/help/admin/tools/component-migration/component-migration.md), either in Admin > All admin > Component migration or with Adobe CX Enterprise Coworker. |
 | [!UICONTROL Current Data] | Not used |
 | [!UICONTROL Data Governance & Privacy Labeling UI Access] | Grants access to Admin > Data Governance Privacy labeling. |
 | [!UICONTROL Excel License Users] | Not used |

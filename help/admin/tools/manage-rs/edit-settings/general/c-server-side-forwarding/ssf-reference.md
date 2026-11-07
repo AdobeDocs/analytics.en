@@ -46,7 +46,7 @@ Parameters prefixed with `d_*` identify special, system-level key-value pairs us
 | `d_rs` | (Gets set with legacy/tracking-server-based server-side forwarding) <br>Set to the report suites passed in with the hit to Analytics. |
 | `d_dst_filter` | (Gets set with report-suite-based server-side forwarding)  <br>Set to the report suite IDs passed in with the hit to Analytics. |
 | `d_dst` | Set `d_dst=1`  <br>if the request to Analytics is expecting content about the destination to be sent back to the client. |
-| `d_mid` | The Experience Cloud ID passed in to Analytics. |
+| `d_mid` | The ECID passed in to Analytics. |
 
 ## HTTP Headers {#section_0549705E76004F9585224AEF872066C0}
 

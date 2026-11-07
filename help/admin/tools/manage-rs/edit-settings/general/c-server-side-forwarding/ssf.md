@@ -55,14 +55,14 @@ Server-side forwarding improves upon data collection because it:
 
 To understand where your organization is in terms of implementing server-side forwarding, go through these validation steps: 
 
-## ![step1_icon.png image](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step1_icon.png) Verify ECID service implementation
+## ![step1_icon.png image](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step1_icon.png) Verify Visitor ID Service implementation
 
-Verify whether Experience Cloud ID (ECID) service is implemented, by inspecting the [Analytics tracking request](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html).
+Verify whether Visitor ID Service is implemented, by inspecting the [Analytics tracking request](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html).
 
-On the Request tab, verify that a ECID value is being set. This tells you that Identity Service is implemented correctly, which is a pre-requisite for server-side forwarding.
+On the Request tab, verify that an ECID value is being set. This tells you that Visitor ID Service is implemented correctly, which is a pre-requisite for server-side forwarding.
 
 * If you see an ECID value, continue to step 2.
-* If you do not see an ECID value, [implement Identity Service](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html) before proceeding to step 2.
+* If you do not see an ECID value, [implement Visitor ID Service](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html) before proceeding to step 2.
 
 ## ![step2_icon.png image](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step2_icon.png) Verify server-side forwarding implementation version
 

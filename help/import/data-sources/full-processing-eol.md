@@ -43,7 +43,7 @@ On 25 March 2021, Adobe prevented new full processing data sources connections f
 * Bulk data insertion has data validation and error handling capabilities, removing some of the administrative work of submitting hit data.
 * Bulk data insertion supports multiple visitor ID identification methods.
 * Bulk data insertion has some additional required fields: A visitor identification column, a `pageName` (or link equivalent), `reportSuiteID`, `timestamp`, and `userAgent`.
-* To ensure visitor continuity and attribution, Bulk data insertion requires rows within files to be sorted in chronological order. See [Visitor Groups](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/visitor-groups/) to learn about the ordering of Visitor activity across files.
+* To ensure visitor continuity and attribution, Bulk data insertion requires rows within files to be sorted in chronological order. See [Visitor Groups](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/visitor-groups) to learn about the ordering of Visitor activity across files.
 * Bulk data insertion requires files to be .csv compressed in .gzip format.
 * BDIA uses `timestamp` instead of `date`.
 
@@ -58,7 +58,7 @@ The following variables were introduced to Bulk data insertion, previously unava
 * **`ipaddress`**: The [IP address](/help/components/dimensions/ip-address.md) dimension.
 * **`language`**: The [Language](/help/components/dimensions/language.md) dimension.
 * **`list1`** - **`list3`**: [List variables](/help/implement/vars/page-vars/list.md).
-* **`marketingCloudVisitorID`**: The visitor's Experience Cloud ID.
+* **`marketingCloudVisitorID`**: The visitor's ECID.
 * **`tnta`**: Target data payload used in [Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) integrations.
 * **`trackingServer`**: The [`trackingServer`](/help/implement/vars/config-vars/configuration-variables.md) variable.
 * **`transactionID`**: The [`transactionID`](/help/implement/vars/page-vars/transactionid.md) variable.

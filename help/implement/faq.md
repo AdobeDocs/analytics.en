@@ -45,9 +45,9 @@ topic_v2:
 
 Frequently asked questions about implementation, and links to more information.
 
-## What is the difference between the Experience Cloud visitor ID and Analytics visitor ID?
+## What is the difference between the ECID and Analytics visitor ID? {#what-is-the-difference-between-the-experience-cloud-visitor-id-and-analytics-visitor-id}
 
-The Identity Service assigns a unique, persistent identifier that can be shared among other solutions in CX Enterprise. The Analytics visitor ID is only used by Analytics. Adobe recommends using the Experience Cloud Visitor ID Service in your implementation.
+The Identity Service assigns a unique, persistent identifier that can be shared among other solutions in CX Enterprise. The Analytics visitor ID is only used by Analytics. Adobe recommends using the Visitor ID Service in your implementation.
 
 ## How do I implement heartbeat video tracking?
 

@@ -46,7 +46,7 @@ To check the status of server-side forwarding:
 
 >[!CAUTION]
 >
->If the response contains the key value pair `"status":"SUCCESS"` or a 2 x 2 image, then server-side forwarding * is not* configured correctly. Please ensure that the Identity Service is properly deployed, you've deployed the App Measurement module, that the applicable report suite has been mapped to the correct organization ID, and that server-side forwarding has been enabled in Analytics Admin Tools.
+>If the response contains the key value pair `"status":"SUCCESS"` or a 2 x 2 image, then server-side forwarding * is not* configured correctly. Please ensure that the Visitor ID Service is properly deployed, you've deployed the App Measurement module, that the applicable report suite has been mapped to the correct organization ID, and that server-side forwarding has been enabled in Analytics Admin Tools.
 
 >[!MORELIKETHIS]
 >

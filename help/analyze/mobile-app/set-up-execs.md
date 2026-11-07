@@ -72,7 +72,7 @@ Once downloaded and installed, executive users can sign into the app using their
 
    The **[!UICONTROL Choose a company]** screen appears. This screen lists the login companies to which the executive user belongs.
 
-1. Have them tap the name of the login company or CX Enterprise Org that applies to the scorecard you shared. 
+1. Have them tap the name of the login company or Adobe organization that applies to the scorecard you shared. 
 
    The Scorecard list then shows all scorecards that have been shared with the executive under that login company.
 

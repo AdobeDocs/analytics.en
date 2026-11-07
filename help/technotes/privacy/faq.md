@@ -83,11 +83,11 @@ For more information on Data Governance labels, see [Data Privacy Labels for Ana
 
 Typically, Analytics customers set up some test report suites to verify functionality before it is released to the general public. Pre-production websites or apps send data into these test/dev/QA report suites to evaluate how things will work when the code releases before real traffic is sent to the production report suites.
 
-However, with a normal configuration, GPDR request processing cannot be tested first on these test report suites, before applying requests to production report suites. This is because a Data Privacy request is automatically applied to all report suites in the CX Enterprise organization, which is often all report suites for your company.
+However, with a normal configuration, GPDR request processing cannot be tested first on these test report suites, before applying requests to production report suites. This is because a Data Privacy request is automatically applied to all report suites in the Adobe organization, which is often all report suites for your company.
 
 Still, there are a few ways that you can test your Data Privacy processing prior to applying it to all your report suites:
 
-* One option is to set up a separate CX Enterprise organization that contains only test report suites. Then use this CX Enterprise organization for your Data Privacy testing and your normal CX Enterprise organization for actual Data Privacy processing.
+* One option is to set up a separate organization that contains only test report suites. Then use this organization for your Data Privacy testing and your normal organization for actual Data Privacy processing.
 
 * Another option is to assign different namespaces to the IDs in your test report suites, versus those in your production report suites. For example, you can prefix each namespace with "qa-" in your test report suites. When you submit Data Privacy requests with only namespaces with the qa prefix, these requests will only run against your test report suites. Later, when you submit requests without the qa prefix, they will apply to your production report suites. **This is the recommended approach, unless you use the `visitorId`, AAID, ECID or `customVisitorId` namespaces. These namespaces are hardcoded and you cannot specify alternate names for them in your test report suites.**
 

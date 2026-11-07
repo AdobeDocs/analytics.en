@@ -57,7 +57,7 @@ For information on which Adobe Analytics product to use, see [Which Adobe Analyt
 |---|---|---|---|---|---|
 | **Access method** | [Browser](/help/analyze/get-started/sys-reqs.md) | [MS Excel for Windows](/help/analyze/legacy-report-builder/setup/system-requirements.md) | Setup through the browser. [Learn more](/help/analyze/get-started/sys-reqs.md)  | Setup through the browser. [Learn more](/help/export/analytics-data-feed/data-feed-overview.md) | RESTful API tools. Login with Adobe Developer credentials. [Learn more](https://developer.adobe.com/analytics-apis/docs/2.0/) |
 | **Data granularity** | Aggregated |  Aggregated | Aggregated | Hit | Aggregated |
-| **Experience Cloud ID (ECID) available** | No |  No | Yes | Yes | No |
+| **ECID available** | No |  No | Yes | Yes | No |
 | **Timestamp available** | No | No | No | Yes | No |
 | **Level of processing** | Fully-processed |  Fully-processed, with separate [real-time report](/help/admin/tools/manage-rs/edit-settings/realtime/realtime.md) | Fully-processed |  Fully-processed | Fully-processed |
 | **Admin bot filter data included** <br> [Learn more](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md) | No | Yes - separate bot report | No | No | No |

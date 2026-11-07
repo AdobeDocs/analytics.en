@@ -1,7 +1,7 @@
 ---
-description: Learn how to synchronize freeform table or a data source to the corresponding visualization.
+description: Learn how to link visualizations to a freeform table data source.
 keywords: Analysis Workspace;Synchronize visualization with data source
-title: Manage Data Sources
+title: Manage Visualization Data Sources in Analysis Workspace
 feature: Visualizations
 role: User, Admin
 exl-id: 0500b27a-032e-4dc8-98b7-58519ef59368
@@ -33,25 +33,19 @@ role_v2:
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_lockselection_showtable"
 >title="Show table"
->abstract="Selecting **[!UICONTROL Show table]** will generate a new datasource for your current visualization, separate from the original data source."
+>abstract="Selecting **[!UICONTROL Show table]** generates a new data source for your current visualization, separate from the original data source."
 
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_showtable"
 >title="Show table"
 >abstract="Select **[!UICONTROL Show table]** to generate a new data source for your current visualization, separate from the original data source."
 
-
-Synchronizing visualizations lets you control which freeform table or data source corresponds to a visualization.
-
+Each visualization in Analysis Workspace is based on a data source, typically a freeform table. Synchronizing visualizations lets you control which freeform table or data source corresponds to a visualization, and whether the visualization stays locked to specific rows in that table.
 
 >[!TIP]
 >
 >You can tell which visualizations are related by the color of ![StatusOrange](/help/assets/icons/StatusOrange.svg) next to the title of visualizations. Matching colors mean that visualizations are based on the same data source.
 >
-
-You can show or hide the data source. You can also lock the selection to selected positions or selected items. These settings determine how the visualization changes (or doesn't change) when new data comes in.
-
-![The Data Source option dialog showing the options described in the next section.](assets/lock-selection.png)
 
 <!--
 **Tip:** You can tell which visualizations are related by the color of the dot next to the title. Matching colors mean that visualizations are based on the same data source.
@@ -74,9 +68,34 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data source sett
 
 -->
 
+## Configure data source settings {#configure}
+
+1. In Analysis Workspace, go to the visualization whose data source or lock settings you want to configure.
+
+1. Hover over the visualization, then select the **[!UICONTROL Settings]** icon ![Setting](/help/assets/icons/Setting.svg).
+
+1. Select the **[!UICONTROL Data source]** tab.
+
+   ![Data source tab showing the data source, linked visualization, and lock selection settings.](assets/lock-selection.png)
+
+1. Configure any of the following settings:
+
+   | Setting | Description |
+   | --- | --- |
+   | **[!UICONTROL Data source]** | Select the data source on which the visualization is based. |
+   | **[!UICONTROL Linked visualizations]** | Lists all visualizations linked to the data source (freeform table). |
+   | **[!UICONTROL Show data source]** | Show or hide the data source (freeform table) that corresponds to the visualization. |
+   | **[!UICONTROL Lock selection]** | Lock the visualization to the rows currently selected in the data source, then select **[!UICONTROL Selected positions]** or **[!UICONTROL Selected items]**. See [Lock selection](#lock-selection). |
+
+## Lock selection {#lock-selection}
+
+Locking the selection keeps a visualization focused on the rows you select in its data source, even when the table changes. For example, the table changes when you sort or filter it, change its date range, or apply a segment. A locked visualization shows ![LockClosed](/help/assets/icons/LockClosed.svg) next to its title.
+
+If the segments, dimensions, or metrics in the data source change and the locked data is no longer visible, select **[!UICONTROL Show table]** to generate a new data source for the visualization, separate from the original data source.
+
+When you lock the selection, choose one of the following options:
+
 | Option | Description |
-|--- |--- |
-| **[!UICONTROL Data source]** | Select the data source on which the visualization is based, from the drop-down menu. |
-| **[!UICONTROL Linked visualizations]** | Lists all linked visualizations. Applies to the data source (freeform table). |
-| **[!UICONTROL Show data source]** | Lets you show or hide the data source (freeform table) that corresponds to the visualization. |
-| **[!UICONTROL Lock Selection]** | Select this option to lock the visualization ![LockClosed](/help/assets/icons/LockClosed.svg)  to the data currently selected in the corresponding data table. Once enabled, select between:  <ul><li>**Selected Positions**: The visualization is locked on the **positions** that are selected in the corresponding data table. These positions continue to be visualized, even if the specific items in these positions change (for example due to sorting or filtering). For example, select this option if you want to show the top five campaign names listed in the data source in this visualization at all times. No matter which campaign names show up.</li> <li>**Selected Items**: The visualization is locked on the specific **items** currently selected in the corresponding data table. These items continue to be visualized, even if they change their ranking among items in the table. For example, select this option if you want to show the same five specific campaign names listed in the data source in this visualization at all times. No matter how those campaign names rank.</li></ul>If the visualization is locked to data that is no longer visible in the connected data table, you can generate a new table. Select **[!UICONTROL Show table]** to generate a new datasource for your current visualization, separate from the original data source. |
+| --- | --- |
+| **[!UICONTROL Selected positions]** | Locks the visualization to the **positions** of the rows selected in the data source. Those positions continue to be visualized, even if the items in them change. For example, select this option to always show the top five campaign names in the data source, regardless of which campaigns they are.<br><br>If you lock breakdown rows and those rows are no longer in the table, the visualization doesn't display. To display it again, update the table (for example, its date range, segments, or filters) or update the lock selection. |
+| **[!UICONTROL Selected items]** | Locks the visualization to the specific **items** selected in the data source. Those items continue to be visualized, even if their ranking in the table changes. For example, select this option to always show the same five campaign names, regardless of how they rank. |

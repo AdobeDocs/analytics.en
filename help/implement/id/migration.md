@@ -31,7 +31,7 @@ If your organization plans to move to the Visitor ID Service with an existing An
 
 >[!TIP]
 >
->This page only applies to existing AppMeasurement or Analytics extension implementations, and are adding the Visitor ID Service or upgrading to a Web SDK implementation. In other words, your implementation uses a legacy Analytics ID (`aid`) and are moving towards using an ECID (`mid`). All Web SDK implementations use the [Experience Platform Identity Service](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home), which uses an ECID (`mid`) by default.
+>This page only applies to existing AppMeasurement or Analytics extension implementations, and are adding the Visitor ID Service or upgrading to a Web SDK implementation. In other words, your implementation uses a legacy Analytics ID (`aid`) and are moving towards using an ECID (`mid`). All Web SDK implementations use [Edge Network identity](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/overview), which uses an ECID (`mid`) by default.
 
 ## How the Visitor ID Service interfaces with legacy Analytics visitor cookies
 

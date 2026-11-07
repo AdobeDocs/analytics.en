@@ -87,7 +87,7 @@ It is also acceptable to use: `"namespaceId": 4` instead of or in addition to `"
 
 >[!NOTE]
 >
->The Experience Cloud ID (ECID) was previously known as the Marketing Cloud ID (MCID), and is still referred to by that name in some existing documentation.
+>The ECID was previously known as the Marketing Cloud ID (MCID), and is still referred to by that name in some existing documentation.
 >
 >These IDs are the only IDs supported by Analytics that use a "type" value other than "analytics".
 

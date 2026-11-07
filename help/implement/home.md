@@ -114,7 +114,7 @@ For your **mobile app**, the following implementation methods are available:
 ## Key Analytics Implementation articles
 
 * [Take charge of an existing Adobe Analytics implementation](/help/implement/prepare/existing-implementation.md)
-* [Debugging tools](validate/debugging-tools.md)
+* [Debug Analytics data collection](validate/debugging.md)
 * [Create a tag property in Experience Platform](launch/create-analytics-property.md)
 * [AppMeasurement updates](appmeasurement-updates.md)
 * [Set up Adobe Analytics with Platform Web SDK tutorial](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/applications-setup/setup-analytics.html)

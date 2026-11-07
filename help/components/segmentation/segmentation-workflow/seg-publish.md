@@ -64,7 +64,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publish segments
 ## Prerequisites
 
 * Ensure that the report suite that you are saving this segment to is [enabled for CX Enterprise](/help/components/segmentation/segmentation-workflow/seg-publish.md). Otherwise, you cannot publish it to CX Enterprise.
-* Ensure that your organization is using Experience Cloud IDs.
+* Ensure that your organization is using ECIDs.
 * Before you can publish segments, your Admin needs to assign the [!UICONTROL Segment Publishing] permission to a product profile in the [Admin Console](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/admin-tool-experience-cloud), and add you to the product profile.
 
 ## Considerations
@@ -162,7 +162,7 @@ The Adobe Audience Manager UUID on the browser is by default when [!UICONTROL Vi
 
 In Adobe Audience Manager, the list of visitors with ECIDs for a given segment is evaluated while Analytics shares segments with CX Enterprise.
 
-1. In Audience Manager, go to **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]** > **[!UICONTROL Analytics Traits]**. You see a folder for each Analytics reports suite that is mapped to your CX Enterprise organization. These folders (for Traits, Segments, and Data Sources) get created when the Profiles and Audiences/People core service gets initiated or provisioned.
+1. In Audience Manager, go to **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]** > **[!UICONTROL Analytics Traits]**. You see a folder for each Analytics reports suite that is mapped to your Adobe organization. These folders (for Traits, Segments, and Data Sources) get created when the Profiles and Audiences/People core service gets initiated or provisioned.
 1. Select the folder for the report suite in which you previously created the segment you wanted to share with Audience Manager. You see the segment/audience you created. When you share a segment, 2 things happen in Audience Manager:
    * A trait gets created, first with no data in it. Approx. 8 hours after the segment gets published in [!DNL Analytics], the list of ECIDs gets onboarded and shared with Audience Manager and other CX Enterprise solutions.
 

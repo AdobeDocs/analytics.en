@@ -1,6 +1,6 @@
 ---
 title: Experience Cloud Visitor ID
-description: The Experience Cloud ID (ECID) of the visitor, available in Data Warehouse.
+description: The ECID of the visitor, available in Data Warehouse.
 feature: Dimensions
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
@@ -36,12 +36,12 @@ The 'Experience Cloud Visitor ID' [dimension](overview.md) provides the ECID for
 
 ## Populate this dimension with data
 
-This dimension requires an implementation that uses the Visitor ID Service (VisitorAPI) or Experience Platform Identity Service. It corresponds to the `mcvisid` column in data feeds. See [Data column reference](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md) for more information.
+This dimension requires an implementation that uses the Visitor ID Service (VisitorAPI) or Web SDK. It corresponds to the `mcvisid` column in data feeds. See [Data column reference](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md) for more information.
 
 | Property | Value |
 | --- | --- |
 | **AppMeasurement variable** | None (set by the Adobe Visitor ID Service) |
-| **Web SDK / XDM field** | None (set by the Experience Platform Identity Service) |
+| **Web SDK / XDM field** | None (set by the Edge Network) |
 | **Query parameter** | [`mid`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML tag** | [`<marketingCloudVisitorId>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Byte limit** | N/A |

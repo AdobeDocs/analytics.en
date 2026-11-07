@@ -76,14 +76,7 @@ Confirm that you're seeing data on the live version of your site, and begin offi
 
 ## Troubleshooting
 
-**No data appears in the debugger.**
-
-While on your site, open the browser's developer console (typically F12). Look at the source code of the page and make sure the following are met:
-
-* There are no JavaScript errors in the console. Work with your organization's website owners to make sure all JS errors are resolved.
-* Header code is properly implemented: Make sure the header code is inside the `<head>` tag, and that the file exists.
-* AppMeasurement library exists: Navigate directly to the JS source to make sure the JS file contains code. If it does not, make sure each environment is created, and that the library is published to its respective environment.
-* Interfering extensions: Some extensions, such as ad blockers, can prevent image requests from firing. Disable any extensions that might stop data from being sent to Adobe.
+If no Analytics data appears in the debugger, or the data is not what you expect, see [Debug Analytics data collection](../validate/debugging.md#appmeasurement).
 
 ## Next Steps
 

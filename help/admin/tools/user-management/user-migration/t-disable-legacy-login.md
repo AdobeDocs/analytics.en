@@ -38,4 +38,4 @@ After your users have migrated from the legacy Analytics user management system 
 
    Disable Legacy Login indicates which of your users can continue to use their legacy [!DNL my.omniture.com] user name and password.
 
-   You cannot disable legacy logins for a user that is yet to be migrated. Once disabled, the user must use their Experience Cloud ID to login and access Analytics.
+   You cannot disable legacy logins for a user that is yet to be migrated. Once disabled, the user must use their CX Enterprise credentials to login and access Analytics.

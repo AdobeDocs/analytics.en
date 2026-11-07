@@ -73,7 +73,7 @@ Once you have the above resources, the following basic example page contains the
 
 >[!TIP]
 >
->You can track if a hit uses the Visitor ID service by assigning the presence of `Visitor` to a custom variable in [`doPlugins`](/help/implement/vars/functions/doplugins.md):
+>You can track if a hit uses the Visitor ID Service by assigning the presence of `Visitor` to a custom variable in [`doPlugins`](/help/implement/vars/functions/doplugins.md):
 >
 >```js
 >s.doPlugins = function() {

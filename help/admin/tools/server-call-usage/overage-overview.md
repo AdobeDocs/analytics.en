@@ -65,7 +65,7 @@ The following terms are important in understanding server call usage:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Billing company (Billing ID) </p> </td> 
-   <td colname="col2"> <p>The legal entity that gets billed for server calls. For example, adobe.com. Each billing company has a Billing ID that is used to uniquely identify the billing customer. A billing ID could be tied to multiple CX Enterprise Orgs; there is not always a 1:1 relationship between an org and a billing ID. </p> </td> 
+   <td colname="col2"> <p>The legal entity that gets billed for server calls. For example, adobe.com. Each billing company has a Billing ID that is used to uniquely identify the billing customer. A billing ID could be tied to multiple Adobe organizations; there is not always a 1:1 relationship between an org and a billing ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Login company </p> </td> 
@@ -78,7 +78,7 @@ The following terms are important in understanding server call usage:
     </ul> <p>Note:  Server call usage data for <u>all</u> report suites within a billing company is visible to all users with the appropriate <a href="/help/admin/admin-console/permissions/analytics-tools.md"> permission</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>CX Enterprise organization </p> </td> 
+   <td colname="col1"> <p>Adobe organization </p> </td> 
    <td colname="col2"> <p>An organization is the entity that enables an administrator to configure groups and users, and to control single sign-on in CX Enterprise. The organization functions like a login company that spans all CX Enterprise products and solutions. </p> <p>Most often, an organization is your company name. However, a company can have many organizations. </p> </td> 
   </tr> 
   <tr> 

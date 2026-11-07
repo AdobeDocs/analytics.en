@@ -22,6 +22,10 @@ role_v2:
 ---
 # Algorithmic attribution
 
+>[!NOTE]
+>
+>You must have the **Ultimate** package to use the functionality described in this section. Contact your administrator if you're unsure which Adobe Analytics package you have.
+
 The Algorithmic [attribution model](models.md) in Analysis Workspace differs from other models in that it uses statistical techniques to allocate credit across the dimension items in your report or freeform table. Like all other attribution models in Analysis Workspace, algorithmic attribution can be used on any dimension or metric. Algorithmic attribution supports unlimited segmentation and breakdowns, and distributes 100% of conversions to one or more dimensions in the table (also known as "fractional" attribution).
 
 
@@ -34,7 +38,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Algorithmic attr
 
 The algorithm used for attribution is based on the Harsanyi Dividend from cooperative game theory. The Harsanyi dividend is a generalization of the Shapley value solution (named after Lloyd Shapley, a Nobel Laureate economist) to distribute credit among players in a game with unequal contributions to the outcome.
 
-At a high level, the attribution calculation of the conversion credit for each touchpoint considers each of the marketing touchpoints within a lookback window as a coalition of players. To that coalition of players, a surplus must be equitably distributed. Each coalition's surplus distribution is determined from to the surplus that each subcoalition recursively created previously. 
+The attribution calculation of the conversion credit for each touchpoint considers each of the marketing touchpoints within a lookback window as a coalition of players. To that coalition of players, a surplus must be equitably distributed. Each coalition's surplus distribution is determined from the surplus that each subcoalition recursively created previously.
 
 For more details, see John Harsanyi's and Lloyd Shapley's original papers:
 

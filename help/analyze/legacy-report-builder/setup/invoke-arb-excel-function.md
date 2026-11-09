@@ -42,7 +42,7 @@ The following table lists the exposed functions.
 |  AsyncRefreshActiveWorksheet()  | string |  Refreshes all Report Builder requests present in the active worksheet.  |
 |  AsyncRefreshWorksheet(string worksheetName)  | string |  Refreshes all Report Builder requests present in the specified worksheet (the worksheet name as it appears on the tab.)  |
 |  AsyncRefreshWorksheetAltTextParam();  | string |  Refreshes all Report Builder requests present in the specific worksheet name that was passed through the Alternative Text of the Ms Form Control  |
-| tring GetLastRunStatus()  | string |  Returns a string that describes the status of the last run.  |
+|  GetLastRunStatus()  | string |  Returns a string that describes the status of the last run.  |
 
 To access the Report Builder functions, go to **[!UICONTROL Formulas]** > **[!UICONTROL Insert Function]**. Use the search field to search for a function or select a category to list the functions in that category.
 

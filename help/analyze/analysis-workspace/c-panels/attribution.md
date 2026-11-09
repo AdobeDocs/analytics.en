@@ -104,7 +104,7 @@ The **[!UICONTROL Attribution]** panel returns a rich set of data and visualizat
 
 ### Attribution visualizations
 
-The following visualization are part of the panel ouput.
+The following visualizations are part of the panel output.
 
 * **Total metric**: The total number of conversions that occurred over the reporting time window, and are attributed to the dimension you selected.
 * **Attribution Comparison Bar**: Visually compares the attributed conversions across each of the dimension items from your selected dimension. Each bar color represents a distinct attribution model.

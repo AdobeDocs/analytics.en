@@ -47,7 +47,7 @@ You also want to measure online revenue from all other categories except the Men
 
 In the segmentation builder or as part of a **[!UICONTROL Quick segment]**, you specify to **[!UICONTROL Include]** the **[!UICONTROL Dimension]** **[!UICONTROL Retail: Fashion Product Category]** **[!UICONTROL equals]** **[!UICONTROL Men]** on the **[!UICONTROL Hits]** container. 
 
-![Panel showing segementation on hit level for product category Men](./assets/product-category-segmentation-hits.png)
+![Panel showing segmentation on hit level for product category Men](./assets/product-category-segmentation-hits.png)
 
 As a result, all orders containing at least one **[!UICONTROL Men]** **[!UICONTROL Retail: Fashion Product Category]** are considered, and revenue from other products in those orders is included in the **[!UICONTROL Online Revenue]** metric.
 When you report on categories, all other values for **[!UICONTROL Retail: Fashion Product Category]** are reported that were part of an order that included a product with the **[!UICONTROL Men]** **[!UICONTROL Retail: Fashion Product Category]**.
@@ -56,7 +56,7 @@ When you report on categories, all other values for **[!UICONTROL Retail: Fashio
 
 In the segmentation builder or as part of a **[!UICONTROL Quick segment]**, you specify to **[!UICONTROL Include]** the **[!UICONTROL Dimension]** **[!UICONTROL Retail: Fashion Product Category]** **[!UICONTROL equals]** **[!UICONTROL Men]** on the **[!UICONTROL Products]** container. 
 
-![Panel showing segementation on sub-hit level for product category Men](./assets/product-category-segmentation-sub-hits.png)
+![Panel showing segmentation on sub-hit level for product category Men](./assets/product-category-segmentation-sub-hits.png)
 
 As a result, all orders containing at least a **[!UICONTROL Men]** **[!UICONTROL Retail: Fashion Product Category]** are considered, and only the revenue of products belonging to the **[!UICONTROL Men]** **[!UICONTROL Retail: Fashion Product Category]** are included for the **[!UICONTROL Online Revenue]** metric.
 When you report on categories, only the **[!UICONTROL Men]** **[!UICONTROL Retail: Fashion Product Category]**  is reported.
@@ -65,7 +65,7 @@ When you report on categories, only the **[!UICONTROL Men]** **[!UICONTROL Retai
 
 In the segmentation builder or as part of a **[!UICONTROL Quick segment]**, you specify to **[!UICONTROL Exclude]** the **[!UICONTROL Dimension]** **[!UICONTROL Retail: Fashion Product Category]** **[!UICONTROL equals]** **[!UICONTROL Men]** on the **[!UICONTROL Products]** container. 
 
-![Panel showing segementation on sub-hit level to exclude product category Men](./assets/product-category-segmentation-sub-hits-exclude.png)
+![Panel showing segmentation on sub-hit level to exclude product category Men](./assets/product-category-segmentation-sub-hits-exclude.png)
 
 To exclude at the product level, hits that contain at least one product are included, then the exclusion on sub-hit level is applied within that scope. This exclusion differs from hit-level exclusion, which excludes the entire hit.
 

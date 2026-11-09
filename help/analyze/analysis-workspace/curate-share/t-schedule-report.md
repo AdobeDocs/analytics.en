@@ -92,7 +92,7 @@ Scheduled Analysis Workspace projects can be managed from the main interface, us
 <!--
 # Schedule projects
 
-From the Workspace **Share menu**, you can send Analysis Workspace projects using email to selected recipients. Files can be sent in CSV or PDF format. After you share scheduled projects, you can edit the schedule settings to modify the frequency, receipient list, or file type using the Scheduled Projects manager.
+From the Workspace **Share menu**, you can send Analysis Workspace projects using email to selected recipients. Files can be sent in CSV or PDF format. After you share scheduled projects, you can edit the schedule settings to modify the frequency, recipient list, or file type using the Scheduled Projects manager.
 
 ## Send file now
 

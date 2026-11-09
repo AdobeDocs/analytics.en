@@ -53,7 +53,7 @@ You can break down metrics by dimension items or audience segments across select
 
 By default, breakdowns are fixed to static row items. For example, imagine you breakdown the top 3 Page dimension items (Homepage, Search Results, Checkout) by Marketing Channel. Then, you leave the project and return two weeks later. Upon opening the project again, the top 3 pages have changed, and now Homepage, Search Results and Checkout are the top 4-6 pages instead. By default, your Marketing Channel breakdowns still appear under Homepage, Search Results and Checkout, even though they are now in rows 4-6.
 
-In contrast, **Breakdown by position**,  always breaks down the top 3 items, regardless of what thse items are. Referring back to the example, when you re-open your project, the Marketing Channel breakdowns are tied to the top 3 pages in the table. And not to Homepage, Search Results and Checkout, which are now in rows 4-6. See [Row settings](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md) how to configure this setting.
+In contrast, **Breakdown by position**,  always breaks down the top 3 items, regardless of what these items are. Referring back to the example, when you re-open your project, the Marketing Channel breakdowns are tied to the top 3 pages in the table. And not to Homepage, Search Results and Checkout, which are now in rows 4-6. See [Row settings](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md) how to configure this setting.
 
 
 

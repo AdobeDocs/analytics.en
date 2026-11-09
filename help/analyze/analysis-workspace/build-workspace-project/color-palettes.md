@@ -42,7 +42,7 @@ You can change the visualization color palette used in Workspace. You can select
 Keep in mind:
 
 * There are six pre-set color palettes to choose from. The default palette and the second one listed have been optimized for contrast and are both more accessible for users who are color blind.
-* TThe other palettes have been optimized for color harmony.
+* The other palettes have been optimized for color harmony.
 
 ## Change your color palette:
 

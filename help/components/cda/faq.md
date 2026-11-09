@@ -55,7 +55,7 @@ You can use a [!UICONTROL Flow] visualization with the Mobile Device Type dimens
 
 1. Log in to Adobe Analytics and create a new blank Workspace project.
 2. Click the Visualizations tab on the left, and drag a Flow visualization to the canvas on the right.
-3. Click the Components tab on the left, and drag the dimension 'Mobile Device Type' to the center location labled 'Dimension or Item'.
+3. Click the Components tab on the left, and drag the dimension 'Mobile Device Type' to the center location labeled 'Dimension or Item'.
 4. This flow report is interactive. Click any of the values to expand the flows to subsequent or previous pages. Use the right-click menu to expand or collapse columns. Different dimensions can also be used within the same flow report.
 
 +++

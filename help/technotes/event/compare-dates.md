@@ -51,7 +51,7 @@ You can compare any metric between the date range of the event with similar prio
 2. Right click the date range, then click **[!UICONTROL Add time period column]** > **[!UICONTROL Custom date range to this date range]**.
    * For a week-over-week comparison, select the range of the event minus 7 days. Make sure that the days of the week between the event and this date range are aligned.
    * For a month-over-month comparison, select the range of the event last month. You can also select the range of the event minus 28 days if you want to align days of the week.
-   * For a year-over-year comparision, select the range of the event last year.
+   * For a year-over-year comparison, select the range of the event last year.
 3. When you select the desired date range, they are added to your freeform table. You can right click and add as many date ranges as you'd like to compare.
 
    ![Date aligned trends](assets/date_aligned_trends.png)

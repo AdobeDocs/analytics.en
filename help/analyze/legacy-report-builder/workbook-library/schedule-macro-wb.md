@@ -1,5 +1,5 @@
 ---
-description: Learn about sceduling macro-enabled workbooks.
+description: Learn about scheduling macro-enabled workbooks.
 title: About macro-enabled workbook scheduling
 uuid: 874cfac8-ca63-4dec-b2aa-a3dcd037c5c5
 feature: Report Builder

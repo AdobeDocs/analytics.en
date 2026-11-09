@@ -102,7 +102,7 @@ Before you migrate any projects to Customer Journey Analytics:
 
 1. In the [!UICONTROL **Map schema for report suites**] section, select a report suite.
 
-1. In the [!UICONTROL **Data view**] drop-down menu, select the Customer Journey Analytics data view where you want the the projects and components to be migrated.  
+1. In the [!UICONTROL **Data view**] drop-down menu, select the Customer Journey Analytics data view where you want the projects and components to be migrated.  
 
    When you are migrating multiple projects, all the projects you are migrating are combined into the single data view mapping. 
 

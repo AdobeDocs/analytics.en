@@ -82,7 +82,7 @@ The key features of Analysis Workspace are available through the button panel:
 
 ## Menu
 
-Most of the functionality of Analysis Workspace is available through drag and drop, and trough context menus within panels, visualizations and components.
+Most of the functionality of Analysis Workspace is available through drag and drop, and through context menus within panels, visualizations and components.
 
 Functionality is also available through the Workspace menu and shortcuts or hotkeys. Shortcut keys differ depending on the operating system that your browser is running on. See the tables below for an overview.  
 

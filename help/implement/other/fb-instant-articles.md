@@ -44,7 +44,7 @@ The overarching workflow to implement Adobe Analytics is the following:
 1. Create a `stats.html` page. Code this page to pull query string parameters from the URL and assign each parameter to an Analytics variable
 1. Host the `stats.html` page on your web server
 1. Implement Analytics on the Facebook Instant Article by referencing the `stats.html` file in an iframe
-1. Include query sting parameters in the iframe `src` attribute
+1. Include query string parameters in the iframe `src` attribute
 
 ### Step 1: Create a `stats.html` page
 

@@ -45,7 +45,7 @@ Additional methods to export Adobe Analytics data are described in the [Export g
 
 ## Download a project as a PDF or CSV file
 
-![The Project drop-down menue with the Download CSV and Download PDF options highlighted.](assets/download-project.png)
+![The Project drop-down menu with the Download CSV and Download PDF options highlighted.](assets/download-project.png)
 
 ### Download a project as a PDF file
 
@@ -150,7 +150,7 @@ If you request more than one download at a time, you receive a notification that
 
 | Question | Answer |
 | --- | --- |
-| Why does my downloaded PDF consist of of only one page? | The [Download PDF](#download-as-csv-or-pdf) functionality does not paginate downloaded PDFs. |
+| Why does my downloaded PDF consist of only one page? | The [Download PDF](#download-as-csv-or-pdf) functionality does not paginate downloaded PDFs. |
 | Can I export more than 50,000 items with the **[!UICONTROL Download items as CSV]** option? | While each download can contain up to 50,000 dimension items, you can change the sort of your table to retrieve longer tail items, or apply a filter to download more specific items. |
 | What does **[!UICONTROL Copy visualization]** do? | Unlike [!UICONTROL **Copy data to clipboard**] or [!UICONTROL **Copy selection to clipboard**], the **[!UICONTROL Copy visualization]** context menu option is not an export option. This option allows you to [copy a visualization](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu) or [copy a panel](/help/analyze/analysis-workspace/c-panels/panels.md#context-menu) from one place in Workspace to another. For example, from one panel to another in the same project, or from one project to another project. |
 

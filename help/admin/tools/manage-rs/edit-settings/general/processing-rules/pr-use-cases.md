@@ -151,6 +151,6 @@ You can remove or discard a specific event from a hit using processing rules wit
 | Condition | None (Always execute) |
 | Action | [!UICONTROL Set event] Event1 to [!UICONTROL Custom value] `0` |
 
-![Screenshot of the processing rules interface showing to to remove an event](assets/remove_event.png)
+![Screenshot of the processing rules interface showing how to remove an event](assets/remove_event.png)
 
 +++

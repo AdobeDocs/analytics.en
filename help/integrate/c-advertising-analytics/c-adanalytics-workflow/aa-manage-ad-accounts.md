@@ -55,7 +55,7 @@ The table consists of the following columns:
   - Select the columns that you want to show.
   - Select **[!UICONTROL Apply]**.
 
-When you select one or more advertising accounts, a blue action bar, based on status of the selected accounts, allows you to ![Edit](/help/assets/icons/Edit.svg) **[!UICONTROL Rename]**, ![Refesh](/help/assets/icons/Refresh.svg) **[!UICONTROL Map Report Suites]**, ![Play](/help/assets/icons/Play.svg) **[!UICONTROL Activate]** or ![Pause](/help/assets/icons/Pause.svg) **[!UICONTROL Pause]** your advertising accounts.
+When you select one or more advertising accounts, a blue action bar, based on status of the selected accounts, allows you to ![Edit](/help/assets/icons/Edit.svg) **[!UICONTROL Rename]**, ![Refresh](/help/assets/icons/Refresh.svg) **[!UICONTROL Map Report Suites]**, ![Play](/help/assets/icons/Play.svg) **[!UICONTROL Activate]** or ![Pause](/help/assets/icons/Pause.svg) **[!UICONTROL Pause]** your advertising accounts.
 
 ## Create an advertising account
 
@@ -78,7 +78,7 @@ To map one or more advertising account to report suites:
 
 1. (optional) Select more than one advertising account.
 1. Select ![More](/help/assets/icons/More.svg) for a specific advertising account.
-1. Select ![Refesh](/help/assets/icons/Refresh.svg) **[!UICONTROL Map Report suites]** from the context menu. 
+1. Select ![Refresh](/help/assets/icons/Refresh.svg) **[!UICONTROL Map Report suites]** from the context menu. 
 1. In the Map Report suites dialog, select one or more report suites from the drop-down menu. You can delete report suites from the mapping using ![Cross](/help/assets/icons/CrossSize400.svg).
 1. Select **[!UICONTROL Save]** to save the mapping.
 

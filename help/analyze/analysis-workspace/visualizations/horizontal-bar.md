@@ -46,7 +46,7 @@ The horizontal bar visualization has a standard and stacked option.
 
 <!-- markdownlint-enable MD034 -->
 
-Thie ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) **[!UICONTROL Horizontal bar]** visualization shows horizontal bars representing various values across one or more metrics.
+The ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) **[!UICONTROL Horizontal bar]** visualization shows horizontal bars representing various values across one or more metrics.
 
 ![Horizontal bar showing metrics including Page Views, Page Velocity, Visits, Entries, and Exits.](assets/horizontal-bar.png)
 

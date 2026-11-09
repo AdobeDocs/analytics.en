@@ -90,7 +90,7 @@ You can now add a time period to each column in a table. This enables you to add
 
 1. The time period is inserted on top of the column that you selected:
 
-   ![Freeform Table showing Occurances for current calendar period and the previous calendar month.](assets/add-time-period-column2.png)
+   ![Freeform Table showing Occurrences for current calendar period and the previous calendar month.](assets/add-time-period-column2.png)
 
 1. You can add as many time columns as you want, as well as mix and match different date ranges:
 

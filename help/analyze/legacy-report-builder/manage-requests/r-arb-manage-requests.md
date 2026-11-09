@@ -29,7 +29,7 @@ role_v2:
 
 {{legacy-arb}}
 
-View detais of a request status and use the field descriptions to manage requests in Report Builder.
+View details of a request status and use the field descriptions to manage requests in Report Builder.
 
 ## Overview {#section_75C288C945FA4781A4EDF806711A5660}
 

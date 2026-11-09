@@ -39,7 +39,7 @@ Adobe Analytics does not prevent data feed files from being overwritten.
 
 To prevent data feed files from being overwritten, we recommend that all data feed files that are being sent to the same location have unique file names. 
 
-Data feed file names are made up of the the following data feed characteristics:
+Data feed file names are made up of the following data feed characteristics:
 
 * Report suite ID (RSID) 
 

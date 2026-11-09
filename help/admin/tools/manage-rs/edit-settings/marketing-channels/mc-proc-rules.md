@@ -96,6 +96,6 @@ The following options are available when setting rule conditions.
 
 **Conversion variables** allow you to specify a custom eVar, a matching operator, and a value to look for.
 
-| Converation variable condition | Description |
+| Conversation variable condition | Description |
 |---|---|
 | **eVar 1-250** | The associated [eVar](/help/components/dimensions/evar.md) dimension. |

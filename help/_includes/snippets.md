@@ -4,7 +4,7 @@
 
 >[!WARNING]
 >
->The legacy Report Builder is end-of-life in June 2026. As of July 1, 2026, workbooks scheduled using the legacy Report Builder will no longer be delivered. <ul><li>You have until August 12, 2026 to migrate your workbooks from the legacy Report Builder to the new Report Builder. See [convert your legacy workbooks](/help/analyze/report-builder/convert-workbooks.md) for detailed information.</li><li>With the end of life of the Adobe Analytics 1.4 API's, the legacy Report Builder add-in will no longer be available for download.</li><li>After August 12, 2026, customers with workbooks requiring migration will need to contact customer support to obtain the orignial workbooks. These workbooks will need to be migrated as documented in [convert your legacy workbooks](/help/analyze/report-builder/convert-workbooks.md).</li></ul> A new and streamlined [Report Builder](/help/analyze/report-builder/rb-overview.md) is available since October 16, 2024. This Report Builder is supported on macOS, Windows, and web browsers and can be used with Adobe Analytics and Customer Journey Analytics. Scheduled exports to an FTP server and Power BI are no longer supported in Report Builder. Customers using these features in legacy Report Builder must use a [cloud destination for export](/help/analyze/report-builder/report-builder-export.md#schedule-workbooks-by-exporting-to-cloud-destinations) in Report Builder.
+>The legacy Report Builder is end-of-life in June 2026. As of July 1, 2026, workbooks scheduled using the legacy Report Builder will no longer be delivered. <ul><li>You have until August 12, 2026 to migrate your workbooks from the legacy Report Builder to the new Report Builder. See [convert your legacy workbooks](/help/analyze/report-builder/convert-workbooks.md) for detailed information.</li><li>With the end of life of the Adobe Analytics 1.4 API's, the legacy Report Builder add-in will no longer be available for download.</li><li>After August 12, 2026, customers with workbooks requiring migration will need to contact customer support to obtain the original workbooks. These workbooks will need to be migrated as documented in [convert your legacy workbooks](/help/analyze/report-builder/convert-workbooks.md).</li></ul> A new and streamlined [Report Builder](/help/analyze/report-builder/rb-overview.md) is available since October 16, 2024. This Report Builder is supported on macOS, Windows, and web browsers and can be used with Adobe Analytics and Customer Journey Analytics. Scheduled exports to an FTP server and Power BI are no longer supported in Report Builder. Customers using these features in legacy Report Builder must use a [cloud destination for export](/help/analyze/report-builder/report-builder-export.md#schedule-workbooks-by-exporting-to-cloud-destinations) in Report Builder.
 
 
 ## Legacy Report Builder {#legacy-arb-old}
@@ -93,7 +93,7 @@ An attribution container defines the desired scope for the attribution. Possible
 * **Visit**: Looks at conversions from the scope of the visit container. When **[!UICONTROL Visit]** is selected, the [Attribution lookback window](#atribution-lookback-window) is automatically set to **[!UICONTROL Reporting window]** and cannot be changed.
 * **Visitor**: Looks at conversions from the scope of the visitor container.
 
-## Atribution lookback window {#attribution-lookback-window}
+## Attribution lookback window {#attribution-lookback-window}
 
 A lookback window is the amount of time a conversion should look back to include touch points. If a dimension item is set outside of the lookback window, the value is not included in any attribution calculations.
 
@@ -159,7 +159,7 @@ Use the following information to choose the visualization that best meets your n
 
 | Report  suite | Description |
 |---|---|
-| ![Repost suite](/help/assets/filter-reportsuite.png){width="300"} | The **[!UICONTROL Report suite]** section lets you filter on report uites. <ul><li>You can ![Search](/help/assets/icons/Search.svg) *Search Report suites* to search for report suites you can use to filter.</li><li>You can select more than one report suite. The report suites available depend on selections made in other sections in the filter panel.</li><li>The numbers indicate:<ul><li>**(2)**: The number of selected report suites (if one or more report suites are selected).</li><li>**3︎⃣**: The number of report suites available for the items resulting from the current filter.</li><li>4︎⃣: The number of items associated with the specific report suite.</li></ul></li></ul> |
+| ![Repost suite](/help/assets/filter-reportsuite.png){width="300"} | The **[!UICONTROL Report suite]** section lets you filter on report suites. <ul><li>You can ![Search](/help/assets/icons/Search.svg) *Search Report suites* to search for report suites you can use to filter.</li><li>You can select more than one report suite. The report suites available depend on selections made in other sections in the filter panel.</li><li>The numbers indicate:<ul><li>**(2)**: The number of selected report suites (if one or more report suites are selected).</li><li>**3︎⃣**: The number of report suites available for the items resulting from the current filter.</li><li>4︎⃣: The number of items associated with the specific report suite.</li></ul></li></ul> |
 
 ## Enabled status filter section {#enabledstatusfiltersection}
 

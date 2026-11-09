@@ -84,7 +84,7 @@ Marketing channels have a rolling 30-day visitor engagement expiration, whether 
   3. Three weeks later, they come back without a tracking code or marketing channel, then leave again.
   4. Another two weeks later (five weeks from their initial visit), they come back without a tracking code or marketing channel, then make a purchase.
 
-  The user ultimately made a purchase beyond 30 days, but was never inactive for more than 30 days. In this case, you would see revenue attributed to the the Tracking codes marketing channel, but not for the Tracking code dimension itself. 
+  The user ultimately made a purchase beyond 30 days, but was never inactive for more than 30 days. In this case, you would see revenue attributed to the Tracking codes marketing channel, but not for the Tracking code dimension itself. 
   
   
   

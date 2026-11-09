@@ -137,7 +137,7 @@ The setup and configuration of the inbound connector comesw with responsibilitie
 Confirm the following before enabling the connector:
 
 - You have completed Adobe Brand Visibility onboarding for the site you want to connect.
-- BYOCDN log forwarding is set up and confirmed for that site (see [prequisites](#inbound-integration)).
+- BYOCDN log forwarding is set up and confirmed for that site (see [prerequisites](#inbound-integration)).
 - Data is showing in your Adobe Brand Visibility Agentic Traffic dashboard for that site.
 - You know which report suite you want to connect the site to.
 
@@ -252,4 +252,4 @@ This section is for internal review and should be removed before publishing.
 
 ## Outbound integration
 
-This guide covers only the inbound Brand Visibility integration, which adds bot and automated-agent traffic data to an Analytics report suite. The published integration documentation also describes an outbound direction, in which Analytics performance data is made available to Brand Visibility inside the Brand Visibility product. That direction is outside the scope of this guide. See the [Brand Visibility documention](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/adobe-analytics-integration) for more information on the outbound integration.
+This guide covers only the inbound Brand Visibility integration, which adds bot and automated-agent traffic data to an Analytics report suite. The published integration documentation also describes an outbound direction, in which Analytics performance data is made available to Brand Visibility inside the Brand Visibility product. That direction is outside the scope of this guide. See the [Brand Visibility documentation](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/adobe-analytics-integration) for more information on the outbound integration.

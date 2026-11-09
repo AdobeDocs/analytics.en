@@ -52,7 +52,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Quick segments](
 <!--
 ## Create a quick segment
 
-Any user in Anlysis Workspace can create a quick segment.
+Any user in Analysis Workspace can create a quick segment.
 
 To create a quick segment:
 
@@ -117,7 +117,7 @@ To create a quick segment:
 
 You can choose to save quick segments as component-list segments. Advantages of component-list segments include:
 
-* Availablility across all your Workspace projects
+* Availability across all your Workspace projects
 * Support more complex segments as well as sequential segments
 
 You can save segments either from the quick segment Builder or from the [!UICONTROL Filter Builder].

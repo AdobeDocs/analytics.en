@@ -45,7 +45,7 @@ The following resources help you understand the basic workflow of obtaining data
 * [Data feed best practices](/help/export/analytics-data-feed/data-feeds-best-practices.md): Best practices for creating and managing data feeds.
 * [Create a data feed](create-feed.md): Technical details for creating a data feed, explaining individual fields in more detail
 * [Manage data feeds](df-manage-feeds.md): Learn more about navigating the data feed interface
-* [Data feed contents](c-df-contents/datafeeds-contents.md): Understand what is inside the compressed file <!-- Is this still the output users can download from the destination? I aske Jun. -->
+* [Data feed contents](c-df-contents/datafeeds-contents.md): Understand what is inside the compressed file <!-- Is this still the output users can download from the destination? I asked Jun. -->
 * [Data column definitions](c-df-contents/datafeeds-reference.md): A comprehensive list of all available columns.
 
 >[!BEGINSHADEBOX]

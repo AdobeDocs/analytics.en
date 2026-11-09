@@ -111,7 +111,7 @@ This plug-in creates three first-party cookies which expire at the end of a brow
 ```js
 // 1. Runs the getPercentPageViewed function if the page variable is set
 // 2. Sets prop1 to the previous value of the page variable
-// 3. Sets prop2 to the intial percent, the highest percent, and the final percent viewed; the number of folds available on the page, and the number of folds viewed ( of the previous page)
+// 3. Sets prop2 to the initial percent, the highest percent, and the final percent viewed; the number of folds available on the page, and the number of folds viewed ( of the previous page)
 if(s.pageName) getPercentPageViewed();
 if(_ppvPreviousPage)
 {

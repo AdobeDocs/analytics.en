@@ -38,6 +38,6 @@ You can create simple alerts  using segments. For example, define an alert on nu
 
 ## Stack alerts
 
-You can consolidate (stack) alerts instead of creating multiple alerts. Stacking alerts ensures that alerts get combined and you don't get a number of separate alerts. In the example below an alert is sent when either of the metrics tresholds is triggered.
+You can consolidate (stack) alerts instead of creating multiple alerts. Stacking alerts ensures that alerts get combined and you don't get a number of separate alerts. In the example below an alert is sent when either of the metrics thresholds is triggered.
 
 ![](assets/alerts-example2.png)

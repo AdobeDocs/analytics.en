@@ -1730,7 +1730,7 @@ TANH(metric)
 
 |  Argument  | Description  |
 |---|---|
-|  *metric* | The angle in radians for which you want to find the hyperbolic tanget.  |
+|  *metric* | The angle in radians for which you want to find the hyperbolic tangent.  |
 
 ## IF (Row)
 

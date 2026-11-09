@@ -49,7 +49,7 @@ The bar visualization has a standard and stacked option.
 
 The ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) **[!UICONTROL Bar]** visualization shows vertical bars representing various values across one or more metrics.
 
-![Virtical bar visualization showing multiple metrics including Page Views, Visits, Entries, and Exits.](assets/bar.png)
+![Vertical bar visualization showing multiple metrics including Page Views, Visits, Entries, and Exits.](assets/bar.png)
 
 A granularity drop-down in the visualization settings lets you change a trended visualization (for example, line, bar) from daily to weekly to monthly, etc.
 

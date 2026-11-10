@@ -82,4 +82,4 @@ After you finalize the migration, move the new library through the tags publishi
 1. Submit the library for approval and test it in your staging environment.
 1. Approve the library and publish it to production.
 
-See [Publishing flow](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/publishing/publishing-flow) in the Tags user guide.
+See [Publishing flow](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/publishing-flow) in the Tags user guide.

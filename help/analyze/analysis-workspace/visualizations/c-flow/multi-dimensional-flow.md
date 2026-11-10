@@ -30,16 +30,6 @@ topic_v2:
 
 An inter-dimensional flow lets you examine user paths across various dimensions. 
 
-<!-- 
-
->[!BEGINSHADEBOX]
-
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Inter-dimensional flows](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/text-wrapping-and-multi-dimensional-flow){target="_blank"} for a demo video.
-
->[!ENDSHADEBOX]
-
--->
-
 This article shows how to use this flow for two use cases: mobile app interactions and events, and how campaigns drive web visits.
 
 ## Mobile app interactions and events

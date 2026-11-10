@@ -67,7 +67,7 @@ Before you create a migration, make sure that you have:
 
 * The [permissions](#permissions) that the upgrade assistant requires.
 * A tags property that uses the Adobe Analytics extension.
-* A library in that property that contains the implementation that you want to migrate. The library can be in any state, including published. See [Libraries](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/publishing/libraries) in the Tags user guide.
+* A library in that property that contains the implementation that you want to migrate. The library can be in any state, including published. See [Libraries](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/libraries) in the Tags user guide.
 
 ### Permissions {#permissions}
 
@@ -77,6 +77,6 @@ The upgrade assistant requires the following access. Work with your organization
 | --- | --- |
 | [Experience Platform permissions](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions) | <ul><li>[!UICONTROL View Schemas]</li><li>[!UICONTROL Manage Schemas]</li><li>[!UICONTROL View Datasets]</li><li>[!UICONTROL Manage Datasets]</li><li>[!UICONTROL View Identity Namespaces]</li></ul> |
 | Product access | <ul><li>Data Collection (Tags)</li><li>Adobe Analytics</li></ul> |
-| [Tags rights](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/administration/user-permissions) | [!UICONTROL Manage Properties] |
+| [Tags rights](https://experienceleague.adobe.com/en/docs/experience-platform/tags/admin/user-permissions) | [!UICONTROL Manage Properties] |
 
 When you're ready, [create a migration](manager.md#create).

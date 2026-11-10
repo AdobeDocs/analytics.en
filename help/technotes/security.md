@@ -30,4 +30,4 @@ Adobe follows established security processes and controls to comply with industr
 
 Information on practices specific to Adobe Analytics is found in the [Adobe Analytics security overview](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adb-analytics-security-wp.pdf). It outlines the processes followed around architecture, authentication, data centers, network, and personnel.
 
-See [Adobe's web services vulnerability disclosure program](https://hackerone.com/adobe) on HackerOne if you find a vulnerability to report around any of Adobe's products, including Adobe Analytics.
+See the [Adobe Bug Bounty Program](https://www.adobe.com/trust/security/bug-bounty.html) if you find a vulnerability to report around any of Adobe's products, including Adobe Analytics.

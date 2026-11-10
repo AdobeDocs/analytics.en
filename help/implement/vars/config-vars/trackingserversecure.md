@@ -102,7 +102,7 @@ Adobe highly recommends maintaining this information in a [solution design docum
 
 Adobe strongly recommends using ECID as the primary form of visitor identity in all implementations. Collecting ECIDs can be implemented in several different ways, depending on implementation type:
 
-* Manual AppMeasurement implementations use `VisitorAPI.js` and call the `getInstance` method. See [Implement the Visitor ID Service for Analytics](https://experienceleague.adobe.com/en/docs/id-service/using/implementation/setup-analytics) for more information.
+* Manual AppMeasurement implementations use `VisitorAPI.js` and call the `getInstance` method. See [Visitor identification using AppMeasurement](/help/implement/id/appmeasurement.md) for more information.
 * Implementations using the Adobe Analytics tag extension use the [[!UICONTROL Experience Cloud ID Service] tag extension](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview), which implements the Visitor ID Service. Once added, no additional configuration is required.
 * Implementations using any form of the Web SDK (`alloy.js` or the Web SDK tag extension) automatically include Edge Network identity. No configuration is required beyond setting the `edgeDomain` value.
 

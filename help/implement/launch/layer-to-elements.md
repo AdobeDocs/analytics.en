@@ -41,17 +41,25 @@ Once your organization has established and implemented a data layer on your site
 
 [Data elements](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html) are components in Adobe Experience Platform Data Collection that you can use across the tool. You can assign variable values in the Adobe Analytics extension using data elements.
 
+The following steps use the [Adobe Client Data Layer extension](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/client-data-layer/overview), which must be installed in your tag property.
+
 1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
-1. Click the desired tag property.
-1. Click the **[!UICONTROL Data Elements]** tab, then click **[!UICONTROL Add Data Element]**.
+1. Select the desired tag property.
+1. Select the **[!UICONTROL Data Elements]** tab, then select **[!UICONTROL Add Data Element]**.
 
     ![create data element](assets/createelement.png)
 
-1. Enter a name for your data element. It can be a simple label that corresponds to a JavaScript variable in your data layer that you want to track.
-1. Under the **[!UICONTROL Extension]** drop-down list, select **[!UICONTROL Core]**.
-1. Under the **[!UICONTROL Data Element Type]** drop-down list, select **[!UICONTROL JavaScript Variable]**. A text field appears to the right that allows you to enter the JavaScript variable to map to this data element.
-1. Enter the desired Javascript variable, typically within your data layer. For example, if your organization's data layer closely matches Adobe's recommended practice, a value could be `digitalData.page.pageInfo.pageName`. You can use your browser's console to validate JavaScript variable syntax and values.
-1. Click **[!UICONTROL Save]**.
+1. Enter a name for your data element, such as `Page name`.
+1. Under the **[!UICONTROL Extension]** drop-down list, select **[!UICONTROL Adobe Client Data Layer]**.
+1. Under the **[!UICONTROL Data Element Type]** drop-down list, select **[!UICONTROL Data layer computed state]**.
+1. Under **[!UICONTROL Return value]**, select **[!UICONTROL Specific path]**, then enter the path to the value in your data layer, such as `page.name`. To validate a path, run `adobeDataLayer.getState("page.name")` in your browser's console.
+1. Select **[!UICONTROL Save]**.
+
+Use these data elements in rules that the extension's **[!UICONTROL Data layer push]** event triggers, so that the data layer has loaded and contains the data from the push. See [Data element types](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/client-data-layer/data-element-types#computed-state).
+
+### Object-based data layers {#object-based}
+
+If your data layer is a JavaScript object, such as a CEDDL `digitalData` object, use the **[!UICONTROL JavaScript Variable]** data element type from the **[!UICONTROL Core]** extension instead. Enter the path to the value, such as `digitalData.page.pageInfo.pageName`. This data element type can't read the Adobe Client Data Layer, which stores its data in a computed state instead of in object properties.
 
 ## Next steps
 

@@ -99,7 +99,7 @@ You can optionally set other properties in the [`configure`](https://experiencel
 
 +++**4. Update code logic to use a JSON payload**
 
-Change your Analytics implementation so that it does not rely on `AppMeasurement.js` or the `s` object. Instead, set variables into a correctly formatted JavaScript object, which is converted to a JSON object when sent to Adobe. Having a [Data layer](../../prepare/data-layer.md) on your site helps tremendously when setting values, as you can continue referencing those same values.
+Change your Analytics implementation so that it does not rely on `AppMeasurement.js` or the `s` object. Instead, set variables into a correctly formatted JavaScript object, which is converted to a JSON object when sent to Adobe. Having a [Data layer](../../prepare/data-layer.md) on your site helps tremendously when setting values, as you can continue referencing those same values. If your site uses the Adobe Client Data Layer, see [Send Adobe Client Data Layer data with the Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/web-sdk) to learn how to read data layer values when you call `sendEvent`.
 
 To send data to Adobe Analytics, the Web SDK payload must use `data.__adobe.analytics` with all analytics variables set within this object. Variables within this object share identical names and formats as their AppMeasurement variable counterparts. For example, if you set the `products` variable, do not split it into individual objects like you would with XDM. Instead, include it as a string exactly is if you set the `s.products` variable:
 

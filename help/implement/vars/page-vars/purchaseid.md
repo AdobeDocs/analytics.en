@@ -73,10 +73,10 @@ This variable can store a maximum of 20 bytes; values longer than 20 bytes are t
 s.purchaseID = "ABC123";
 ```
 
-If using the `digitalData` [data layer](../../prepare/data-layer.md):
+If you use the [Adobe Client Data Layer](../../prepare/data-layer.md), read the value with `getState()`. See [Read the data layer with AppMeasurement](../../prepare/data-layer.md#appmeasurement) for when to call it.
 
 ```js
-s.purchaseID = digitalData.transaction.transactionID;
+s.purchaseID = adobeDataLayer.getState("transaction.id");
 ```
 
 >[!CAUTION]

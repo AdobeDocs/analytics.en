@@ -100,7 +100,7 @@ The data object data element provides an intuitive framework to configure a payl
 1. In the left navigation of the tags interface, select **[!UICONTROL Data Elements]**.
 1. Select **[!UICONTROL Add Data Element]**
 1. Give the data element the following settings:
-    * [!UICONTROL Name]: Anything you'd like, such as "Data layer" or "Data object"
+    * [!UICONTROL Name]: Anything you'd like, such as "Data object"
     * [!UICONTROL Extension]: [!UICONTROL Adobe Experience Platform Web SDK]
     * [!UICONTROL Data Element Type]: [!UICONTROL Variable]
     * Check boxes can remain as-is

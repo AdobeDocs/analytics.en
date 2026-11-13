@@ -67,10 +67,10 @@ The `s.referrer` variable is a string containing the URL of the previous page. T
 s.referrer = "https://example.com";
 ```
 
-If using the `digitalData` [data layer](../../prepare/data-layer.md):
+If you use the [Adobe Client Data Layer](../../prepare/data-layer.md), read the value with `getState()`. See [Read the data layer with AppMeasurement](../../prepare/data-layer.md#appmeasurement) for when to call it.
 
 ```js
-s.referrer = digitalData.page.pageInfo.referringURL;
+s.referrer = adobeDataLayer.getState("page.referrer");
 ```
 
 >[!CAUTION]

@@ -76,8 +76,8 @@ If you would like to use page URL as a dimension in reports, consider using the 
 s.eVar1 = window.location.hostname + window.location.pathname;
 ```
 
-If using the `digitalData` [data layer](../../prepare/data-layer.md):
+If you use the [Adobe Client Data Layer](../../prepare/data-layer.md), read the value with `getState()`. See [Read the data layer with AppMeasurement](../../prepare/data-layer.md#appmeasurement) for when to call it.
 
 ```js
-s.pageURL = digitalData.page.pageInfo.destinationURL;
+s.pageURL = adobeDataLayer.getState("page.url");
 ```

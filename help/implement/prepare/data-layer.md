@@ -1,6 +1,6 @@
 ---
 title: Create a data layer
-description: Learn what a data layer is in your Analytics implementation, and how it can be used to map variables in Adobe Analytics.
+description: Learn how a data layer supports your Analytics implementation, why Adobe recommends the Adobe Client Data Layer, and how to read data layer values with each implementation method.
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
 role: Admin, Developer, Leader
@@ -37,39 +37,98 @@ topic_v2:
 ---
 # Create a data layer
 
-A data layer is a framework of JavaScript objects on your site that contain the variable values used in your Analytics implementation. It allows greater control and easier maintenance when assigning values to Analytics variables.
+A data layer is a JavaScript structure on your site that exposes the data your Analytics implementation collects, such as page names, product details, and order IDs. Your site code writes to the data layer, and your implementation reads from it to set Analytics variables. Because your implementation doesn't depend on the page's HTML, you can redesign your site without breaking data collection.
 
 ## Prerequisites
 
-[Create a solution design document](solution-design.md) - It is important for your organization to align on tracking requirements. Make sure that you are prepared with a solution design document before approaching development teams in your organization.
+[Create a solution design document](solution-design.md): It is important for your organization to align on tracking requirements. Make sure that you are prepared with a solution design document before approaching development teams in your organization. The data that your solution design requires determines what your data layer contains.
 
-## Workflow
+## Choose a data layer specification {#specifications}
+
+Adobe recommends the [Adobe Client Data Layer](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/overview) (ACDL) for new or restructured implementations. ACDL is an open-source JavaScript library that gives your site a standard way to push data and events to a global `adobeDataLayer` array. Tags, the Web SDK, and AppMeasurement can all read from it, and Adobe Experience Manager Core Components can populate it automatically.
+
+Your organization is free to use other specifications, such as the [Customer Experience Digital Data Layer](https://www.w3.org/2013/12/ceddl-201312.pdf) (CEDDL), which stores data in a global `digitalData` object, or a custom specification. The most important thing is that your organization aligns on one specification that meets its needs.
+
+The following table compares ACDL with object-based data layers such as CEDDL:
+
+| | Adobe Client Data Layer (`adobeDataLayer`) | Object-based data layer, such as CEDDL (`digitalData`) |
+| --- | --- | --- |
+| How site code writes data | Pushes objects: `adobeDataLayer.push({ page: { name: "Home" } })` | Sets properties: `digitalData.page.pageInfo.pageName = "Home"` |
+| How your implementation reads a value | `adobeDataLayer.getState("page.name")`, or a **Data layer computed state** data element from the Adobe Client Data Layer tag extension | `digitalData.page.pageInfo.pageName`, or a **JavaScript Variable** data element from the Core tag extension |
+| How your implementation knows that data is ready | Site code pushes an event, such as `{ event: "page view" }`, and your implementation listens for it. Listeners also run for events that were pushed before they were added. | Your implementation must read the object after site code finishes populating it, for example by using a Direct Call rule. |
+
+## Example data layer {#example}
+
+ACDL doesn't require a specific data structure. Design the structure around your solution design document, and document it for everyone who writes to the data layer or reads from it. The examples in this guide use the following structure.
+
+When a page loads, site code pushes the page's data and a page view event:
+
+```js
+window.adobeDataLayer = window.adobeDataLayer || [];
+window.adobeDataLayer.push({
+  event: "page view",
+  page: {
+    name: "Home",
+    section: "Products",
+    url: "https://example.com/products",
+    referrer: "https://example.com/"
+  }
+});
+```
+
+When a visitor completes a purchase, site code pushes the order details and a purchase event:
+
+```js
+window.adobeDataLayer.push({
+  event: "purchase",
+  transaction: { id: "ABC123" },
+  products: [
+    { name: "Example product", category: "Example category", quantity: 1, price: 25 }
+  ]
+});
+```
+
+ACDL merges every push into a single object called the computed state, which your implementation reads. Event objects tell your implementation when to read it. See [Data and the computed state](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/concepts/computed-state) and [Events](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/concepts/events).
+
+## Workflow {#workflow}
 
 Implementing Adobe Analytics using a data layer typically follows these steps:
 
-1. **Work with your site development team to implement a data layer**: Your site development team is primarily responsible for making sure the data layer object populates with correct values. Review this page with your site development team to make sure expectations are aligned between teams.
+1. **Work with your site development team to implement a data layer**: Your site development team is primarily responsible for making sure that the data layer contains correct values. Review this page with your site development team to make sure expectations are aligned between teams. See [Install the Adobe Client Data Layer](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/install).
+1. **Validate your data layer using a browser console**: Open your browser's developer console, which you can do in most browsers with the `F12` key. Run `adobeDataLayer.getState()` to see the computed state, or `adobeDataLayer.getState("page.name")` to see a single value. See [Verify the installation](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/install#verify).
+1. **Connect the data layer to Adobe Analytics**: This step varies based on your organization's implementation method. See [Connect the data layer to Adobe Analytics](#connect).
 
-   >[!NOTE]
-   >
-   >Following Adobe's recommended data layer specifications is optional. If you already have a data layer, or otherwise choose not to follow Adobe's specifications, make sure that your organization aligns on what specification to follow.
+## Connect the data layer to Adobe Analytics {#connect}
 
-1. **Validate your data layer using a browser console**: Once a data layer is created, you can validate that it is working using any browser's developer console. You can open the developer console in most browsers using the `F12` key. An example variable value would be `adobeDataLayer.page.title`.
-1. **Use Adobe Experience Platform Data Collection to map data layer objects to data elements**: This step varies based on your organization's implementation method:
-   * **If using the Web SDK**: Map the desired data layer objects to the desired XDM fields in Adobe Experience Platform Edge. See [Analytics XDM variable mapping](../aep-edge/xdm-var-mapping.md) to determine the desired data layer mapping.
-   * **If using the Analytics extension**: Create data elements under Tags in Adobe Experience Platform Data Collection, and assign them to the desired data layer objects. Then within the Analytics extension, assign each data element to the appropriate Analytics variable.
+The following table shows how each implementation method reads from the Adobe Client Data Layer:
 
-## Specifications
+| Implementation method | How to read the data layer | More information |
+| --- | --- | --- |
+| Web SDK tag extension | Trigger rules with the **Data layer push** event from the Adobe Client Data Layer extension. Map data layer values to XDM fields or to the `data` object with the Web SDK **Update variable** action, then send them with the **Send event** action. | [Send Adobe Client Data Layer data with the Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/web-sdk), [XDM object field mapping](../aep-edge/xdm-var-mapping.md), and [Data object field mapping](../aep-edge/data-var-mapping.md) |
+| Web SDK JavaScript library | Listen for data layer events with `addEventListener()`, and set XDM or `data` fields from the data layer when you call `sendEvent`. | [Send Adobe Client Data Layer data with the Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/web-sdk), [XDM object field mapping](../aep-edge/xdm-var-mapping.md), and [Data object field mapping](../aep-edge/data-var-mapping.md) |
+| Analytics extension | Trigger rules with the **Data layer push** event, and create **Data layer computed state** data elements from the Adobe Client Data Layer extension. Assign the data elements to Analytics variables in the **Set Variables** action, then send the data with the **Send Beacon** action. | [Map data layer objects to data elements](../launch/layer-to-elements.md) and [Map data elements to Analytics variables](../launch/elements-to-variable.md) |
+| AppMeasurement | Read values with `getState()` after ACDL loads, then call `s.t()`. | [Read the data layer with AppMeasurement](#appmeasurement) |
 
-Adobe recommends using the [Adobe Client Data Layer](https://github.com/adobe/adobe-client-data-layer/wiki) for new or restructured implementations.
+### Read the data layer with AppMeasurement {#appmeasurement}
 
-Your organization is free to use other data layer specifications, such as the [Customer Experience Digital Data Layer](https://www.w3.org/2013/12/ceddl-201312.pdf), or another custom specification entirely. Aligning to a consistent data layer that meets your organization's needs is the most important.
+ACDL adds its `getState()` method to the `adobeDataLayer` array when the library loads. To make sure that the library has loaded and that the computed state includes the latest data, read values inside an event listener:
 
-Data layers are extensible; if you have requirements specific to your organization, you can include objects in your data layer to accommodate those needs.
+```js
+window.adobeDataLayer = window.adobeDataLayer || [];
+window.adobeDataLayer.push(function(dl) {
+  dl.addEventListener("page view", function(event) {
+    s.pageName = dl.getState("page.name");
+    s.channel = dl.getState("page.section");
+    s.t();
+  });
+});
+```
 
-## Setting data layer values
+The listener runs once for each `page view` event, including events that were pushed before the listener was added. The variable pages in this guide, such as [`pageName`](../vars/page-vars/pagename.md), show how to read individual values with `getState()`. Use those examples inside a listener like this one, or in the custom code editor of an Analytics extension rule that a **Data layer push** event triggers.
 
-Data layers typically generate server-side, referencing the same objects used to build the site content. Establish the site's data layer based on tracking requirements set in your organization's [solution design document](solution-design.md).
+If your implementation sends more than one hit per page, such as in a single-page application, use [`clearVars()`](../vars/functions/clearvars.md) so that values from one hit don't persist to the next.
 
 ## Next steps
 
-[Map data layer objects to data elements](../launch/layer-to-elements.md): Use your site's data layer in Adobe Experience Platform.
+* [Map data layer objects to data elements](../launch/layer-to-elements.md): Use your site's data layer in Adobe Experience Platform tags.
+* [Adobe Client Data Layer documentation](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/overview): Learn about every ACDL method, event, and best practice.

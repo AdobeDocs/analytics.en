@@ -71,8 +71,8 @@ s.pageName = "Example page name";
 s.pageName = window.document.title;
 ```
 
-If using the `digitalData` [data layer](../../prepare/data-layer.md):
+If you use the [Adobe Client Data Layer](../../prepare/data-layer.md), read the value with `getState()`. See [Read the data layer with AppMeasurement](../../prepare/data-layer.md#appmeasurement) for when to call it.
 
 ```js
-s.pageName = digitalData.page.pageInfo.pageName;
+s.pageName = adobeDataLayer.getState("page.name");
 ```
